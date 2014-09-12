@@ -1,0 +1,22 @@
+<?php
+
+function gtdate($off, $hrs, $mn, $zn)
+{
+//
+// $off refers to offset from GMT time.
+//      East of GM would be (+1) & West (-1)
+// $hrs offset hours
+// $mn  offset minutes
+// $zn Your Time Zone eg. HKT is HongKong Standard Time
+// US-EST is United States - Eastern Standard Time
+// which is Atlanta Time (hence $atl)
+//
+$offset=$off*(($hrs*60+$mn)*60);
+// ORIG   $atl = gmdate('D d M Y H:i:s ',date('U') + $offset)."$zn";
+   $now = gmdate('l, F j, Y, g:i a',date('U') + $offset)."$zn";
+   return $now;
+} //End--------------------------------------
+
+$now = gtdate(-1, 4, 0, "");
+
+?>

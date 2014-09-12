@@ -1,0 +1,10 @@
+{
+  "name": "_14.Largest_3_Rectangles",
+  "version": "0.0.0",
+  "description": "14.Largest-3-Rectangles",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

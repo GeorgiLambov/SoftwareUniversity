@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Other Operators</title>
+</head>
+
+<body>
+	<h1>Look at the Console</h1>
+	<script>
+		var first = "First";
+		var second = "Second";
+		console.log(first + second); // FirstSecond
+
+		var output = "The number is : ";
+		var number = 5;
+		console.log(output + number);
+		// The number is : 5
+		
+		var obj = {};
+		obj.name = "SoftUni";
+		obj.age = 2;
+		console.log(obj); // Object {name: "SoftUni", age: 2}
+		obj['site'] = "http://www.softuni.bg";
+		console.log(obj); // Object {name: "SoftUni", age: 2, site: "http://www.softuni.bg"}
+
+		var a = 6;
+		var b = 4;
+		console.log(a > b ? "a > b" : "b >= a"); // a>b
+		var c = b = 3; // b=3; followed by c=3;
+		console.log(c); // 3
+		console.log((a+b)/2); // 4.5
+		console.log(typeof(a)); // number
+		console.log(typeof([])); // object
+	</script>
+</body>
+
+</html>

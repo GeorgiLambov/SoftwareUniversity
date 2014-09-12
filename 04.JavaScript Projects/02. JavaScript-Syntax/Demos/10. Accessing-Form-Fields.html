@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>IF Statements - Example</title>
+</head>
+
+<body>
+	<label for="textField">Text: </label>
+	<input type="text" id="textField" />
+	<br />
+	<a href="#" onclick="onCheckNumbersButtonClick()">[Show Characters Info]</a>
+	<div id="result" />
+
+	<script>
+		function onCheckNumbersButtonClick() {
+			var text = document.getElementById("textField").value;
+			var vowels = 0;
+			var other = 0;
+			var numbers = 0;
+			for (var i = 0; i < text.length; i++) {
+				var character = text[i];
+				if (character == "a" || character == "A") {
+					vowels++;
+				}
+				else if (character == "e" || character == "E") {
+					vowels++;
+				}
+				else if (character == "u" || character == "U") {
+					vowels++;
+				}
+				else if (character == "o" || character == "o") {
+					vowels++;
+				}
+				else if (character == "i" || character == "i") {
+					vowels++;
+				}
+				else if ("0" <= character && character <= "9") {
+					numbers++;
+				}
+				else {
+					other++;
+				}
+			}
+			
+			var resultWrapper = document.getElementById('result');
+			resultWrapper.innerHTML = "";
+			resultWrapper.innerHTML += "Vowels: " + vowels + "<br />";
+			resultWrapper.innerHTML += "Numbers: " + numbers + "<br />";
+			resultWrapper.innerHTML += "Other: " + other + "<br />";
+		}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "_10.ReverseString",
+  "version": "0.0.0",
+  "description": "10.ReverseString",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

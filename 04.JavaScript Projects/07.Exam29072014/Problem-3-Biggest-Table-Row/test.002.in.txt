@@ -1,0 +1,5 @@
+<table>
+<tr><th>Town</th><th>Store1</th><th>Store2</th><th>Store3</th></tr>
+<tr><td>Varna</td><td>211.2</td><td>18.02</td><td>36.11</td></tr>
+<tr><td>Plovdiv</td><td>17.2</td><td>12.3</td><td>6.4</td></tr>
+</table>

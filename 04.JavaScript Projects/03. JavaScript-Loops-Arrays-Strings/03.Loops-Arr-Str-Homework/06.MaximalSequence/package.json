@@ -1,0 +1,10 @@
+{
+  "name": "_06.MaximalSequence",
+  "version": "0.0.0",
+  "description": "06.MaximalSequence",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

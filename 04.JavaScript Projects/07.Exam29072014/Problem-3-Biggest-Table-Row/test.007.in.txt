@@ -1,0 +1,7 @@
+<table>
+<tr><th>Town</th><th>Store1</th><th>Store2</th><th>Store3</th></tr>
+<tr><td>Yambol</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>Sofia</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>Sliven</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>Kaspichan</td><td>-</td><td>-</td><td>-</td></tr>
+</table>

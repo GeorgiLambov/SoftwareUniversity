@@ -1,0 +1,10 @@
+{
+  "name": "_12.SubstringCount",
+  "version": "0.0.0",
+  "description": "12.SubstringCount",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

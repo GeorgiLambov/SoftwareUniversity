@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Loops - Do-While Loops</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+<body>
+	<label for="tb-number">Factorial: </label>
+	<input type="text" id="tb-number" />
+	<br />
+	<label for="tb-power-number">Number: </label>
+	<input type="text" id="tb-power-number" />
+	<label for="tb-power">Power: </label>
+	<input type="text" id="tb-power" />
+	<br />
+
+	<a href="#" id="btn-check-prime" onclick="onCalcFactBtnClick()">[Calc Factorial]</a>
+	<a href="#" id="btn-power" onclick="onPowerBtnClick()">[Calc Power]</a>
+	<div id="js-console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+	<script>
+		function onCalcFactBtnClick() {
+			var number = jsConsole.readInteger('#tb-number');
+			var fact = 1;
+			var factStr = 'n! = ';
+			do {
+				fact *= number;
+				factStr += number + '*'
+				number--;
+			} while (number);
+
+			factStr += ' = ' + fact;
+			jsConsole.writeLine(factStr);
+		}
+		function onPowerBtnClick() {
+			var n = jsConsole.readInteger('#tb-power-number');
+			var m = jsConsole.readInteger('#tb-power');
+			var power = 0;
+			var product = 1;
+			var productStr = '';
+			do {
+				product *= n;
+				productStr += n;
+				if (power < m - 1) {
+					productStr += '*';
+				}
+				power++;
+			} while (power < m);
+			productStr += ' = ' + product;
+			jsConsole.writeLine(productStr);
+		}
+
+	</script>
+</body>
+</html>

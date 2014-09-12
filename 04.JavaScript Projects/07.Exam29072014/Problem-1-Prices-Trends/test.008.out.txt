@@ -1,0 +1,28 @@
+<table>
+<tr><th>Price</th><th>Trend</th></tr>
+<tr><td>1.00</td><td><img src="fixed.png"/></td></tr>
+<tr><td>1.00</td><td><img src="fixed.png"/></td></tr>
+<tr><td>1.00</td><td><img src="fixed.png"/></td></tr>
+<tr><td>1.00</td><td><img src="fixed.png"/></td></tr>
+<tr><td>1.00</td><td><img src="fixed.png"/></td></tr>
+<tr><td>2.00</td><td><img src="up.png"/></td></tr>
+<tr><td>2.00</td><td><img src="fixed.png"/></td></tr>
+<tr><td>2.00</td><td><img src="fixed.png"/></td></tr>
+<tr><td>2.10</td><td><img src="up.png"/></td></tr>
+<tr><td>2.00</td><td><img src="down.png"/></td></tr>
+<tr><td>2.10</td><td><img src="up.png"/></td></tr>
+<tr><td>2.00</td><td><img src="down.png"/></td></tr>
+<tr><td>1.99</td><td><img src="down.png"/></td></tr>
+<tr><td>2.00</td><td><img src="up.png"/></td></tr>
+<tr><td>1.99</td><td><img src="down.png"/></td></tr>
+<tr><td>1.99</td><td><img src="fixed.png"/></td></tr>
+<tr><td>1.99</td><td><img src="fixed.png"/></td></tr>
+<tr><td>4.00</td><td><img src="up.png"/></td></tr>
+<tr><td>5.00</td><td><img src="up.png"/></td></tr>
+<tr><td>342.33</td><td><img src="up.png"/></td></tr>
+<tr><td>23.44</td><td><img src="down.png"/></td></tr>
+<tr><td>5.22</td><td><img src="down.png"/></td></tr>
+<tr><td>3.44</td><td><img src="down.png"/></td></tr>
+<tr><td>7.22</td><td><img src="up.png"/></td></tr>
+<tr><td>2.00</td><td><img src="down.png"/></td></tr>
+</table>

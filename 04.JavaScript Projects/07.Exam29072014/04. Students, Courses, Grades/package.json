@@ -1,0 +1,10 @@
+{
+  "name": "_04._Students__Courses__Grades",
+  "version": "0.0.0",
+  "description": "04. Students, Courses, Grades",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

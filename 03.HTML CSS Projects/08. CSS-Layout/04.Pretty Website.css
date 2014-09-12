@@ -1,0 +1,232 @@
+﻿html, body, header, section, article, div, nav, aside, ul, li, img, h1, h2, h5, p {
+    margin: 0;
+    padding: 0;
+}
+#back {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    max-width: 1348px;
+    height: 1140px;
+    background-color: #101415;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 66%;
+    height: 99%;
+    font-family: Arial;
+    background-color: white;
+}
+
+header {
+    background: url("resources/headerBackground.jpg");
+    width: 100%;
+    height: 270px;
+    color: white;
+    position: relative;
+}
+    header>h1 {
+        position: absolute;
+        top: 75%;
+        left: 55%;
+        font-size: 1.9em;
+    }
+
+nav>ul {
+    height: 45px;
+    width: 100%;
+    list-style-type: none;
+    background-color: #E2E2E2;
+}
+    nav>ul>li {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        display: inline-block;
+        height: 100%;
+        width: 110px;
+        font-size: 1.1em;
+        text-align: center;
+        color: #626161;
+        text-transform: uppercase;
+        border-right: 2px solid white;
+        padding-top: 12px;
+        background-color: #E2E2E2;
+        margin-bottom: 2px;
+    }
+    nav>ul>li:hover {
+        cursor: pointer;
+        background-color: #BCBCBC;
+        color: white;
+    }
+        nav>ul>li:last-child, nav>ul>li:nth-last-child(2) {
+            width: 140px;
+        }
+
+p {
+    font-size: 0.75em;
+}
+main {
+    padding: 0 40px 0 40px;
+}
+section {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 71%;
+    border: 1px solid #DBDBDB;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+}
+section:last-child {
+    height: 490px;
+}
+    section>h1 {
+        color: #84BE19;
+        text-transform: uppercase;
+        margin-bottom: 17px;
+    }
+    section>h2 {
+        color: #84BE19;
+        margin-bottom: 14px;
+    }
+    section span {
+        font-weight: bold;
+    }
+    section>article {
+        width: 100%;
+        height: 143px;
+    }
+        article>img {
+            float: left;
+            margin-right: 20px;
+        }
+        article>h5 {
+            margin-bottom: 15px;
+        }
+aside {
+    float: right;
+    width: 25%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+    aside>div {
+        border: 1px solid #DBDBDB;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    aside>div>div {
+        margin-bottom: 15px;
+    }
+    aside h1 {
+        color: #84BE19;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    aside .date, aside span {
+        font-weight: bold;
+    }
+    aside .more {
+        color: #84BE19;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    aside #author {
+        margin-bottom: 15px;
+    }
+
+footer {
+    background-color: #9BD238;
+    width: 100%;
+    height: 90px;
+    position: relative;
+    margin-top: 10px;
+}
+    footer p {
+        position: absolute;
+        top: 30px;
+        left: 140px;
+    }
+    footer span {
+        text-decoration: underline;
+    }
+
+/* responsive design */
+@media only screen and (max-width: 1140px) {
+    #wrapper {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #wrapper {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 735px) {
+    header>h1 {
+        top: 60%;
+    }
+    main {
+        padding: 0;
+        margin: 0;
+    }
+    aside {
+        float: none;
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin: 50px auto 0 auto;
+    }
+    aside>div {
+        width: 43%;
+        display: table-cell;
+        height: 200px;
+    }
+    section {
+        width: 100%;
+    }
+    footer {
+        height: 40px;
+        margin: 0;
+        clear: both;
+    }
+    footer>p {
+        top: 5px;
+        left: 80px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    article * {
+        padding: 0;
+        width: 100%;
+        float: left;
+        margin-bottom: 10px;
+    }
+    article>img {
+        width: auto;
+    }
+    aside>div {
+        text-align: left;
+        width: 85%;
+        display: block;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 355px) {
+    header h1 {
+        left: 20%;
+    }
+    aside {
+        margin-top: 100px;
+    }
+    footer>p {
+        top: 0;
+        left: 0;
+        font-size: 0.7em;
+    }
+}
+@media only screen and (max-width: 270px) {
+    aside {
+        margin-top: 190px;
+    }
+}

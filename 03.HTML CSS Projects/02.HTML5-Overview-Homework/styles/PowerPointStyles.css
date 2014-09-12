@@ -1,0 +1,40 @@
+body {
+    background: url(../images/background.jpg)
+}
+
+img {
+    float: right;
+    width: 15%;
+    height: 15%;
+    
+}
+
+h1{
+    color: #F3BE60;
+    font-family: Calibri;
+    font-size: 38px;
+    
+}
+
+ul{
+    list-style-type: square;
+}
+
+li{
+    color: #FFFFFF;
+    font-family: Calibri;
+    font-size: 34px;
+}
+
+div{
+    color: #FBEEC9;
+    background-color:#222222;
+    border: 1px solid;
+    font-family: Consolas;
+    font-size: 24px;
+    width: 90%;
+}
+
+span{
+    color: #F3CD60;
+}

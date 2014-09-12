@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Data Types and Variables</title>
+</head>
+
+<body>
+	<h1>Look at the Console</h1>
+	<script>
+		
+		// Integer arithmetic
+		var studentsCount = 5;
+		var five = 5.0;
+		var maxInteger = 9007199254740992;
+		var minInteger = -9007199254740992;
+		var maxIntegerPlusOne = maxInteger + 1;
+		var maxIntMult33 = maxInteger * 33;		
+		console.log("five = " + five);
+		console.log("studentsCount is: " + studentsCount);
+		console.log("Max integer is: " + maxInteger);
+		console.log("Min integer is: " + minInteger);
+		console.log("Is maxInteger + 1 possible? " + maxIntegerPlusOne);
+		console.log("maxInteger * 33 is: " + maxIntMult33); // Lost precision -> the correct is 297237575406452736
+
+		// Floating-point arithmetic
+		console.log("PI = " + Math.PI); // 3.141592653589793
+		console.log("Number.MIN_VALUE = " + Number.MIN_VALUE);
+		console.log("Number.MAX_VALUE = " + Number.MAX_VALUE);
+		console.log("PI / 0 = " + Math.PI / 0); // Infinity
+		console.log("-PI / 0 = " + -Math.PI / 0); // -Infinity
+		console.log("Infinity / -Infinity = " + Infinity / -Infinity); // NaN
+		console.log("Number.EPSILON = " + Number.EPSILON);
+
+		// Abnormalities of the IEEE-754 floating-point arithmetic
+		var a = 0.1;
+		var b = 0.2;
+		var sum = 0.3;
+		var equal = (a + b == sum); // false
+		console.log("a = " + a);
+		console.log("b = " + b);
+		console.log("a+b = " + (a + b));
+		console.log("sum = " + sum);
+		console.log("sum == a+b? is " + equal);
+
+		// Number conventions
+		var valueDouble = 8.75;
+		var valueInt = Math.floor(valueDouble); // 8
+		var roundedInt = Math.round(valueDouble); // 9
+		var i = Number("1234") + 1; // 1235
+		var s = "1234" + 1; // 12341
+		console.log("Double value = " + valueDouble);
+		console.log("Math.floor(valueDouble) = " + valueInt);
+		console.log("Math.round(valueDouble) = " + roundedInt);
+		console.log('"1234" + 1 = ' + s);
+		console.log('Number("1234") + 1 = ' + i);
+
+		// Boolean arithmetic
+		var a = 1;
+		var b = 2;
+		var equalA1 = (a == 1);
+		var greaterAB = (a > b);		
+		console.log("1 > 2 ? " + greaterAB);  // false
+		console.log("1 == 1 ? " + equalA1);   // true
+		console.log("1 == true ? " + (1 == true)); // true
+		console.log("2 > true ? " + (2 > true)); // true	
+
+		// String data type		
+		var firstName = "Svetlin";
+		var lastName = "Nakov";
+		var fullName = firstName + " " + lastName;
+		var asSalamuAlaykum = "السلام عليكم";
+		var кирилица = 'Променлива на кирилица!';
+		var leafJapanese = "葉"; // Pronounced as "ha"		
+		console.log("Hello, " + firstName + "!");
+		console.log("Your full name is " + fullName);	
+		console.log("Arabic greeting: " + asSalamuAlaykum);
+		console.log(кирилица);
+		console.log(leafJapanese);
+		
+		// Object data type
+		var obj = { name : "SoftUni", age : 2 };
+		console.log(obj); // Object {name: "SoftUni", age: 2}
+		obj['name'] = "Software University";
+		obj['site'] = "http://www.softuni.bg";
+		obj.age = 10;
+		console.log(obj); // Object {name: "Software University", age: 10, site: "http://www.softuni.bg"}
+		delete obj.name;
+		delete obj.site;
+		console.log(obj); // Object {age: 10}
+
+	</script>
+</body>
+
+</html>

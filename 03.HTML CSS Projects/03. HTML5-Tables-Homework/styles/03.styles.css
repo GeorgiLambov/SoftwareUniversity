@@ -1,0 +1,15 @@
+﻿body {
+    font-family:Tahoma;
+}
+
+body section table td table td {
+    font-size:60px;
+}
+    table, table td {
+        border:solid;
+        border-width:1px;
+    }
+
+        table td {
+            padding:10px;
+        }

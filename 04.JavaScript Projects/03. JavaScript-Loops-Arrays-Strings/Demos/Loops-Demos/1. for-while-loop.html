@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Loops - For and While Loop</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+<body>
+	<input type="text" id="area" />
+	<a href="#" id="btn-check-prime" onclick="onCheckPrimeBtnClick()">[Check Prime]</a>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	
+	<script>		
+		function onCheckPrimeBtnClick() {			
+			var arr = jsConsole.readArea("area");
+			debugger;
+			for (var i = 0; i < arr.length; i++ ) {
+				var maxDivider = Math.sqrt(arr[i]);
+				var divider = 2;
+				var isPrime = true;
+				while (isPrime && (divider <= maxDivider)) {
+					if (arr[i] % divider == 0) {
+						isPrime = false;
+					}
+					divider++;
+				}
+				
+				jsConsole.writeLine('The number ' + arr[i] + ' is ' + (isPrime ? '' : ' not ') + ' prime');
+			}
+		}			
+	</script>
+</body>
+
+</html>

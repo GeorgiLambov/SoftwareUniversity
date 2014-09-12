@@ -1,0 +1,10 @@
+<table>
+<tr><th>Town</th><th>Store1</th><th>Store2</th><th>Store3</th></tr>
+<tr><td>Varna</td><td>211.2</td><td>18.02</td><td>36.11</td></tr>
+<tr><td>Pleven</td><td>1</td><td>1</td><td>1</td></tr>
+<tr><td>Vidin</td><td>12850</td><td>-560</td><td>20833</td></tr>
+<tr><td>Rousse</td><td>-</td><td>49999.999999</td><td>-</td></tr>
+<tr><td>Bourgas</td><td>25000</td><td>25000</td><td>-</td></tr>
+<tr><td>Plovdiv</td><td>17.2</td><td>12.3</td><td>6.4</td></tr>
+<tr><td>Sofia</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

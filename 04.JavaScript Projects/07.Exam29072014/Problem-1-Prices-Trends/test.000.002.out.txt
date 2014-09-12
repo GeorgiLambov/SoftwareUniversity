@@ -1,0 +1,10 @@
+<table>
+<tr><th>Price</th><th>Trend</th></tr>
+<tr><td>36.33</td><td><img src="fixed.png"/></td></tr>
+<tr><td>36.50</td><td><img src="up.png"/></td></tr>
+<tr><td>37.02</td><td><img src="up.png"/></td></tr>
+<tr><td>35.40</td><td><img src="down.png"/></td></tr>
+<tr><td>35.00</td><td><img src="down.png"/></td></tr>
+<tr><td>35.00</td><td><img src="fixed.png"/></td></tr>
+<tr><td>36.23</td><td><img src="up.png"/></td></tr>
+</table>

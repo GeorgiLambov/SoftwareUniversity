@@ -1,0 +1,10 @@
+{
+  "name": "_08.SumTwoHugeNumbers",
+  "version": "0.0.0",
+  "description": "08.SumTwoHugeNumbers",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

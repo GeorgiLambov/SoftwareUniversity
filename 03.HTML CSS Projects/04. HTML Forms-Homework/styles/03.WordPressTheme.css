@@ -1,0 +1,27 @@
+﻿#WordpressLogo {
+    width: 300px;
+}
+
+#upload {
+    width: auto;
+}
+
+#search {
+    width: 150px;
+    height: 30px;
+}
+
+#bottom-row td {
+    vertical-align: middle;
+}
+
+#WPSmallLogo {
+    width: 30px;
+    vertical-align: middle;
+}
+
+#sub-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}

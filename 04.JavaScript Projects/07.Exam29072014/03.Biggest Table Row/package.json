@@ -1,0 +1,10 @@
+{
+  "name": "_03.Biggest_Table_Row",
+  "version": "0.0.0",
+  "description": "03.Biggest Table Row",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

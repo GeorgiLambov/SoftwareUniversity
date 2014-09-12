@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Simple Form</title>
+    <link href="styles/01.SimpleForm.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="background">
+        <p id="enter">Enter the system</p>
+        <p id="text-under-enter">It is necessary to login in Your account in order to sign in for a course.</p>
+
+        <div id="left-column">
+            <form method="post">
+                <p id="new-user">ARE YOU NEW? <span>REGISTER</span></p>
+                <input type="text" class="text-field" name="new-username" placeholder="User name" autocomplete="on" required />
+                <br><br>
+                <input type="email" class="text-field" name=" new-user-email" placeholder="Email" autocomplete="on" required />
+                <br><br>
+                <input type="password" class="text-field" name="new-user-password" placeholder="Password" required />
+                <br><br>
+                <input type="password" class="text-field" name="confirm-password" placeholder="Confirm password" required />
+                <br><br>
+                <input id="register-button" type="submit" class="button" value="Register" />
+            </form>
+        </div>
+        <div id="registerd-user">
+            <form method="post">
+                <p id="student">ALREADY A STUDENT? LOGIN</p>
+                <input type="text" class="text-field" name="registerd-username" placeholder="User name" autocomplete="on" required />
+                <br><br>
+                <input type="password" class="text-field" name="registered-user-password" placeholder="Password" required />
+                <br><br>
+                <input type="checkbox" id="remember" name="remember password" value="yes">
+
+                <label for="remember" id="remember-me-label">Remember me?</label>
+
+                <input type="submit" id="login-button" class="button" value="Login" />
+            </form>
+            <p id="forgot-pas">Forgot Password</p>
+        </div>
+    </div>
+</body>
+</html>

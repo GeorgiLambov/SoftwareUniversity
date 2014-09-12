@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Unresolvable Variables and Undefined</title>
+</head>
+
+<body>
+	<h1>Look at the Console</h1>
+	<script>
+		console.log(msg); // ReferenceError: msg is not defined
+	</script>
+	
+	<script>
+		var greeting = 'hello'; // A local variable
+		console.log(greeting); // hello
+		msg = greeting; // msg is a global variable with value 'hello'
+		console.log(msg); // hello
+		console.log(window.msg); // hello
+		msg = undefined; // Different than "delete msg"
+		console.log(msg); // undefined
+		console.log(greeting); // hello
+		delete msg; // Delete a global variable
+		console.log(msg); // ReferenceError: msg is not defined
+	</script>
+	
+	<script>
+		var msg = 5; // A local variable
+		console.log(msg); // 5
+		delete msg; // Cannot delete a local variable
+		console.log(msg); // 5
+	</script>
+	
+	<script>
+		var firstVar = 10;
+		console.log(firstVar); // 10
+		console.log(secondVar); // ReferenceError: secondVar is not defined
+	</script>
+
+	<script>
+		console.log(first); // undefined
+		var first = 20;
+		console.log(first); // 20
+	</script>
+</body>
+
+</html>

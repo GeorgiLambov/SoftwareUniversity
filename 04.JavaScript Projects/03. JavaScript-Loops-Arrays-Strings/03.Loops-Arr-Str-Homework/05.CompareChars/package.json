@@ -1,0 +1,10 @@
+{
+  "name": "_05.CompareChars",
+  "version": "0.0.0",
+  "description": "05.CompareChars",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

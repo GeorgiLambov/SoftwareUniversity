@@ -1,0 +1,11 @@
+Todor Kirov | PHP | 5.50 | 0
+Maria Ivanova | Java | 5.83 | 37
+Maria Ivanova | C# | 2.83 | 4
+Stanislav Peev | C# | 4.12 | 15
+Ivan Petrov | PHP | 5.10 | 6
+Ivan Petrov | SQL | 5.96 | 12
+Peter Nikolov | Java | 6.00 | 9
+Milen Georgiev | PHP  | 4.02 | 2
+Ivan Petrov | C# | 3.20 | 22
+Peter Nikolov | C# | 5.52 | 18
+Kiril Velev | Java | 5.11 | 0

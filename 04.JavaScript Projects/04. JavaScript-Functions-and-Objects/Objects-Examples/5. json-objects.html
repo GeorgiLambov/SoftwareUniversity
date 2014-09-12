@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>JS Console - Example</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+		var person = {
+			firstName: 'Tom',
+			lastName: 'Miller',
+			toString: function () {
+				return this.firstName + " " + this.lastName;
+			}
+		}
+
+		//var person = new Object();
+		//person.firstname = "Tom";
+		//person.lastname = "Miller";
+		//person.toString = function () {
+		//	return this.firstname + " " + this.lastname;
+		//}
+
+		function renamePerson(personObj, fname, lname) {
+			personObj.firstName = fname || personObj.firstName;
+			personObj.lastName = lname || personObj.lastName;
+		}
+
+		jsConsole.writeLine(person);
+		renamePerson(person, 'Stamat');
+		jsConsole.writeLine(person);
+	</script>
+</body>
+</html>

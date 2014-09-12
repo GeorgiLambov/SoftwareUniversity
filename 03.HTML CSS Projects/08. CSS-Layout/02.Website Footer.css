@@ -1,0 +1,68 @@
+﻿html, body, footer, div, section, header, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #234465;
+    font-family: Tahoma;
+    color: white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 1305px;
+    height: 284px;
+    padding-top: 37px;
+    padding-left: 100px;
+    font-size: 0.9em;
+}
+
+section {
+    float: left;
+    width: 16%;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+    section .title {
+        color: #FF9C00;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.84em;
+        margin-bottom: 15px;
+    }
+
+    section li {
+        list-style-type: none;
+        margin-bottom: 10px;
+    }
+
+#buttons > div {
+    border: 2px solid #FF9C00;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+}
+
+#contacts {
+    width: 21%;
+}
+
+    #contacts p {
+        line-height: 20px;
+    }
+
+    #contacts img {
+        margin-right: 5px;
+    }
+
+.fb-like-box {
+    background-color: white;
+}

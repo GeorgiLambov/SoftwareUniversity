@@ -1,0 +1,141 @@
+﻿p, ul, li, input {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Calibri;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+table {
+    background-color: #234465;
+    width: 1212px;
+    height: 109px;
+    padding: 10px;
+}
+
+    table tr td {
+        text-align: right;
+        vertical-align: middle;
+        height: 32px;
+    }
+
+
+        /*navigation*/
+
+        table tr td nav ul {
+            text-align: right;
+        }
+
+            table tr td nav ul li ul a {
+                font-size: 16px;
+            }
+
+            table tr td nav ul li {
+                list-style-type: none;
+                display: inline-block;
+                margin-left: 20px;
+                vertical-align: middle;
+            }
+
+                table tr td nav ul li a {
+                    text-decoration: none;
+                    color: white;
+                    padding: 8px;
+                }
+
+                table tr td nav ul li:hover > a {
+                    text-decoration: none;
+                    background-color: #4ca0db;
+                    border-radius: 5px;
+                }
+
+                    table tr td nav ul li:hover > a + ul {
+                        display: block;
+                    }
+
+
+
+                table tr td nav ul li ul.sub-nav-list {
+                    position: absolute;
+                    margin-top: 8px;
+                    display: none;
+                    background-color: #1d3955;
+                    width: 320px;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    text-align: left;
+                }
+
+                    table tr td nav ul li ul.sub-nav-list li:hover {
+                        background: #ff9c00;
+                        cursor: pointer;
+                    }
+
+                    table tr td nav ul li ul.sub-nav-list li:last-child:hover {
+                        border-bottom-left-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                    }
+
+                table tr td nav ul li ul li {
+                    float: none;
+                    margin: 0px;
+                    padding-top: 10px;
+                    padding-bottom: 8px;
+                    border-bottom: 1px solid #435f7b;
+                    display: block;
+                }
+
+                    table tr td nav ul li ul li:last-child {
+                        border-bottom: none;
+                    }
+
+                    table tr td nav ul li ul li a {
+                        margin-left: 10px;
+                        font-weight: normal;
+                    }
+
+                        table tr td nav ul li ul li a.sub-menu {
+                            font-weight: bold;
+                            color: #43a0db;
+                            font-size: 18px;
+                        }
+
+                    table tr td nav ul li ul li:hover a.sub-menu {
+                        color: white;
+                    }
+
+                    table tr td nav ul li ul li:hover > a {
+                        text-decoration: none;
+                        background: none;
+                    }
+
+
+
+    /*search field*/
+    table tr:first-child td:last-child {
+        width: 200px;
+    }
+
+
+    /*logo*/
+    table tr:first-child td:first-child {
+        text-align: left;
+        width: 250px;
+    }
+
+    /*search field*/
+    table tr td form input:first-child {
+        height: 32px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        text-align: right;
+    }
+
+#text {
+    vertical-align: top;
+    border: none;
+}

@@ -1,0 +1,177 @@
+﻿body {
+    font-family: Bodoni, Tahoma, serif;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+#content {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 a, h2 a {
+    color: black;
+    font-family: Centaur, Bodoni, Tahoma, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    display: inline;
+    margin-top: 5px;
+}
+
+nav a {
+    display: block;
+    width: 100px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+    nav a:hover {
+        color: black;
+    }
+
+aside a:hover {
+    color: blue;
+}
+
+nav li:last-child {
+    float: right;
+    margin-top: -4px;
+}
+#search {
+	height: 30px;
+	width: 250px;
+}
+#search-bar {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    background: #f7f7f7;
+    color: black;
+    margin-top: 4px;
+    position: relative;
+    /*
+	background-image: url(../images/zoom-icon.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	*/
+}
+input[type="submit"] {
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 222px;
+    margin-bottom: 1px;
+    border: none;
+    background-image: url(../images/zoom.png);
+    background-position: 4px 4px;
+    width: 27px;
+    height: 27px;
+    background-repeat: no-repeat;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    outline: 0;
+}input[type="submit"]:hover {
+	box-sizing: border-box;
+	border: 1px solid blue;
+	border-radius: 4px;
+}aside {
+	width: 15%;
+	margin-top: 6%;
+}aside li {
+		margin-top: 10px;
+	}
+
+	aside li:last-child {
+		margin-bottom: 10px;
+	}
+
+	aside a {
+		color: #648dc1;
+	}
+    section {
+	position: absolute;
+	margin-left: 24%;
+	margin-top: -300px;
+	font-weight: normal;
+	width: 25%;
+}
+section article p {
+	color: grey;
+	font-size: 0.7em;
+	margin-top:	-15px;
+}
+section article p a {
+	font-weight: bold;
+	color: grey;
+}section article span{
+	text-transform: uppercase;
+}
+ section a:hover {
+	color: black;
+}
+
+section header h2 {
+	font-size: 1.5em;
+}
+
+.content {
+	width: 180%;
+	position: absolute;
+	text-transform: none;
+	font-size: 15px;
+	margin-top: 15px;
+	color: black;
+	font-family: Bodoni, Tahoma, serif;
+}
+
+.content a {
+	font-weight: normal;
+	color: black;
+}
+
+section footer {
+	margin-top: 160px;
+}
+
+section footer a {
+	color: #648dc1;
+	font-size: 0.8em;
+}
+
+.content a:hover {
+	color: blue;
+}
+
+#right {
+	width: 250px;
+	position: absolute;
+	margin-left: 79%;
+	margin-top: -280px;
+	font-size: 12px;
+}
+
+#right span {
+	color: grey;
+}
+
+#language {
+	width: 125px;
+	padding-left: 5px;
+}

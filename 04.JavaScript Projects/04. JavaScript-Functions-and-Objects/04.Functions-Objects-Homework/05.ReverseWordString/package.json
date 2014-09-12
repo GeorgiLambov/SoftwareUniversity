@@ -1,0 +1,10 @@
+{
+  "name": "_05.ReverseWordString",
+  "version": "0.0.0",
+  "description": "05.ReverseWordString",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

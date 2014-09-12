@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Introduction to JavaScript - External JS files</title>
+	<script src="scripts/3.%20external-js-files.js">
+		alert("not executed");
+	</script>
+	<script async src="scripts/async-script.js"></script>
+	<script>
+		alert("Internal script is executed");
+	</script>
+</head>											   
+
+<body>
+	<img src="images/SoftUni-Logo.png" onclick="onLogoClicked()" />	
+	<br />
+	<label for="gender-select">Gender: </label>
+	<select id="gender-select" onchange="onGenderChange(event)">							  
+		<option value="male">Male</option>
+		<option value="female">Female</option>
+		<option value="other">Other</option>
+	</select>
+	<script>
+		alert("After body script is executed");
+	</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>False-like Conditions - Example</title>
+</head>
+
+<body>
+	<script>
+		var a = !!(0); // false
+		var b = !!("0"); // true
+		console.log('!!(0) -> ' + a);
+		console.log('!!("0") -> ' + b);
+		
+		var c = (false == 0); // true
+		var d = (false == ""); // true
+		var e = (0 == ""); // true
+		console.log('(false == 0) -> ' + c);
+		console.log('(false == "") -> ' + d);
+		console.log('(0 == "") -> ' + e);
+		
+		var f = (null == false); // false
+		var g = (null == null); // true
+		var h = (undefined == undefined); // true
+		var i = (undefined == null); // true
+		console.log('(null == false) -> ' + f);
+		console.log('(null == null) -> ' + g);
+		console.log('(undefined == undefined) -> ' + h);
+		console.log('(undefined == null) -> ' + i);
+		
+		var j = (NaN == null); // false
+		var k = (NaN == NaN); // false
+		console.log('(NaN == null) -> ' + j);
+		console.log('(NaN == NaN) -> ' + k);
+	</script>
+</body>
+
+</html>

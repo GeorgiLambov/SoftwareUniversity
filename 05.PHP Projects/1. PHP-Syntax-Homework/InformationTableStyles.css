@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border: solid 1px #000;
+    padding: 5px;
+}
+
+table td:first-child {
+    font-weight: bold;
+    background: #FF9C00;
+}
+
+table td:last-child {
+    text-align: right;
+}

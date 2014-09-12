@@ -1,0 +1,10 @@
+{
+  "name": "_15.MostFrequentWord",
+  "version": "0.0.0",
+  "description": "15.MostFrequentWord",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

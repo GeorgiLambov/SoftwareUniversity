@@ -1,0 +1,10 @@
+{
+  "name": "_04.CreateArray",
+  "version": "0.0.0",
+  "description": "04.CreateArray",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

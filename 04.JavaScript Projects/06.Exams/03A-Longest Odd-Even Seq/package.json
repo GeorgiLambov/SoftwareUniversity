@@ -1,0 +1,10 @@
+{
+  "name": "_03A_Longest_Odd_Even_Seq",
+  "version": "0.0.0",
+  "description": "03A-Longest Odd-Even Seq",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

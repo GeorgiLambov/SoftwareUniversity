@@ -1,0 +1,125 @@
+﻿html, div, h1, input {
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+html {
+    font-family: "Tahoma", San-serif;
+    font-size: 100%;
+}
+
+#container {
+    display: inline-block;
+    border-top: dotted 4px #FFFF00;
+    border-right: solid 8px #008000;
+    border-bottom: double 8px #0000FF;
+    border-left: dashed 4px #FF0000;
+    padding: 1.8rem;
+    margin: 5rem 2rem;
+    box-shadow: 1rem 1rem 0.3rem rgba(0, 0, 0, 0.8);
+}
+
+body h1 {
+    font-size: 3rem;
+    margin-bottom: 1.8rem;
+    text-shadow: 1rem 1rem 0.6rem rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+}
+
+.main-rectangle .borders {
+    /*size*/
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    /*borders*/
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10rem;
+}
+
+#blue, #green, #yellow, #red {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 10rem;
+}
+
+#blue {
+    border-color: #0000FF;
+}
+
+#green {
+    border-color: #008000;
+}
+
+#yellow {
+    border-color: #FFFF00;
+}
+
+#red {
+    border-color: #ff0000;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+    
+#text-fields {
+    text-shadow: 0.5rem 0.8rem 0.8rem rgba(0, 0, 0, 0.35);
+}
+
+input {
+    background-color: #cc9933;
+    border-color: #ff9900;
+    border-style: outset;
+    padding: 0.2rem;
+    margin-top: 1.2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.bubble div {
+    box-sizing: border-box;
+    border-radius: 15rem;
+}
+
+.bubble {
+    display: inline-block;
+    background-color: #b2b2b2;
+    opacity: 0.8;
+    color: #ffffff;
+    padding: 0.3rem;
+    position: absolute;
+     border-radius: 15rem;
+}
+
+.small {
+    width: 1.3rem;
+    height: 1.2rem;
+    right: 4.4rem;
+    bottom: 2.4rem;
+}
+
+.medium {
+    width: 2rem;
+    height: 1.9rem;
+    right: 0.7rem;
+    bottom: 4.1rem;
+}
+
+.big {
+    width: 7rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: .5rem;
+    right: -7.7rem;
+    bottom: 6rem;
+}
+ 
+.bubble div {
+    display: inline-block;
+    border: dashed 3px #ffffff;
+}

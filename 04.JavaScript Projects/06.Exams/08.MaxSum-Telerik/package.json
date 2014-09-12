@@ -1,0 +1,10 @@
+{
+  "name": "_08.MaxSum_Telerik",
+  "version": "0.0.0",
+  "description": "08.MaxSum-Telerik",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

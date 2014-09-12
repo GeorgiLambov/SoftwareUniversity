@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/07.styles.css">
+    <script src="Calc.js"></script>
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <table id="calc">
+        <thead>
+            <tr>
+                <th colspan="4">
+                    <form>
+                        <input id="display" type="text" placeholder="0" autofocus
+                               onkeypress="searchKeyPress(event)">
+                    </form>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><button onclick="calculate(1)">1</button></td>
+                <td><button onclick="calculate(2)">2</button></td>
+                <td><button onclick="calculate(3)">3</button></td>
+                <td><button onclick="calculate('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculate(4)">4</button></td>
+                <td><button onclick="calculate(5)">5</button></td>
+                <td><button onclick="calculate(6)">6</button></td>
+                <td><button onclick="calculate('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculate(7)">7</button></td>
+                <td><button onclick="calculate(8)">8</button></td>
+                <td><button onclick="calculate(9)">9</button></td>
+                <td><button onclick="calculate('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculate('clear')">C</button></td>
+                <td><button onclick="calculate(0)">0</button></td>
+                <td><button onclick="calculate('=')">=</button></td>
+                <td><button onclick="calculate('/')">/</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<table>
+<tr><th>Town</th><th>Store1</th><th>Store2</th><th>Store3</th></tr>
+<tr><td>Sofia</td><td>-</td><td>-</td><td>-</td></tr>
+</table>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        label, textarea, input {
+            display: block;
+        }
+        textarea {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+<form method="get" action="WorkingDays.php">
+    <label>Start date:</label>
+    <input type="text" name="dateOne" value="17-12-2014"/>
+    <label>End date:</label>
+    <input type="text" name="dateTwo" value="31-12-2014"/>
+    <label>Holidays:</label>
+    <textarea name="holidays">31-12-2014
+    24-12-2014
+    08-12-2014</textarea>
+    <input type="submit" />
+</form>
+</body>
+</html>

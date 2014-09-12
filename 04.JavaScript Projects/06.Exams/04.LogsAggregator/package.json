@@ -1,0 +1,10 @@
+{
+  "name": "_04.LogsAggregator",
+  "version": "0.0.0",
+  "description": "04.LogsAggregator",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

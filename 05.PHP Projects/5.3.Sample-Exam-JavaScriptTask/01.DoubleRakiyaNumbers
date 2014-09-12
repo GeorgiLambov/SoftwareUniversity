@@ -1,0 +1,33 @@
+<?php
+$statNum = 9999;
+$endNum = 10000;
+
+echo "<ul>";
+for ($i = $statNum; $i <= $endNum; $i++) {
+    $currentNum = $i;
+    if (isRakiaNum($currentNum)) {
+        echo "<li><span class='rakiya'>$currentNum</span><a href=\"view.php?id=$currentNum\">View</a></li>";
+    } else {
+        echo "<li><span class='num'>$currentNum</span></li>";
+    }
+}
+echo "</ul>";
+function isRakiaNum($currentNum)
+{
+    $currentStr = '' . $currentNum;
+    $currentStrArr = str_split($currentStr, 1);
+
+    for ($i = 0; $i < count($currentStrArr) - 1; $i += 1) {
+        $first = $currentStrArr[$i] . $currentStrArr[$i + 1];
+        for ($j = $i + 2; $j < count($currentStrArr)-1; $j += 1) {
+            $sec = $currentStrArr[$j] . $currentStrArr[$j+1];
+            if ($first == $sec) {
+                return true;
+            }
+        }
+
+    }
+    return false;
+}
+
+?>

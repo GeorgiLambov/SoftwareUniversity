@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Flight Order</title>
+    <link href="styles/02.FlightOrder.css" rel="stylesheet" />
+</head>
+<body>
+    <form action="" method="post" id="flight_order_table">
+        <table id="order_flight_table">
+            <colgroup>
+                <col width="66px">
+                <col width="66px">
+                <col width="66px">
+                <col width="100px">
+                <col width="100px">
+            </colgroup>
+            <thead>
+                <tr>
+                    <td colspan="5">Flight Order</td>
+                </tr>
+            </thead>
+            <tr>
+                <td colspan="3">From</td>
+                <td colspan="2">To</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <select name="city" id="city_select">
+                        <option value="defaut">enter a city</option>
+                        <option value="London">London</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Moskow">Moskow</option>
+                        <option value="Berlin">Berlin</option>
+                    </select>
+                </td>
+                <td colspan="3">
+                    <select name="city" id="city_select">
+                        <option value="defaut">enter a city</option>
+                        <option value="London">London</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Moskow">Moskow</option>
+                        <option value="Berlin">Berlin</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td colspan="2">
+                    <input type="checkbox" name="prefer directs" id="prefer" value="yes">
+                    <label for="prefer">Prefer directs</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Departure Date</td>
+                <td colspan="2">Time Interval</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="date" value="09.06.2014" class="date_select" id="departure_date" required="required" />
+                </td>
+                <td>
+                    <input type="time" value="00:20" id="departure_time_interval_begin" required="required" />
+                </td>
+                <td>
+                    <input type="time" value="05:00" id="departure_time_interval_end" required="required" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    Return Date
+                </td>
+                <td colspan="2">
+                    Time Interval
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="date" value="13.06.2014" class="date_select" id="return_date" required="required">
+                </td>
+                <td>
+                    <input type="time" value="16:00" id="return_time_interval_begin" required="required">
+                </td>
+                <td>
+                    <input type="time" value="22:00" id="return_time_interval_end" required="required">
+                </td>
+            </tr>
+            <tr>
+                <td>12+</td>
+                <td>2-12</td>
+                <td>0-2</td>
+                <td colspan="2">Choose class</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" value="0" min="0" max="100" id="twelve_plus">
+                </td>
+                <td>
+                    <input type="text" value="0" id="between_two_and_twelve">
+                </td>
+                <td>
+                    <input type="text" value="0" id="below_two">
+                </td>
+                <td colspan="2">
+                    <select name="class" id="class_select">
+                        <option value="default">Economy</option>
+                        <option value="FC">First class</option>
+                        <option value="SC">Second class</option>
+                        <option value="TC">Third class</option>
+                    </select>
+                </td>
+            <tr>
+                <td colspan="3"></td>
+                <td colspan="2">
+                    <input type="submit" value="Search" id="search">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

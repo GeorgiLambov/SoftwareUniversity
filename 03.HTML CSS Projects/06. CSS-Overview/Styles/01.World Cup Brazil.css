@@ -1,0 +1,225 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+}
+
+
+body > #container {
+    width: 1215px;
+    height: 420px;
+    background: #009933;
+    padding-top: 20px;
+}
+
+table {
+    border: 2px solid black;
+    border-radius: 20px;
+    background: white;
+    width: 1170px;
+    height: 400px;
+    margin: auto;
+}
+
+    table td {
+        border: 1px solid black;
+        font-size: 25px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+        table td:nth-child(1) {
+            text-align: right;
+            padding-right: 5px;
+            width: 200px;
+        }
+
+        table td:nth-child(3) {
+            text-align: left;
+            padding-left: 5px;
+            width: 200px;
+        }
+
+        table td:nth-child(5) {
+            text-align: right;
+            padding-right: 5px;
+            width: 170px;
+        }
+
+        table td:nth-child(6) {
+            width: 130px;
+        }
+
+        table td:nth-child(7) {
+            text-align: left;
+            padding-left: 5px;
+            width: 165px;
+        }
+
+        table td:nth-child(8) {
+            width: 65px;
+        }
+
+    table thead td:nth-child(1) {
+        border-top-left-radius: 17px;
+    }
+
+    table thead tr td:last-child {
+        border-top-right-radius: 17px;
+        text-align: center;
+    }
+
+    table #last-row td:nth-child(1) {
+        border-bottom-left-radius: 17px;
+    }
+
+    table #last-row td:last-child {
+        border-bottom-right-radius: 17px;
+    }
+
+    table thead {
+        background: #ffcc00;
+        height: 60px;
+        padding-top: 0;
+        font-weight: bold;
+    }
+
+    table tr {
+        height: 65px;
+    }
+
+.white-row {
+    background: white;
+}
+
+.gray-row {
+    background: #cccccc;
+}
+
+table td {
+    font-size: 20px;
+}
+
+table tr:nth-child(1) td:nth-child(1) div.image {
+    content: url(../images/brasil.png);
+    float: right;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+table tr:nth-child(2) td:nth-child(1) div.image {
+    content: url(../images/spain.png);
+    float: right;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+table tr:nth-child(3) td:nth-child(1) div.image {
+    content: url(../images/italy.png);
+    float: right;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+table tr:nth-child(4) td:nth-child(1) div.image {
+    content: url(../images/argentina.png);
+    float: right;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+table tr:nth-child(5) td:nth-child(1) div.image {
+    content: url(../images/germany.png);
+    float: right;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+table tr:nth-child(1) td:nth-child(3) div.image {
+    content: url(../images/mexico.png);
+    float: left;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+table tr:nth-child(2) td:nth-child(3) div.image {
+    content: url(../images/netherlands.png);
+    float: left;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+table tr:nth-child(3) td:nth-child(3) div.image {
+    content: url(../images/england.png);
+    float: left;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+table tr:nth-child(4) td:nth-child(3) div.image {
+    content: url(../images/bosnia-herz.png);
+    float: left;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+table tr:nth-child(5) td:nth-child(3) div.image {
+    content: url(../images/portugal.png);
+    float: left;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+input[type="submit"]:disabled.image {
+    background: url(../images/red-btn.png);
+    height: 46px;
+    width: 46px;
+    border: none;
+    background-color: none;
+}
+
+    input[type="submit"]:disabled.image:hover {
+        border-radius: 30px;
+        opacity: .5;
+    }
+
+input[type="submit"].image {
+    background: url(../images/green-btn.png);
+    height: 46px;
+    width: 46px;
+    border: none;
+    background-color: none;
+}
+
+    input[type="submit"].image:hover {
+        border-radius: 30px;
+        opacity: .9;
+    }
+
+    input[type="submit"].image.enabled:active {
+        background: url(../images/green-btn-pressed.png);
+        border: 1px solid darkgray;
+        border-radius: 30px;
+    }
+
+input[type="number"]:disabled:hover {
+    background: grey;
+    color: red;
+}
+
+input[type="number"]:hover {
+    background: darkgrey;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+input.goals-count {
+    height: 42px;
+    width: 42px;
+    background: #dcdcdc;
+    border: 1px solid #a9a9a9;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}

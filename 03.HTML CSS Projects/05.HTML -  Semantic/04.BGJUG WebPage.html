@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BGJUG WebPage</title>
+    <link href="Styles/04.BGJUG%20WebPage.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="content">
+        <header><h1><a href="#">BGJUG - Bulgarian Java User Group</a></h1></header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">about</a>
+                </li>
+                <li>
+                    <a href="#">events</a>
+                </li>
+                <li>
+                    <a href="#">contacts</a>
+                </li>
+                <li>
+                    <div id="search">
+                        <form method="get">
+                            <input type="search"
+                                   placeholder="Search..."
+                                   name="search"
+                                   id="search-bar" />
+                            <input type="submit"
+                                   id="submit-btn"
+                                   value="" />
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <br><hr>
+        <aside>
+            <ul>
+                <li>
+                    <a href="#">An Architecture for E-Voting</a>
+                </li>
+                <li>
+                    <a href="#">Integration Tests for External Services</a>
+                </li>
+                <li>
+                    <a href="#">Algorithmic Music Influenced by Tweets</a>
+                </li>
+                <li>
+                    <a href="#">The Low Quality of Scientific Code</a>
+                </li>
+                <li>
+                    <a href="#">Development "Methodologies"</a>
+                </li>
+            </ul>
+        </aside>
+        <section>
+            <article>
+                <header><h2><a href="#">An Architecture for E-Voting</a></h2></header>
+                <p>by<span><a href="#"> bozho</a></span> on <span>may 27, 2014 . leave a comment</span></p>
+                <p><span class="content">E-voting is a hot topic in my country, and has been discussed a lot everywhere. Since we are already using the internet and touch-screen technologies in our everyday lives, why not apply that to voting? And not for the sake of technology itself, but in order to prevent technical mistakes and election fraud, and make <a href="#">[…]</a></span></p>
+                <p class="content"
+                   style="margin-top: 115px"><a href="#" style="color: #648dc1">Continue Reading -></a></p>
+            </article>
+            <article style="margin-top: 170px">
+                <header><h2><a href="#">The Optional Type API</a></h2></header>
+                <p>by<span><a href="#"> bozho</a></span> on <span>may 19, 2014 . leave a comment</span></p>
+                <p><span class="content">Java 8 introduces the Optional class. In a nutshell, instead of returning null, and then checking for null, you return an Optional instance, which can either have or not have a value set. That way you don’t fail with NullPointerException. I won’t discuss whether the Optional type will eliminate NPEs completely (it won’t). Instead I’ll <a href="#">[…]</a></span></p>
+                <p class="content"
+                   style="margin-top: 115px"><a href="#" style="color: #648dc1">Continue Reading -></a></p>
+            </article>
+            <footer>
+                <a href="#">&lt;- Previous Entries</a>
+            </footer>
+        </section>
+        <aside id="right">
+            <ul>
+                <li>
+                    <span style="text-transform: uppercase">language</span><br><hr>
+                </li>
+                <li>
+                    <select name="language"
+                            id="language">
+                        <option id="bulgarian">Bulgarian</option>
+                        <option id="english">English</option>
+                        <option id="french">French</option>
+                        <option id="german">German</option>
+                    </select>
+                </li>
+                <li>
+                    <span style="text-transform: uppercase">blogroll</span><br><hr>
+                </li>
+            </ul>
+        </aside>
+    </div>
+</body>
+</html>

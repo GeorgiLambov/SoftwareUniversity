@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>JS Console - Example</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+		function printStudent(student) {
+			jsConsole.writeLine('<strong>' + student.name + '</student>');
+			for (var i in marks) {
+				jsConsole.writeLine('<strong>' + marks[i].subject + '</strong>' + ' : ' + marks[i].score);
+			}
+			jsConsole.writeLine('--------------------------');
+		}
+
+		var marks = [
+			{ subject: 'JavaScript', score: 5.50 },
+			{ subject: 'OOP', score: 5.00 },
+			{ subject: 'PHP', score: 6.00 },
+			{ subject: 'Photoshop', score: 4.00 }];
+
+		var student = { name: 'Maria Atanassova', marks: marks };
+		printStudent(student);
+		marks[2].score = 5.50;
+		printStudent(student);
+	</script>
+</body>
+</html>

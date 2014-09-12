@@ -1,0 +1,10 @@
+{
+  "name": "_14.Calculate_Expression",
+  "version": "0.0.0",
+  "description": "14.Calculate Expression",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

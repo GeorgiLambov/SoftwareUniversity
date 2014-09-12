@@ -1,0 +1,6 @@
+<table>
+<tr><th>Town</th><th>Store1</th><th>Store2</th><th>Store3</th></tr>
+<tr><td>Pleven</td><td>-100</td><td>-200</td><td>-</td></tr>
+<tr><td>Varna</td><td>-100</td><td>-</td><td>-300</td></tr>
+<tr><td>Rousse</td><td>-</td><td>-200</td><td>-100</td></tr>
+</table>

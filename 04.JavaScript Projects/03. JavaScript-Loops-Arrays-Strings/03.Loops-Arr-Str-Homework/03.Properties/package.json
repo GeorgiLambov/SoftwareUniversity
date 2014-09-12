@@ -1,0 +1,10 @@
+{
+  "name": "_03.Properties",
+  "version": "0.0.0",
+  "description": "03.Properties",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

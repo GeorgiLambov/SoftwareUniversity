@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "01.PricesTrends", "01.PricesTrends\01.PricesTrends.njsproj", "{E9930D31-BE63-45F3-9037-DF1203048A8D}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "03.Biggest Table Row", "03.Biggest Table Row\03.Biggest Table Row.njsproj", "{5F7AB691-184A-48FE-BAA1-05629A65F470}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "02. Tetris Figures", "02. Tetris Figures\02. Tetris Figures.njsproj", "{E167A2D0-AD17-4684-85F3-344B29E232D5}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "04. Students, Courses, Grades", "04. Students, Courses, Grades\04. Students, Courses, Grades.njsproj", "{E02F82BF-2A91-4BB5-9B08-956CDC532040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9930D31-BE63-45F3-9037-DF1203048A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9930D31-BE63-45F3-9037-DF1203048A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9930D31-BE63-45F3-9037-DF1203048A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9930D31-BE63-45F3-9037-DF1203048A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7AB691-184A-48FE-BAA1-05629A65F470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7AB691-184A-48FE-BAA1-05629A65F470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7AB691-184A-48FE-BAA1-05629A65F470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7AB691-184A-48FE-BAA1-05629A65F470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E167A2D0-AD17-4684-85F3-344B29E232D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E167A2D0-AD17-4684-85F3-344B29E232D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E167A2D0-AD17-4684-85F3-344B29E232D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E167A2D0-AD17-4684-85F3-344B29E232D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02F82BF-2A91-4BB5-9B08-956CDC532040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02F82BF-2A91-4BB5-9B08-956CDC532040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02F82BF-2A91-4BB5-9B08-956CDC532040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02F82BF-2A91-4BB5-9B08-956CDC532040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

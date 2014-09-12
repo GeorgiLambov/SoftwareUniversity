@@ -1,0 +1,10 @@
+{
+  "name": "_04.Check_if_Number_is_Prime",
+  "version": "0.0.0",
+  "description": "04.Check if Number is Prime",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

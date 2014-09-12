@@ -1,0 +1,104 @@
+﻿#container {
+    background-color: #125687;
+    width: 850px;
+    height: 600px;
+    font-family: 'PT Sans',Tahoma,sans-ser;
+    font-weight: bolder;
+    position: relative;
+    color: white;
+   }
+
+span {
+    font-size: 18px;
+}
+
+header {
+    text-align: center;
+    font-size: 116px;
+}
+
+#reg {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 0px;
+}
+
+#under-reg {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+#non-important-info {
+    display: inline-block;
+    width: 320px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+
+#important-info {
+    width: 470px;
+    height: auto;
+    float: right;
+    margin-right: 30px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.text-field {
+    margin-left:2px;
+    margin-top:7px;
+    width: 135px;
+    height: 30px;
+    display: inline-block;
+}
+
+.text-field-small {
+    width: 70px;
+    height: 30px;
+    display: inline-block;
+}
+
+textarea {
+    width: 430px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+fieldset, input, select {
+    border-radius: 5px;
+}
+
+#reset, #submit {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #3B5997;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+legend {
+    text-align: center;
+}
+
+#birthday {
+    border-radius: 5px;
+    width: 70%;
+}
+
+.inline {
+    margin-bottom: 30px;
+}
+
+#form {
+    margin-left: 10px;
+}
+.textlabel{
+    font-size:12px;
+}

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Loops - Break Operator</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+<body>
+	<input type="text" id="tb-number" />
+	<a href="#" id="btn-check-prime" onclick="onCalcFactBtnClick()">[Calc Factorial]</a>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+		function onCalcFactBtnClick() {
+			var number = jsConsole.readInteger('#tb-number');
+			var fact = 1;
+			var factStr = 'n! = ';
+			while (true) {
+				if (number == 1) {
+					break;
+				}
+				factStr += number + '*';
+				fact *= number;
+				number--;
+			}
+			factStr += '1 = ' + fact;
+			jsConsole.writeLine(factStr);
+		}
+	</script>
+</body>
+
+</html>

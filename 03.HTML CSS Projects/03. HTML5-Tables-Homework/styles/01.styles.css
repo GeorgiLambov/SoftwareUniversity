@@ -1,0 +1,11 @@
+﻿body {
+    font-family:Tahoma;
+}
+
+table {
+    width: 400px;
+}
+
+    table td {
+        padding:5px;
+    }

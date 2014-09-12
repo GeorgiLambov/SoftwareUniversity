@@ -1,0 +1,10 @@
+﻿{
+  "name": "_03.Longest_Odd_Even_Sequence_Условие",
+  "version": "0.0.0",
+  "description": "03.Longest Odd-Even Sequence_Условие",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

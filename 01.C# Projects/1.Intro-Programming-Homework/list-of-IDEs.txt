@@ -1,0 +1,16 @@
+1.Java - Eclipse, NetBeans, IDEA
+Eclipse is the free and open-source editor upon which many development frameworks are based. It's one of the 
+granddaddies in its field and comes highly recommended by many a professional developer.
+2.C# - Visual Studio, SharpDevelop
+isual Studio has an advantage when it comes to programming. This IDE is mostly used by corporate programmers
+to produce .NET code. Sometimes people want to try the product without investing thousands of dollars first,
+so Microsoft has the Express editions for all of their products
+3.PHP - Eclipse, NetBeans, Nusphere PHPed
+4.JavaScrip - NetBeans
+The is the number one alternative to Eclipse. This program is extensible and free, and it compiles code 
+which is a bonus. When installing Netbeans it comes with a Java server called GlassFish that you could 
+deploy on your computer for your testing environment. This server is the second biggest server for Java 
+next to WebSphere (which is a whole different ball game).
+5.Objective-C - Xcode
+Xcode is an integrated development environment (IDE) containing a suite of software development tools 
+developed by Apple for developing software for OS X and iOS.

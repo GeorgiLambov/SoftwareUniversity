@@ -1,0 +1,10 @@
+{
+  "name": "_06.CountNumberofDIVs",
+  "version": "0.0.0",
+  "description": "06.CountNumberofDIVs",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

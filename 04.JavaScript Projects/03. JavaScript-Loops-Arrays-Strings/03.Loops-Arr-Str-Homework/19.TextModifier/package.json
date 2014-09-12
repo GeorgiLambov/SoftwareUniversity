@@ -1,0 +1,10 @@
+{
+  "name": "_19.TextModifier",
+  "version": "0.0.0",
+  "description": "19.TextModifier",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "_13.Digital_Soothsayer",
+  "version": "0.0.0",
+  "description": "13.Digital Soothsayer",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

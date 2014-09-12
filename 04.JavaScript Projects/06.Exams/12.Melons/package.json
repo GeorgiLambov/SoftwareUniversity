@@ -1,0 +1,10 @@
+{
+  "name": "_12.Melons",
+  "version": "0.0.0",
+  "description": "12.Melons",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "_11.CountBeers",
+  "version": "0.0.0",
+  "description": "11.CountBeers",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

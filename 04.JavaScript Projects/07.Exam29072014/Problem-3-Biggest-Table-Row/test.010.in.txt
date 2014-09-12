@@ -1,0 +1,16 @@
+<table>
+<tr><th>Town</th><th>Store1</th><th>Store2</th><th>Store3</th></tr>
+<tr><td>Sofia</td><td>0</td><td>-</td><td>12120.0</td></tr>
+<tr><td>Sliven</td><td>-</td><td>0</td><td>-</td></tr>
+<tr><td>Kaspichan</td><td>0</td><td>-</td><td>-</td></tr>
+<tr><td>Varnaaa</td><td>-</td><td>18.02</td><td>36.11</td></tr>
+<tr><td>Plevenbb</td><td>1.0000</td><td>-</td><td>1</td></tr>
+<tr><td>Vidincc</td><td>-</td><td>-560</td><td>20833</td></tr>
+<tr><td>Rousseee</td><td>-</td><td>299.999999</td><td>-</td></tr>
+<tr><td>Bourgasff</td><td>-</td><td>2500</td><td>-</td></tr>
+<tr><td>Yambol</td><td>-</td><td>-</td><td>72120.0000</td></tr>
+<tr><td>Yambolww</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>Plovdivqq</td><td>17.20000</td><td>-</td><td>6.4</td></tr>
+<tr><td>Sofiatt</td><td>-</td><td>1</td><td>1</td></tr>
+<tr><td>Blagoevgraduu</td><td>-</td><td>150</td><td>-</td></tr>
+</table>

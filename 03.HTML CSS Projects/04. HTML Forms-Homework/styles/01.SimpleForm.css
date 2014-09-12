@@ -1,0 +1,100 @@
+﻿#background{
+    width:800px;
+    height:430px;
+    font-family:'PT Sans',Tahoma,sans-ser;
+    position: relative;
+    background:#dfe5e6;
+}
+#enter{
+    color:#234465;
+    font-size:25px;
+    font-weight: bolder;
+    padding-left:10px;
+}
+#text-under-enter{
+    color:#6c6f70;
+    font-size:13px;
+    font-weight: bolder;
+    padding-left:10px;
+}
+#new-user{
+    color:#6c6f70;
+    font-size:16px;
+    text-transform:uppercase;
+    padding-left:20px;
+    font-weight: bold;
+}
+#new-user span{
+    color:#234465;
+}
+.text-field{
+	margin-left: 20px;
+	padding-left: 10px;
+	width: 300px;
+	height: 25px;
+}
+.button{
+    margin-left: 212px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #234465;
+	border: 2px solid #234465;
+}
+#left-column {
+	position: absolute;
+}
+#registerd-user{
+   height: 275px;
+	width: 390px;
+	background: #234465;
+	margin-left: 380px;
+	margin-top: 10px;
+	position: absolute;
+}
+#student {
+	margin-top: 5px;
+	padding-left: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	font-size: 16px;
+}
+
+#remember{
+	margin-left: 20px;
+}
+
+#remember-me-label {
+	color: white;
+}
+
+#login-button {	
+	border: 2px solid orange;
+	background: #234465;
+	color: white;
+	float: right;
+	margin-right: 23px;
+	margin-top: -25px;
+}
+
+#login-button:hover{
+	background: orange;
+	text-shadow: 1px 1px 1px black;
+}
+
+#register-button:hover{
+	background: #234465;
+	color: white;
+}
+
+#forgot-pas {
+	color: white;
+	font-size: 10px;
+	text-decoration: underline;
+	float: right;
+	margin-right: 30px;
+}

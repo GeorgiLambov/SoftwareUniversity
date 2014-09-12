@@ -1,0 +1,10 @@
+{
+  "name": "_02._Tetris_Figures",
+  "version": "0.0.0",
+  "description": "02. Tetris Figures",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

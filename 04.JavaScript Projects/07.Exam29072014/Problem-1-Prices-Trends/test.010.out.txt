@@ -1,0 +1,46 @@
+<table>
+<tr><th>Price</th><th>Trend</th></tr>
+<tr><td>0.68</td><td><img src="fixed.png"/></td></tr>
+<tr><td>0.28</td><td><img src="down.png"/></td></tr>
+<tr><td>0.65</td><td><img src="up.png"/></td></tr>
+<tr><td>0.16</td><td><img src="down.png"/></td></tr>
+<tr><td>0.72</td><td><img src="up.png"/></td></tr>
+<tr><td>0.72</td><td><img src="fixed.png"/></td></tr>
+<tr><td>0.99</td><td><img src="up.png"/></td></tr>
+<tr><td>0.08</td><td><img src="down.png"/></td></tr>
+<tr><td>0.63</td><td><img src="up.png"/></td></tr>
+<tr><td>0.88</td><td><img src="up.png"/></td></tr>
+<tr><td>0.27</td><td><img src="down.png"/></td></tr>
+<tr><td>0.18</td><td><img src="down.png"/></td></tr>
+<tr><td>0.89</td><td><img src="up.png"/></td></tr>
+<tr><td>0.85</td><td><img src="down.png"/></td></tr>
+<tr><td>0.52</td><td><img src="down.png"/></td></tr>
+<tr><td>0.69</td><td><img src="up.png"/></td></tr>
+<tr><td>0.32</td><td><img src="down.png"/></td></tr>
+<tr><td>0.02</td><td><img src="down.png"/></td></tr>
+<tr><td>0.09</td><td><img src="up.png"/></td></tr>
+<tr><td>0.95</td><td><img src="up.png"/></td></tr>
+<tr><td>0.57</td><td><img src="down.png"/></td></tr>
+<tr><td>0.74</td><td><img src="up.png"/></td></tr>
+<tr><td>0.63</td><td><img src="down.png"/></td></tr>
+<tr><td>0.74</td><td><img src="up.png"/></td></tr>
+<tr><td>0.17</td><td><img src="down.png"/></td></tr>
+<tr><td>0.93</td><td><img src="up.png"/></td></tr>
+<tr><td>0.10</td><td><img src="down.png"/></td></tr>
+<tr><td>0.99</td><td><img src="up.png"/></td></tr>
+<tr><td>0.60</td><td><img src="down.png"/></td></tr>
+<tr><td>0.19</td><td><img src="down.png"/></td></tr>
+<tr><td>0.70</td><td><img src="up.png"/></td></tr>
+<tr><td>0.27</td><td><img src="down.png"/></td></tr>
+<tr><td>0.36</td><td><img src="up.png"/></td></tr>
+<tr><td>0.36</td><td><img src="fixed.png"/></td></tr>
+<tr><td>0.36</td><td><img src="fixed.png"/></td></tr>
+<tr><td>0.15</td><td><img src="down.png"/></td></tr>
+<tr><td>0.33</td><td><img src="up.png"/></td></tr>
+<tr><td>0.69</td><td><img src="up.png"/></td></tr>
+<tr><td>0.01</td><td><img src="down.png"/></td></tr>
+<tr><td>0.01</td><td><img src="fixed.png"/></td></tr>
+<tr><td>0.14</td><td><img src="up.png"/></td></tr>
+<tr><td>0.51</td><td><img src="up.png"/></td></tr>
+<tr><td>0.23</td><td><img src="down.png"/></td></tr>
+</table>

@@ -1,0 +1,22 @@
+﻿body, div {
+    padding: 0;
+    margin: 0;
+}
+
+#game-field {
+    width: 166px;
+    margin: 40px auto;
+}
+
+canvas {
+    border: 1px solid #0094ff;
+	cursor: pointer;
+    transition: 1s ease all;
+}
+    canvas:hover {
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }

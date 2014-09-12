@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Data Types and Variables</title>
+</head>
+
+<body>
+	<h1>Look at the Console</h1>
+	<script>
+		"use strict";
+
+		var local = 5; // Local variables will work in strict mode
+		global = 10; // Uncaught ReferenceError: x is not defined 
+
+		// This code will not be executed, because of the error above
+		console.log(5 * 5);
+	</script>
+</body>
+
+</html>

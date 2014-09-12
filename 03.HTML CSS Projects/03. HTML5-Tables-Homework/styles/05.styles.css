@@ -1,0 +1,63 @@
+﻿body {
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+table, th, tr, td {
+    border: solid;
+    border-width: 1px;
+}
+
+td, th {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+}
+
+    td table td {
+        height: 45px;
+    }
+
+table th {
+    font-size: 50px;
+}
+
+#beer {
+    font-size: 30px;
+    text-align: right;
+}
+
+#google {
+    vertical-align: top;
+}
+
+#github {
+    vertical-align: top;
+    text-align: right;
+}
+
+#fb {
+    vertical-align: top;
+    text-align: center;
+}
+
+#youtube {
+    vertical-align: bottom;
+    text-align: center;
+}
+
+#food {
+    vertical-align: bottom;
+    text-align: right;
+}
+
+#game {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.small {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}

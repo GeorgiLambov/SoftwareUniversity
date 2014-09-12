@@ -1,0 +1,5 @@
+Lo|rem=Lorem
+dol|or=dolor
+am|et=amet
+si|t=sit
+ips|um=ipsum

@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/4.PHP-Arrays-String-Objects-Homework/04.TextFilter.php" line="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6cb408d-bb42-4262-9db9-8b34ed7befba" name="Default" comment="" />
+    <ignored path="PhpstormProjects.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PhpstormProjects$PhpstormProjects.coverage" NAME="PhpstormProjects Coverage Results" MODIFIED="1408004025656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="PhpstormProjects" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/05.PHP-Sample-Exam-Var-2/PIN Validation.html" />
+        <option value="$PROJECT_DIR$/05.PHP-Sample-Exam-Var-2/Meeting Dates.html" />
+        <option value="$PROJECT_DIR$/05.PHP-Sample-Exam-Var-2/01.MeetingDates.php" />
+        <option value="$PROJECT_DIR$/05.PHP-Sample-Exam-Var-2/Scrabble.html" />
+        <option value="$PROJECT_DIR$/05.PHP-Sample-Exam-Var-2/ScrableLook.php" />
+        <option value="$PROJECT_DIR$/05.PHP-Sample-Exam-Var-2/scrabble.html" />
+        <option value="$PROJECT_DIR$/05.PHP-Sample-Exam-Var-2/04.Scrabble.php" />
+        <option value="$PROJECT_DIR$/05.PHP-Sample-Exam-Var-2/O, My Girl!.html" />
+        <option value="$PROJECT_DIR$/05.PHP-Sample-Exam-Var-2/02.O, My Girl!.php" />
+        <option value="$PROJECT_DIR$/05.Sample-Exam-JavaScript/01.DoubleRakiyaNumbers" />
+        <option value="$PROJECT_DIR$/05.Sample-Exam-JavaScript/02.MatrixRotation.php" />
+        <option value="$PROJECT_DIR$/05.PHP-Sample-Exam-Var-2/03.PINValidation.php" />
+        <option value="$PROJECT_DIR$/06.MyExamPHP/Problem-2-ChatLogger.html" />
+        <option value="$PROJECT_DIR$/06.MyExamPHP/01.DropIt.php" />
+        <option value="$PROJECT_DIR$/06.MyExamPHP/ArticleParser.php" />
+        <option value="$PROJECT_DIR$/06.MyExamPHP/Problem-3-ArticleParser.html" />
+        <option value="$PROJECT_DIR$/06.MyExamPHP/03. Article Parser.php" />
+        <option value="$PROJECT_DIR$/06.MyExamPHP/Problem-4-SoftuniTunes.html" />
+        <option value="$PROJECT_DIR$/06.MyExamPHP/04.SoftuniTunes.php" />
+        <option value="$PROJECT_DIR$/07.PHPBasicsExam29August2014Evening/EmailEncryptor.html" />
+        <option value="$PROJECT_DIR$/07.PHPBasicsExam29August2014Evening/01.EmailEncryptor.php" />
+        <option value="$PROJECT_DIR$/07.PHPBasicsExam29August2014Evening/UppercaseWords.html" />
+        <option value="$PROJECT_DIR$/07.PHPBasicsExam29August2014Evening/LargestRectangle.html" />
+        <option value="$PROJECT_DIR$/07.PHPBasicsExam29August2014Evening/03.LargestRectangle.php" />
+        <option value="$PROJECT_DIR$/07.PHPBasicsExam29August2014Evening/04.Pricelist.txt" />
+        <option value="$PROJECT_DIR$/07.PHPBasicsExam29August2014Evening/PriceList.html" />
+        <option value="$PROJECT_DIR$/07.PHPBasicsExam29August2014Evening/02.UppercaseWords.php" />
+        <option value="$PROJECT_DIR$/07.PHPBasicsExam29August2014Evening/04.PriceList.php" />
+        <option value="$PROJECT_DIR$/08.PHPBasicsExam31August/TextAbbreviator.html" />
+        <option value="$PROJECT_DIR$/08.PHPBasicsExam31August/01.TextAbbreviator.php" />
+        <option value="$PROJECT_DIR$/08.PHPBasicsExam31August/02.SemanticHTML.php" />
+        <option value="$PROJECT_DIR$/08.PHPBasicsExam31August/TextGravity.html" />
+        <option value="$PROJECT_DIR$/08.PHPBasicsExam31August/03.TextGravity.php" />
+        <option value="$PROJECT_DIR$/08.PHPBasicsExam31August/SoftUni-Students.html" />
+        <option value="$PROJECT_DIR$/08.PHPBasicsExam31August/SemanticHTML.php" />
+        <option value="$PROJECT_DIR$/08.PHPBasicsExam31August/SemanticHTML.html" />
+        <option value="$PROJECT_DIR$/04.PHP-Arrays-String-Objects-Homework/05.SentenceExtractor.php" />
+        <option value="$PROJECT_DIR$/06.MyExamPHP/02.ChatLogger.php" />
+        <option value="$PROJECT_DIR$/09.PHPExam05092014/RainbowLetters.html" />
+        <option value="$PROJECT_DIR$/09.PHPExam05092014/ComputerShop.html" />
+        <option value="$PROJECT_DIR$/08.PHPBasicsExam31August/04.SoftUni-Students.php" />
+        <option value="$PROJECT_DIR$/09.PHPExam05092014/ErrorLogger.html" />
+        <option value="$PROJECT_DIR$/09.PHPExam05092014/02.ErrorLogger.php" />
+        <option value="$PROJECT_DIR$/09.PHPExam05092014/FacebookPosts.html" />
+        <option value="$PROJECT_DIR$/09.PHPExam05092014/03.FacebookPosts.php" />
+        <option value="$PROJECT_DIR$/09.PHPExam05092014/04.ComputerShop.php" />
+        <option value="$PROJECT_DIR$/09.PHPExam05092014/01.RainbowLetters.php" />
+        <option value="$PROJECT_DIR$/9.PHPExam05092014/03.FacebookPosts.php" />
+        <option value="$PROJECT_DIR$/9.PHPExam05092014/01.RainbowLetters.php" />
+        <option value="$PROJECT_DIR$/9.PHPExam05092014/04.ComputerShop.php" />
+        <option value="$PROJECT_DIR$/9.PHPExam05092014/02.ErrorLogger.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <option name="servers">
+      <server host="PhpStorm 7.1.3" name="PhpStorm 7.1.3" port="63342" />
+      <server host="localhost" name="XAMPP Apache" />
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP Interpreter" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code SmellPHP</id>
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control FlowPHP</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralPHP</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>PHPDocPHP</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probably bugPHP</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>SASS/SCSS</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Type compatibilityPHP</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+          <State>
+            <id>UnusedPHP</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhpstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhpstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhpstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="Configurable.PHP.Servers" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/05.PHP-Sample-Exam-Var-2" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PhpstormProjects\09.PHPExam05092014" />
+      <recent name="C:\xampp\htdocs\PhpstormProjects\06.MyExamPHP" />
+      <recent name="C:\xampp\htdocs\PhpstormProjects\08.PHPBasicsExam31August" />
+      <recent name="C:\xampp\htdocs\PhpstormProjects\07.PHPBasicsExam29August2014Evening" />
+      <recent name="C:\xampp\htdocs\PhpstormProjects\05.PHP-Sample-Exam-Var-2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PhpstormProjects\08.PHPBasicsExam31August" />
+      <recent name="C:\xampp\htdocs\PhpstormProjects\06.MyExamPHP" />
+      <recent name="C:\xampp\htdocs\PhpstormProjects" />
+      <recent name="C:\xampp\htdocs\PhpstormProjects\02. PHP-Working-with-Forms-Homework\05.CVGenerator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.XAMPP">
+    <configuration default="false" name="05.LazySundays.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/01. PHP-Syntax-Homework/05.LazySundays.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="08.TimeUntilNewYear.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/01. PHP-Syntax-Homework/08.TimeUntilNewYear.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="01.Variables.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/1A. PHP-Syntax-Demos/01.Variables.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="4. Checkboxes.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/2A. Working-with-Forms-in-PHP-Demos/4. Checkboxes.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="XAMPP Apache" start_url="/PhpstormProjects/05.PHP Basics - Sample Contest/PHPChess.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/03. PHP-Flow-Control-Homework/01.SquareRootSum.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="b631fc0c-acae-467e-be9c-78b2f865fe8c" server_name="Xampp Apache">
+      <method />
+    </configuration>
+    <configuration default="false" name="Problem-2-ChatLogger.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://localhost:63342/PhpstormProjects/06.MyExamPHP/Problem-2-ChatLogger.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="03. Article Parser.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/06.MyExamPHP/03. Article Parser.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="04.NonRepeatingDigits.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/01. PHP-Syntax-Homework/04.NonRepeatingDigits.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="XAMPP" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="XAMPP Apache" start_url="/PhpstormProjects/9.PHPExam05092014/ErrorLogger.html">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <list size="8">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Problem-2-ChatLogger.html" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.03. Article Parser.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.04.NonRepeatingDigits.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.05.LazySundays.php" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Script.08.TimeUntilNewYear.php" />
+      <item index="5" class="java.lang.String" itemvalue="PHP Script.01.Variables.php" />
+      <item index="6" class="java.lang.String" itemvalue="PHP Script.4. Checkboxes.php" />
+      <item index="7" class="java.lang.String" itemvalue="PHP Web Application.XAMPP" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.4. Checkboxes.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.01.Variables.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.08.TimeUntilNewYear.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.05.LazySundays.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6cb408d-bb42-4262-9db9-8b34ed7befba" name="Default" comment="" />
+      <created>1407998910242</created>
+      <updated>1407998910242</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3474843" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="246" width="1366" height="235" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35691825" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3726415" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932332" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/1. PHP-Syntax-Homework/03.DumpVariable.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/1. PHP-Syntax-Homework/07.GetFormData.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/1. PHP-Syntax-Homework/08.TimeUntilNewYear.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/3. PHP-Flow-Control-Homework/05.SumOfDigits.php</url>
+          <line>36</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Test1/test.php</url>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Test1/test.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/5.1.PHP-Sample-Exam-Var 1/02.EmailCensorship.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/4.PHP-Arrays-String-Objects-Homework/01.WordMapper.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/4.PHP-Arrays-String-Objects-Homework/03.SidebarBuilder.php</url>
+          <line>35</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/4.PHP-Arrays-String-Objects-Homework/04.TextFilter.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/4.PHP-Arrays-String-Objects-Homework/05.SentenceExtractor.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/5.1.PHP-Sample-Exam-Var 1/04.PHPChess.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/1.1. PHP-Syntax-Demos/02.Operators.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/5.2.PHP-Sample-Exam-Var-2/03.PINValidation.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/5.2.PHP-Sample-Exam-Var-2/04.Scrabble.php</url>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/5.2.PHP-Sample-Exam-Var-2/04.Scrabble.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/5.3.Sample-Exam-JavaScriptTask/01.DoubleRakiyaNumbers</url>
+          <line>19</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/6.PHPExam29August2014/01.DropIt.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/6.PHPExam29August2014/02.ChatLogger.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/6.PHPExam29August2014/02.ChatLogger.php</url>
+          <line>32</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/6.PHPExam29August2014/04.SoftuniTunes.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/7.PHPBasicsExam29August2014Evening/02.UppercaseWords.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/7.PHPBasicsExam29August2014Evening/04.PriceList.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/7.PHPBasicsExam29August2014Evening/04.PriceList.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/8.PHPBasicsExam31August/01.TextAbbreviator.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/8.PHPBasicsExam31August/03.TextGravity.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/8.PHPBasicsExam31August/02.SemanticHTML.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/8.PHPBasicsExam31August/SemanticHTML.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/1. PHP-Syntax-Homework/05.LazySundays.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/1.1. PHP-Syntax-Demos/01.Variables.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/4.PHP-Arrays-String-Objects-Homework/06.URLReplacer.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/5.1.PHP-Sample-Exam-Var 1/01.PrettyTextHasher.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/9.PHPExam05092014/03.FacebookPosts.php</url>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/9.PHPExam05092014/02.ErrorLogger.php</url>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="312" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2.1 Working-with-Forms-in-PHP-Demos/1.4. Post-Table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.9230769" vertical-offset="102" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.1 Working-with-Forms-in-PHP-Demos/3. QueryStrings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.1 Working-with-Forms-in-PHP-Demos/4. Checkboxes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="36" selection-start="957" selection-end="957" vertical-scroll-proportion="-2.8846154" vertical-offset="384" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.1 Working-with-Forms-in-PHP-Demos/5. HiddenFields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="352" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.1 Working-with-Forms-in-PHP-Demos/6. SubmittingArrays-Multiple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.8846154" vertical-offset="153" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.1 Working-with-Forms-in-PHP-Demos/7. AddRemoveInputTextDynamically.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4697406" vertical-offset="510" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. PHP-Flow-Control-Homework/01.SquareRootSum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="11.769231" vertical-offset="306" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. PHP-Flow-Control-Homework/02.CarRandomizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.730769" vertical-offset="357" max-vertical-offset="969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. PHP-Flow-Control-Homework/03.AnnualExpenses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="29.423077" vertical-offset="765" max-vertical-offset="1156" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. PHP-Flow-Control-Homework/04.PrimesInRange.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.8461537" vertical-offset="204" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. PHP-Flow-Control-Homework/05.SumOfDigits.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="25.5" vertical-offset="663" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3. PHP-Flow-Control-Homework/06.StringModifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.54755044" vertical-offset="252" max-vertical-offset="850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1 PHP-Flow-Control-Demos/05_Functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1 PHP-Flow-Control-Demos/06_FunctionReturnValue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1 PHP-Flow-Control-Demos/07_AnonymousFunctions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1 PHP-Flow-Control-Demos/08_ExitDie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1 PHP-Flow-Control-Demos/09_VariableScope.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1 PHP-Flow-Control-Demos/10_IncludeRequire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="373" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1 PHP-Flow-Control-Demos/11_ExceptionHandling.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.PHP-Arrays-String-Objects-Homework/01.WordMapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="19" selection-start="943" selection-end="943" vertical-scroll-proportion="-10.461538" vertical-offset="357" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.PHP-Arrays-String-Objects-Homework/03.SidebarBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.807693" vertical-offset="333" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.PHP-Arrays-String-Objects-Homework/04.TextFilter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.PHP-Arrays-String-Objects-Homework/05.SentenceExtractor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="555" selection-end="576" vertical-scroll-proportion="-3.9230769" vertical-offset="204" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.PHP-Arrays-String-Objects-Homework/06.URLReplacer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="7" selection-start="531" selection-end="531" vertical-scroll-proportion="0.5910653" vertical-offset="168" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.1.PHP-Sample-Exam-Var 1/01.PrettyTextHasher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="127" selection-end="127" vertical-scroll-proportion="0.08732877" vertical-offset="0" max-vertical-offset="584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.1.PHP-Sample-Exam-Var 1/04.PHPChess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="60" selection-start="208" selection-end="222" vertical-scroll-proportion="-0.16438356" vertical-offset="232" max-vertical-offset="816">
+          <folding>
+            <element signature="n#isValidChessBoard#0;n#!!top" expanded="false" />
+            <element signature="n#isEmptyOrPiece#0;n#!!top" expanded="false" />
+            <element signature="e#1533#2004#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.1.PHP-Sample-Exam-Var 1/03.WorkingDays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.1.PHP-Sample-Exam-Var 1/02.EmailCensorship.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.PHPBasicsExam29August2014Evening/02.UppercaseWords.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="116" selection-end="135" vertical-scroll-proportion="0.08732877" vertical-offset="0" max-vertical-offset="584">
+          <folding>
+            <element signature="n#isUpperCase#0;n#!!top" expanded="false" />
+            <element signature="n#getPalindrome#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.PHPBasicsExam29August2014Evening/03.LargestRectangle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="83" selection-start="622" selection-end="680" vertical-scroll-proportion="0.43664384" vertical-offset="0" max-vertical-offset="1309" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.PHPBasicsExam29August2014Evening/01.EmailEncryptor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="597" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.PHPBasicsExam29August2014Evening/04.PriceList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="49" selection-start="395" selection-end="395" vertical-scroll-proportion="0.27226028" vertical-offset="45" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.PHPBasicsExam31August/SemanticHTML.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.PHPBasicsExam31August/TextGravity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="38" selection-start="527" selection-end="527" vertical-scroll-proportion="0.44720498" vertical-offset="0" max-vertical-offset="1176" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.PHP-Arrays-String-Objects-Homework/02.TextColorer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="9" selection-start="585" selection-end="844" vertical-scroll-proportion="0.8178694" vertical-offset="306" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.PHPExam05092014/RainbowLetters.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="32" selection-start="758" selection-end="761" vertical-scroll-proportion="1.4226804" vertical-offset="11" max-vertical-offset="595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.PHPExam05092014/FacebookPosts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="411" selection-end="411" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="476" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.PHPBasicsExam31August/01.TextAbbreviator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="92" selection-end="92" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.PHPBasicsExam31August/02.SemanticHTML.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.8846154" vertical-offset="153" max-vertical-offset="1054">
+          <folding>
+            <element signature="n#isOldTagsEnd#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.PHPExam29August2014/01.DropIt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.PHPExam29August2014/03. Article Parser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="36" selection-start="115" selection-end="126" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="442" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.PHPExam29August2014/04.SoftuniTunes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="525" selection-end="525" vertical-scroll-proportion="0.06849315" vertical-offset="215" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.PHPBasicsExam31August/03.TextGravity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="67" selection-start="352" selection-end="352" vertical-scroll-proportion="0.02910959" vertical-offset="119" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.PHPBasicsExam31August/04.SoftUni-Students.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="67" selection-start="931" selection-end="931" vertical-scroll-proportion="0.7568493" vertical-offset="0" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.PHPExam05092014/ComputerShop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="40" selection-start="1384" selection-end="1390" vertical-scroll-proportion="0.5496575" vertical-offset="172" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.PHPExam29August2014/02.ChatLogger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="1" selection-start="695" selection-end="695" vertical-scroll-proportion="-0.78633976" vertical-offset="738" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.PHPExam05092014/ErrorLogger.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="51" selection-start="1010" selection-end="1540" vertical-scroll-proportion="-16.923077" vertical-offset="325" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.PHPExam05092014/03.FacebookPosts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="42" selection-start="8" selection-end="48" vertical-scroll-proportion="24.846153" vertical-offset="663" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.PHPExam05092014/04.ComputerShop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="68" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.PHPExam05092014/01.RainbowLetters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="-0.56198347" vertical-offset="306" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.PHPExam05092014/02.ErrorLogger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="19" selection-start="562" selection-end="562" vertical-scroll-proportion="0.6721763" vertical-offset="28" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -1,0 +1,10 @@
+{
+  "name": "_01.PricesTrends",
+  "version": "0.0.0",
+  "description": "01.PricesTrends",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "_11.Digit_as_Word",
+  "version": "0.0.0",
+  "description": "11.Digit as Word",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}
