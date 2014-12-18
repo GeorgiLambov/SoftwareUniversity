@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AcademyRPG.Engine" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAIARAAAAACAAgCFAAgAABIgAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcademyRPG.WorldObject">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAA0AAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorldObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Position" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AcademyRPG.MovingObject">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>MovingObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcademyRPG.StaticObject">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaticObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcademyRPG.Tree">
+    <Position X="11" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAQAAgAAAAAA=</HashCode>
+      <FileName>Tree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AcademyRPG.Character">
+    <Position X="7.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Character.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AcademyRPG.Lumberjack">
+    <Position X="6.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lumberjack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AcademyRPG.Guard">
+    <Position X="8.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAACAAQAAAAA=</HashCode>
+      <FileName>Guard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.248" />
+  </Class>
+  <Struct Name="AcademyRPG.Point">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAEAAAAAAAAAAAAAIAAAAAAAAAAYiA=</HashCode>
+      <FileName>Point.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="AcademyRPG.IControllable">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IControllable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AcademyRPG.IFighter">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAACAAQAAAAA=</HashCode>
+      <FileName>IFighter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AcademyRPG.IResource">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAA=</HashCode>
+      <FileName>IResource.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="AcademyRPG.IGatherer">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGatherer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AcademyRPG.IWorldObject">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAwAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IWorldObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AcademyRPG.ResourceType">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAE=</HashCode>
+      <FileName>ResourceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

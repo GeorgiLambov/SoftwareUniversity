@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Infestation.Unit">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgiCCAAAgAAAAAUAAAAAADEAAAAgAABIAAAAEABAAA=</HashCode>
+      <FileName>Unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.Dog">
+    <Position X="1.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.HoldingPen" Collapsed="true">
+    <Position X="1.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAgBAAAAAAIAAAAAAAAQgAAAAAQAAAgABAAAA=</HashCode>
+      <FileName>HoldingPen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.Human">
+    <Position X="8.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Human.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.InfestationRequirements" Collapsed="true">
+    <Position X="15.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>InfestationRequirements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.SupplementBase">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACABAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupplementBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Infestation.PowerInhibitor">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PowerInhibitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.HealthInhibitor">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HealthInhibitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.AggressionInhibitor">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AggressionInhibitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.Tank">
+    <Position X="10.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAQAAAA=</HashCode>
+      <FileName>Tank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.Marine">
+    <Position X="8.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Marine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.WeaponrySkill">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WeaponrySkill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.Weapon">
+    <Position X="13" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAACAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.InfestationSpores">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfestationSpores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.InfestingUnit">
+    <Position X="5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>InfestingUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.Parasite">
+    <Position X="3.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAA=</HashCode>
+      <FileName>Parasite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.Queen">
+    <Position X="6" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Queen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.InfestationPen">
+    <Position X="1.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfestationPen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.AggressionCatalyst" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AggressionCatalyst.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.HealthCatalyst" Collapsed="true">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HealthCatalyst.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.Interaction" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAgAAAAAAEAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Interaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.PowerCatalyst" Collapsed="true">
+    <Position X="11.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PowerCatalyst.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infestation.Program" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABBAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Infestation.UnitInfo" Collapsed="true">
+    <Position X="15.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCCAAAAAAAAAAAAAAAAAAAAAAgAABAAAAAAAAAAA=</HashCode>
+      <FileName>UnitInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Infestation.ISupplement" Collapsed="true">
+    <Position X="15.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACABAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISupplement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Infestation.InteractionType" Collapsed="true">
+    <Position X="15.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InteractionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Infestation.UnitClassification" Collapsed="true">
+    <Position X="17.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAIAEAAAAABA=</HashCode>
+      <FileName>UnitClassification.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5DC18CD8-FF65-43DD-8CBD-A6DABB32BF01}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RestaurantManager</RootNamespace>
+    <AssemblyName>RestaurantManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Engine\Command.cs" />
+    <Compile Include="Engine\ConsoleInterface.cs" />
+    <Compile Include="Engine\EngineConstants.cs" />
+    <Compile Include="Engine\Factories\RecipeFactory.cs" />
+    <Compile Include="Models\Dessert.cs" />
+    <Compile Include="Models\Drink.cs" />
+    <Compile Include="Models\MainCourse.cs" />
+    <Compile Include="Models\Meal.cs" />
+    <Compile Include="Models\Recipe.cs" />
+    <Compile Include="Models\Restaurant.cs" />
+    <Compile Include="Engine\Factories\RestaurantFactory.cs" />
+    <Compile Include="Engine\RestaurantManagerEngine.cs" />
+    <Compile Include="Interfaces\Engine\ICommand.cs" />
+    <Compile Include="Interfaces\Engine\IRecipeFactory.cs" />
+    <Compile Include="Interfaces\Engine\IRestaurantFactory.cs" />
+    <Compile Include="Interfaces\Engine\IRestaurantManagerEngine.cs" />
+    <Compile Include="Interfaces\Engine\IUserInterface.cs" />
+    <Compile Include="Interfaces\IDessert.cs" />
+    <Compile Include="Interfaces\IDrink.cs" />
+    <Compile Include="Interfaces\IMainCourse.cs" />
+    <Compile Include="Interfaces\IMeal.cs" />
+    <Compile Include="Interfaces\IRecipe.cs" />
+    <Compile Include="Interfaces\IRestaurant.cs" />
+    <Compile Include="Interfaces\ISalad.cs" />
+    <Compile Include="Models\MainCourseType.cs" />
+    <Compile Include="Models\MetricUnit.cs" />
+    <Compile Include="Models\Salad.cs" />
+    <Compile Include="RestaurantManagerProgram.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ResturantClassDiagram.cd" />
+    <None Include="Interfaces\ClassDiagramInterfaces.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

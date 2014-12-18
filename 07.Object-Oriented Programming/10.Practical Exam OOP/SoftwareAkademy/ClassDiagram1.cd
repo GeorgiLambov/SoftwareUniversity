@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SoftwareAcademy.Teacher" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABAQAAAAEAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>SoftwareAcademy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftwareAcademy.Course" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEABAAAAAAAAAAEAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftwareAcademy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SoftwareAcademy.LocalCourse" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftwareAcademy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SoftwareAcademy.OffsiteCourse" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAIEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftwareAcademy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SoftwareAcademy.CourseFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftwareAcademy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftwareAcademy.SoftwareAcademyCommandExecutor" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAIAAAAAABAAAAAA=</HashCode>
+      <FileName>SoftwareAcademy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SoftwareAcademy.ITeacher" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftwareAcademy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoftwareAcademy.ICourse" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftwareAcademy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoftwareAcademy.ILocalCourse">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftwareAcademy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoftwareAcademy.IOffsiteCourse">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftwareAcademy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoftwareAcademy.ICourseFactory" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftwareAcademy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
