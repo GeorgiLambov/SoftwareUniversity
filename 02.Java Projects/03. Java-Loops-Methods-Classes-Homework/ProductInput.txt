@@ -1,4 +1,0 @@
-juice 2.50
-water 1.20
-vodka 18.70
-beer 1.12
