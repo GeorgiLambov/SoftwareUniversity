@@ -1,0 +1,4 @@
+1.12 beer
+1.2 water
+2.5 juice
+18.7 vodka
