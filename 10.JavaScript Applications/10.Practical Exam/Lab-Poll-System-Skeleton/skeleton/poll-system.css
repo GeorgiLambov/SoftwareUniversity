@@ -1,0 +1,135 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica;
+    background: url("background.png") repeat;
+}
+
+header, footer, main, #questions li, #results {
+    text-align: center;
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+    margin: 10px;
+    padding: 5px;
+    background-color: #4F81BD;
+    border: 3px solid #385D8A;
+    border-radius: 8px;
+}
+
+header, footer, main {
+    min-width: 320px;
+}
+
+header {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 11pt;
+}
+
+main {
+    background-color: #DCE6F2;
+    color: black;
+    text-align: left;
+    text-shadow: 0.5px 0.5px white;
+}
+
+#questions {
+    display: none;
+}
+
+#questions li {
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+    width: 200px;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#questions li form {
+    margin: 10px 10px 5px 10px;
+    display: block;
+}
+
+#questions li input[type='radio'] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    height: 25px;
+}
+
+#questions li label {
+    vertical-align: middle;
+}
+
+#results {
+    display: none;
+    margin: 20px auto;
+    width: 90%;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#results>div {
+    font-size: 16pt;
+}
+
+#results ul {
+    padding: 0px;
+}
+
+#results li {
+    list-style-type: none;
+    display: block;
+    box-sizing: border-box;
+    margin: 18px 10px 0px 10px;
+}
+
+#results li:first-child {
+    padding-top: 3px;
+}
+
+#results li .percents {
+    box-sizing: border-box;
+    background-color: #77933C;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px black;
+    text-align: center;
+    padding: 4px;
+    margin: 5px 0px 0px 0px;
+    min-width: 35px;
+    max-width: 100%;
+}
+
+button {
+    display: block;
+    margin: 15px auto;
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    background-color: #9BBB59;
+    text-shadow: 0.5px 0.5px black;
+    border: 3px solid white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    background-color: #7f9a4d;
+    cursor: pointer;
+}
+
+#backButton {
+    width: 200px;
+    height: 60px;
+}
+
+#voteButton {
+    width: 170px;
+    height: 35px;
+}

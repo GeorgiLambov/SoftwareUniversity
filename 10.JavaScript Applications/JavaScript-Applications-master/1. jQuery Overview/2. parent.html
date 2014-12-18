@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>jQuery: parent() Demo</title>
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="inner-wrapper">
+      <ul id="items-list">
+        <li>BMW</li>
+        <li>Audi</li>
+        <li class="special">Mercedes-Benz</li>
+        <li>Porsche</li>
+        <li>Aston Martin</li>
+      </ul>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var specialItem = $(".special").first();	
+    console.log("Special item's parent: " + specialItem.parent().attr("id"));
+    console.log("Special item's parents: " );
+    console.dir(specialItem.parents("div"));
+    console.log("parents with selector '#wrapper': " + specialItem.parents("#wrapper").attr("id"));
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>jQuery: children() Demo</title>
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+	<div id="inner-wrapper">
+	  <ul id="items-list">
+		<li>BMW</li>
+		<li>Audi</li>
+		<li class="special">Mercedes-Benz</li>
+		<li>Porsche</li>
+		<li>Aston Martin</li>
+	  </ul>
+	</div>
+  </div>
+  
+  <script type="text/javascript">
+	var itemsList = $('#items-list');
+	var children = itemsList.children();
+	console.log(children);
+	var notSpecialChildren = itemsList.children('li:not(".special")');
+	console.log(notSpecialChildren);
+  </script>
+</body>
+</html>

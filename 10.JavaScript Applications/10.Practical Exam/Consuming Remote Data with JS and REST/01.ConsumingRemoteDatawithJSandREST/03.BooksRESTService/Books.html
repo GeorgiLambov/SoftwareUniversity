@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Books REST Service</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <h2>Books</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tittle</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="all-books"></tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <input id="title" type="text" placeholder="Title" />
+                    </td>
+                    <td>
+                        <input id="author" type="text" placeholder="Author" />
+                    </td>
+                    <td>
+                        <input id="isbn" type="text" placeholder="ISBN" />
+                    </td>
+                    <td>
+                        <button id="add-book">New Book</button>
+                        <button id="edit-book" style="display: none">Edit</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="../libs/jquery-2.1.1.js"></script>
+    <script src="books-list-view.js"></script>
+    <script src="books-ajax-requester.js"></script>
+    <script src="books-data-persister.js"></script>
+    <script src="books-controller.js"></script>
+    <script src="books-main.js"></script>
+</body>
+</html>

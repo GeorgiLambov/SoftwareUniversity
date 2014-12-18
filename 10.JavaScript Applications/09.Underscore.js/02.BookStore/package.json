@@ -1,0 +1,10 @@
+{
+  "name": "_02.BookStore",
+  "version": "0.0.0",
+  "description": "02.BookStore",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

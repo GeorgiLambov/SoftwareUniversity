@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create a module for drawing shapes using Canvas-->
+    <title>Drawing Module</title>
+    <script src="scripts/drawing-shapes-module.js"></script>
+    <link href="style/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="controls">
+        <input class="reqInput" type="number" placeholder="X1" id="1" /><strong>*req</strong>
+        <input class="reqInput" type="number" placeholder="Y1" id="2" /><strong>*req</strong>
+        <input class="reqInput" type="number" placeholder="X2" id="3" /><strong>*req</strong>
+        <input class="reqInput" type="number" placeholder="Y2" id="4" /><strong>*req</strong>
+        <br />
+        <input class="optInput" type="number" id="lineWidth" /><strong>*Optional Line Width</strong>
+        <input class="optInput" type="color" id="strokeColor" /><strong>*Optional Stroke Color</strong>
+        <input class="optInput" type="color" id="fillColor" value="#ff00ff" disabled="disabled" /><strong>*Optional Fill Color</strong>
+        <br />
+        <button id="btnLine">DRAW</button>
+        <div>
+            <label for="line">Draw Line</label>
+            <input type="radio" id="line" name="shapeChooser" checked="checked" />
+            <label for="rect">Draw Rect</label>
+            <input type="radio" id="rect" name="shapeChooser" />
+            <label for="circle">Draw Circle</label>
+            <input type="radio" id="circle" name="shapeChooser" />
+        </div>
+    </div>
+
+    <canvas id="the-canvas" width="1000" height="400"></canvas>
+
+    <script src="scripts/controls-generator.js"></script>
+</body>
+</html>

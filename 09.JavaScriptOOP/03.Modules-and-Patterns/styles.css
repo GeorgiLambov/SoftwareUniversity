@@ -1,0 +1,54 @@
+body, section, article, div, h1, h3, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+section {
+    width: 50%;
+    margin: 20px auto;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+section h1 {
+    text-align: center;
+}
+
+section .sections {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.sections article {
+    text-align: right;
+}
+
+.sections article .sectionList {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.sectionList ul {
+    text-align: left;
+}
+
+.sectionList ul li label {
+    display: inline-block;
+    width: 90%;
+    border-bottom: 1px solid gray;
+}
+
+.sectionList ul li:last-child label {
+    border: none;
+}
+
+li.notFinished {
+    background-color: none;
+}
+
+li.finished {
+    background-color: forestgreen;
+}

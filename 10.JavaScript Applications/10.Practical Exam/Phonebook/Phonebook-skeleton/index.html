@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Phonebook</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header id="header">Phonebook<span></span></header>
+
+	<!-- Left sidebar menu -->
+	<ul id="menu">
+		<li><a href="#" class="link">Home</a></li>
+		<li><a href="#" class="link">Phonebook</a></li>
+		<li><a href="#" class="link">Add Phone</a></li>
+		<li><a href="#" class="link">Edit Profile</a></li>
+		<li><a href="#" class="link">Logout</a></li>
+	</ul>
+	
+	<!-- Main screen placeholder -->
+	<main id="wrapper"></main>
+	
+	
+	<!-- Welcome screen -->
+	<div class="dialog-box">
+		<h1>Welcome</h1>
+		<a href="#" class="button">Login</a>
+		<a href="#" class="button">Register</a>
+	</div>
+	
+	<br/>
+
+	<!-- Registration screen -->
+	<div id="register-form" class="dialog-box">
+		<h1>Register</h1>
+		<p>
+			<label for="username">Username:</label>
+			<input type="text" id="username" />
+		</p>
+		<p>
+			<label for="password">Password:</label>
+			<input type="password" id="password" />
+		</p>
+		<p>
+			<label for="fullName">Full Name:</label>
+			<input type="text" id="fullName" />
+		</p>
+		<p class="buttons">
+			<a href="#" class="button">Register</a>
+			<a href="#" class="link">Login</a>
+		</p>
+	</div>
+
+	<br/>
+
+	<!-- Login screen -->
+	<div id="login-form" class="dialog-box">
+		<h1>Login</h1>
+		<p>
+			<label for="username">Username:</label>
+			<input type="text" id="username" />
+		</p>
+		<p>
+			<label for="password">Password:</label>
+			<input type="password" id="password" />
+		</p>
+		<p class="buttons">
+			<a href="#" class="button">Login</a>
+			<a href="#" class="link">Register</a>
+		<p>
+	</div>
+
+	<br/>
+	
+	<!-- User home screen -->
+	<div class="dialog-box">
+		<h1>Welcome, FirstName LastName (username)</h1>
+		<p>Please use the navigation menu on the left.</p>
+	</div>
+
+	<br/>
+	
+	<!-- Phonebook screen -->
+	<table id="phones">
+		<tr>
+			<th>Name</th>
+			<th>Phone</th>
+			<th>Action</th>
+		</tr>
+		<tr>
+			<td>Bay Ivan</td>
+			<td>+359 895 55 55 55</td>
+			<td>
+				<a href="#" class="link">Edit</a>
+				<a href="#" class="link">Delete</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Kiro Kirov</td>
+			<td>+359 999 22 33</td>
+			<td>
+				<a href="#" class="link">Edit</a>
+				<a href="#" class="link">Delete</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Peter Norton</td>
+			<td>+1 855 344 567</td>
+			<td>
+				<a href="#" class="link">Edit</a>
+				<a href="#" class="link">Delete</a>
+			</td>
+		</tr>
+	</table>
+	<p><a href="#" class="button">Add Phone</a></p>
+
+	<br/>
+	
+	<!-- Add phone screen -->
+	<div id="add-phone-form" class="dialog-box">
+		<h1>Add Phone</h1>
+		<p>
+			<label for="personName">Name:</label>
+			<input type="text" id="personName">
+		</p>
+		<p>
+			<label for="phoneNumber">Number:</label>
+			<input type="text" id="phoneNumber">
+		</p>
+		<p class="buttons">
+			<a href="#" class="button">Add</a>
+			<a href="#" class="button">Cancel</a>
+		</p>
+	</div>
+	
+	<br/>
+	
+	<!-- Edit phone screen -->
+	<div id="edit-phone-form" class="dialog-box">
+		<h1>Edit Phone</h1>
+		<p>
+			<label for="personName">Name:</label>
+			<input type="text" id="personName" value="Peter Norton">
+		</p>
+		<p>
+			<label for="phoneNumber">Number:</label>
+			<input type="text" id="phoneNumber" value="+1 855 344 567">
+		</p>
+		<p class="buttons">
+			<a href="#" class="button">Edit</a>
+			<a href="#" class="button">Cancel</a>
+		</p>
+	</div>
+	
+	<br/>
+	
+	<!-- Delete phone screen -->
+	<div id="delete-phone-form" class="dialog-box">
+		<h1>Confirm Delete Phone?</h1>
+		<p>
+			<label for="personName">Name:</label>
+			<input type="text" id="personName" value="Peter Norton" disabled="disabled">
+		</p>
+		<p>
+			<label for="phoneNumber">Number:</label>
+			<input type="text" id="phoneNumber" value="+1 855 344 567" disabled="disabled">
+		</p>
+		<p class="buttons">
+			<a href="#" class="button">Delete</a>
+			<a href="#" class="button">Cancel</a>
+		</p>
+	</div>
+	
+	<br/>
+	
+	<!-- Edit user profile screen -->
+	<div id="edit-profile-form" class="dialog-box">
+		<h1>Edit Profile</h1>
+		<p>
+			<label for="username">Username:</label>
+			<input type="text" id="username" value="nakov">
+		</p>
+		<p>
+			<label for="password">Password:</label>
+			<input type="password" id="password">
+		</p>
+		<p>
+			<label for="fullName">Full Name:</label>
+			<input type="text" id="fullName" value="Svetlin Nakov">
+		</p>
+		<p class="buttons">
+			<a href="#" class="button">Edit</a>
+			<a href="#" class="button">Cancel</a>
+		</p>
+	</div>
+	
+	<footer id="footer">&copy; 2014 by Software University Foundation, No Rights Reserved</footer>
+</body>
+
+</html>

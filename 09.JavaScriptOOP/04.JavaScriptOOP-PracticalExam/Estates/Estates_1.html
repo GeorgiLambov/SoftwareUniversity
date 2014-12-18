@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Estates</title>
+    <meta charset="utf-8" />
+	<style>
+        body {
+            font-family: Arial;
+        }
+		textarea {
+            font-family: Consolas, Monospaced;
+            font-size: 12pt;
+			height: 600px;
+		}
+            textarea#input {
+                width: 470px;
+            }
+            textarea#output {
+                width: 600px;
+            }
+		div {
+			display: inline-block;
+			vertical-align: top;
+		}
+		button {
+			width: 100px;
+			height: 60px;
+			margin: 250px 10px 10px 10px;
+		}
+	</style>
+	<script src="Estates.js"></script>
+	<script>
+		function processCommands() {
+			var commands = document.getElementById('input').value;
+			var commandsArr = commands.split('\n');
+			var output = processEstatesAgencyCommands(commandsArr);
+			document.getElementById('output').value = output;
+		}
+	</script>
+</head>
+
+<body>
+    <div>
+        Input commands: <br />
+        <textarea id="input">create Apartment aptLozenec24 150 Sofia true 4 true
+create Apartment aptBotev28 54 Sofia true 2 false
+
+create Apartment invalidApartment invalid_number true 5 true
+create Apartment invalidApartment2 120 true 5
+create Apartment invalidApartment3 invalid_number true 5 invalid
+create Apartment invalidApartment2 120.5 true 5
+create Hotel myHotel 150 true 20 true
+
+status
+
+create Office officeVitosha44 70 Sofia true 1 false
+create Office officePlovdiv 44 Plovdiv false 1 true
+create House houseBankya 206 Bankya true 3
+create House houseSofia 120 Sofia true 1
+create Garage garageLozenec 18 Sofia false 3 6
+
+create RentOffer aptLozenec24 750
+create SaleOffer aptLozenec24 195000
+create RentOffer aptLozenec24 720
+create SaleOffer officeVitosha44 96000
+create RentOffer officeVitosha44 720
+create RentOffer officePlovdiv 450
+create SaleOffer houseBankya 320000
+create RentOffer houseBankya 950
+create RentOffer garageLozenec 100
+create RentOffer garageLozenec 120
+create SaleOffer garageLozenec 12000
+create SaleOffer garageLozenec 11000
+create RentOffer garageLozenec 720
+
+create RentOffer invalid
+create SaleOffer negative_price -5000
+
+status
+
+find-sales-by-location Sofia
+find-rents-by-location Sofia
+find-rents-by-price 700 1000
+find-rents-by-price 0 99
+
+invalid command
+find-sales-by-location
+find-rents-by-price 0
+</textarea>
+    </div>
+    <div>
+        <button onclick="processCommands()">Process Commands</button>
+    </div>
+    <div>
+        Output: <br />
+        <textarea id="output"></textarea>
+    </div>
+</body>
+
+</html>

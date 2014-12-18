@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>jQuery: Selectors Demo</title>
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>  
+  <section class="widget">
+    <h2>Cars</h2>
+    <ul>
+      <li>
+        <a href="#" id="first" data-class="fast">BMW</a>
+      </li>
+      <li>
+        <a href="#" class="selected-item" data-class="family">Audi</a>
+      </li>
+      <li>
+        <a href="#" data-class="family">Mercedes-Benz</a>
+      </li>
+      <li>
+        <a href="#" data-class="sport">Porsche</a>
+      </li>
+      <li>
+        <a href="#" data-class="luxury">Aston Martin</a>
+      </li>
+      <li>
+        <a href="#" data-class="fast">Trabant</a>
+      </li>
+    </ul>
+  </section>
+  
+  <script type="text/javascript">
+    function logItems($items){
+      for (var i = 0; i < $items.length; i++) {
+        console.log('-' + $items[i].innerHTML);
+      }
+    }
+
+    var $tagItems = $("ul li a");
+    console.log('Elements with selector: "ul li a":');
+    logItems($tagItems);
+
+    var $classItems = $('.selected-item a');
+    console.log('Elements with selector: ".selected-item":');
+    logItems($classItems);
+    
+    var $idItems = $('#first a, .selected-item a');
+    console.log('Elements with selector: "#first, .selected-item":');
+    logItems($idItems);
+
+    var $oddItems = $('li:even a');
+    console.log('Elements with selector: "li:even":');
+    logItems($oddItems);
+
+    var $itemsContainedY = $('a[data-class*="y"]');
+    console.log('Elements with selector: "a[data-class*="y"]":');
+    logItems($itemsContainedY);
+
+    var $itemsStartedWithFa = $('a[data-class^="fa"]');
+    console.log('Elements with selector: "a[data-class^="fa"]":');
+    logItems($itemsStartedWithFa);
+  </script>
+</body>
+</html>

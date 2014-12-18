@@ -1,0 +1,42 @@
+﻿<!-- Products list -->
+<section>
+    <aside class="filters">
+        <h3>Filter</h3>
+        <input id="search-bar" class="search-bar" type="text" placeholder="Keyword.." />
+        <label>Price:</label>
+        <input id="min-price" class="input-num" type="number" />
+        <span>-</span>
+        <input id="max-price" class="input-num" type="number" />
+        <label>Category:</label>
+        <input id="category" class="input-num" type="text" />
+        <button id="filter" class="filter-button">Filter</button>
+        <p class="clear-filters" id="clear-filters">Clear filters</p>
+    </aside>
+    <div class="products">
+        <ul>
+            {{#results}}
+            <li class="product" data-id="{{objectId}}">
+                <div class="product-info">
+                    <p class="item-name">{{name}}</p>
+                    <p class="category">
+                        <span class="pre">Category:</span><span>{{category}}</span>
+                    </p>
+                    <p class="price">
+                        <span class="pre">Price:</span> {{price}}
+                    </p>
+                </div>
+                {{#showButtons}}
+                <footer class="product-footer">
+                    <a href="#">
+                        <button class="edit-button">Edit</button>
+                    </a>
+                    <a href="#">
+                        <button class="delete-button">Delete</button>
+                    </a>
+                </footer>
+                {{/showButtons}}
+            </li>
+            {{/results}}
+        </ul>
+    </div>
+</section>

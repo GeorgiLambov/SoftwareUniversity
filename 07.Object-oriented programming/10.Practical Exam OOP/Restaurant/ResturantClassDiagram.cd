@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RestaurantManager.Engine.Command" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAEAAAAIAAAAQIgAAEAAAAAIAAAACAAAA=</HashCode>
+      <FileName>Engine\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RestaurantManager.Engine.ConsoleInterface" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\ConsoleInterface.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RestaurantManager.Engine.EngineConstants" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIEAABQAAABAAAAgAAMAAAABAAAGgAAAABMEA=</HashCode>
+      <FileName>Engine\EngineConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RestaurantManager.Engine.RestaurantManagerEngine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAgICAQAAAgAIAAAAACAABgKAgARAAgAAQAgAA=</HashCode>
+      <FileName>Engine\RestaurantManagerEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RestaurantManager.Engine.Factories.RecipeFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAIAAAAAAAAAAIAgAAAAAAAAACAA=</HashCode>
+      <FileName>Engine\Factories\RecipeFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RestaurantManager.Engine.Factories.RestaurantFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Factories\RestaurantFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RestaurantManager.Models.Dessert" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAACAAAAIAAAACAAAAAAAAA=</HashCode>
+      <FileName>Models\Dessert.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RestaurantManager.Models.Drink" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Drink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RestaurantManager.Models.MainCourse" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\MainCourse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RestaurantManager.Models.Meal" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\Meal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RestaurantManager.Models.Recipe" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAABAAAAAQEgAAAEIAAAAEQAAAUEAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Models\Recipe.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RestaurantManager.Models.Restaurant" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAIEIAQCAKAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Restaurant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RestaurantManager.Models.Salad" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgEAABIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Salad.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RestaurantManager.RestaurantManagementProgram" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>RestaurantManagerProgram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="RestaurantManager.Interfaces.Engine.ICommand" Collapsed="true">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Engine\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RestaurantManager.Interfaces.Engine.IRecipeFactory" Collapsed="true">
+    <Position X="11.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAIAAAAAAAAAAIAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Engine\IRecipeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RestaurantManager.Interfaces.Engine.IRestaurantFactory" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Engine\IRestaurantFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RestaurantManager.Interfaces.Engine.IRestaurantManagerEngine" Collapsed="true">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Engine\IRestaurantManagerEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RestaurantManager.Interfaces.Engine.IUserInterface" Collapsed="true">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Engine\IUserInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RestaurantManager.Interfaces.IDessert" Collapsed="true">
+    <Position X="5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDessert.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RestaurantManager.Interfaces.IDrink" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDrink.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RestaurantManager.Interfaces.IMainCourse" Collapsed="true">
+    <Position X="2.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMainCourse.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RestaurantManager.Interfaces.IMeal" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Interfaces\IMeal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RestaurantManager.Interfaces.IRecipe" Collapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAQEAAAAAIAAAAAQAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRecipe.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RestaurantManager.Interfaces.IRestaurant" Collapsed="true">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIEIAQAAKAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRestaurant.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RestaurantManager.Interfaces.ISalad" Collapsed="true">
+    <Position X="7.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ISalad.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="RestaurantManager.Models.MainCourseType" Collapsed="true">
+    <Position X="9.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAgAABAAAABQAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\MainCourseType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RestaurantManager.Models.MetricUnit" Collapsed="true">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\MetricUnit.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

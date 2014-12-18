@@ -1,0 +1,46 @@
+﻿<h2>Books</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Tittle</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="all-books">
+        {{#results}}
+        <tr data-id="{{objectId}}">
+            <td class="title">{{title}}</td>
+            <td class="author">{{author}}</td>
+            <td class="isbn">{{isbn}}</td>
+            <td>
+                <button class="delete-book-btn">DELL</button>
+                <button class="book-edit-btn">Edit</button>
+            </td>
+        </tr>
+        {{/results}}
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>
+                <input id="title" type="text" placeholder="Title" />
+            </td>
+            <td>
+                <input id="author" type="text" placeholder="Author" />
+            </td>
+            <td>
+                <input id="isbn" type="text" placeholder="ISBN" />
+            </td>
+            <td>
+                <button id="add-book">New Book</button>
+                <button id="edit-book" style="display: none">Edit</button>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+
+
+
+

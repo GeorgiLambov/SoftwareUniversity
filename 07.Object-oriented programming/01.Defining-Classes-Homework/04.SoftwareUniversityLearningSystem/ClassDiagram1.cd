@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SoftUniLearningSystem.Data.CurrentStudent" Collapsed="true">
+    <Position X="1.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACAAAAAgAAAA=</HashCode>
+      <FileName>SoftUniLearningSystem.Data\CurrentStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftUniLearningSystem.Data.DropoutStudent" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>SoftUniLearningSystem.Data\DropoutStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftUniLearningSystem.Data.GradulateStudent" Collapsed="true">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftUniLearningSystem.Data\GradulateStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftUniLearningSystem.Data.JuniorTrainer" Collapsed="true">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftUniLearningSystem.Data\JuniorTrainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftUniLearningSystem.Data.OnlineStudent" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftUniLearningSystem.Data\OnlineStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftUniLearningSystem.Data.OnsiteStudent" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftUniLearningSystem.Data\OnsiteStudent .cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftUniLearningSystem.Data.Person" Collapsed="true">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAABAEAAAQAAAEAAAABAAAAAAAAAAAAgA=</HashCode>
+      <FileName>SoftUniLearningSystem.Data\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftUniLearningSystem.Data.SeniorTrainer" Collapsed="true">
+    <Position X="10.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>SoftUniLearningSystem.Data\SeniorTrainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftUniLearningSystem.Data.Student" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAACAAAAggAAAIA=</HashCode>
+      <FileName>SoftUniLearningSystem.Data\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftUniLearningSystem.Data.Trainer" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftUniLearningSystem.Data\Trainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftwareUniversityLearningSystem.TestSiftUniLearningSystem" Collapsed="true">
+    <Position X="14.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>TestSiftUniLearningSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

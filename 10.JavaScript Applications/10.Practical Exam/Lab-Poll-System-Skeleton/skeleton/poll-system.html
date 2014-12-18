@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Poll System</title>
+  <link rel="stylesheet" href="poll-system.css" />
+</head>
+
+<body>
+	<header>Poll System &ndash; Questions</header>
+
+	<main>
+		<ul id="questions">
+			<li>
+				<div>Question #1</div>
+				<form>
+					<input type="radio" name="answer" id="answer1" value="">
+					<label for="answer1">First answer</label>
+					<br>
+					<input type="radio" name="answer" id="answer2" value="">
+					<label for="answer2">Second answer</label>
+					<br>
+				</form>
+				<button id="voteButton">Vote</button>
+			</li>
+		</ul>
+
+		<div id="results">
+			<div>Question</div>
+			<ul>
+				<li>
+					<div class="answer">Answer #1</div>
+					<div class="percents" style="width:60%">60</div>
+				</li>
+				<li>
+					<div class="answer">Answer #2</div>
+					<div class="percents" style="width:10%">10</div>
+				</li>
+				<li>
+					<div class="answer">Answer #3</div>
+					<div class="percents" style="width:30%">30</div>
+				</li>
+			</ul>
+			<button id="backButton">&#8701; Back to Polls</button>
+		</div>
+	</main>
+
+	<footer>&copy; JS Apps Lab &ndash; No Rights Reserved</footer>
+	
+	<script src="scripts/libs/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="scripts/ajax-requester.js"></script>
+	<script type="text/javascript" src="scripts/data-persister.js"></script>
+	<script type="text/javascript" src="scripts/controller.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>

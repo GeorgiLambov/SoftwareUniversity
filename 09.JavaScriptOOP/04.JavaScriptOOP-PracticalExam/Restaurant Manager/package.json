@@ -1,0 +1,10 @@
+{
+  "name": "Restaurant_Manager",
+  "version": "0.0.0",
+  "description": "Restaurant Manager",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

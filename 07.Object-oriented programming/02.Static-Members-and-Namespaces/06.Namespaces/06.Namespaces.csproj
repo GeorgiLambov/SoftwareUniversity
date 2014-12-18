@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6A1E57D9-2ED5-4646-B0A1-F11A0C0CAE9F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_06.Namespaces</RootNamespace>
+    <AssemblyName>06.Namespaces</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Geometry.Geometry2D\Circle.cs" />
+    <Compile Include="Geometry.Geometry2D\DistanceCalculator2D.cs" />
+    <Compile Include="Geometry.Geometry2D\Ellipse.cs" />
+    <Compile Include="Geometry.Geometry2D\Figure2D.cs" />
+    <Compile Include="Geometry.Geometry2D\Point2D.cs" />
+    <Compile Include="Geometry.Geometry2D\Polygon.cs" />
+    <Compile Include="Geometry.Geometry2D\Rectangle.cs" />
+    <Compile Include="Geometry.Geometry2D\Square.cs" />
+    <Compile Include="Geometry.Geometry3D\DistanceCalculator3D.cs" />
+    <Compile Include="Geometry.Geometry3D\Path3D.cs" />
+    <Compile Include="Geometry.Geometry3D\Point3D.cs" />
+    <Compile Include="Geometry.Storage\GeometryBinaryStorage.cs" />
+    <Compile Include="Geometry.Storage\GeometrySVGStorage.cs" />
+    <Compile Include="Geometry.Storage\GeometryXMLStorage.cs" />
+    <Compile Include="Geometry.UI\Screen2D.cs" />
+    <Compile Include="Geometry.UI\Screen3D.cs" />
+    <Compile Include="Namespace.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

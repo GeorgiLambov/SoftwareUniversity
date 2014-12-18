@@ -1,0 +1,10 @@
+{
+  "name": "_01.StudentsCollection",
+  "version": "0.0.0",
+  "description": "StudentsCollection",
+  "main": "StudentsCollection",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

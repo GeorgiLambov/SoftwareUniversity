@@ -1,0 +1,10 @@
+{
+  "name": "Travel_Agency_Travel_Agency",
+  "version": "0.0.0",
+  "description": "Travel Agency_Travel Agency",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Table Generator</title>
+    <script src="../libs/jquery-2.1.1.min.js"></script>
+    <script src="generateTablefunctionality.js"></script>
+    <style>
+        #table-container {
+            width: 500px;
+            margin: 50px auto;
+        }
+
+        h2 {
+            text-align: center;
+            color: #000;
+        }
+
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            border: 1px solid #000;
+        }
+
+            table th, table td {
+                border: 1px solid #000;
+                padding: 10px;
+            }
+    </style>
+</head>
+<body>
+    <div id="table-container">
+        <h2>Generate HTML table from  JSON string</h2>
+        <input type="button" id="submitButton" value="Generate Table" />
+        <br />
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Phonebook</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header id="header">Phonebook<span></span></header>
+
+	<ul id="menu">
+		<li><a href="#/" class="link">Home</a></li>
+		<li><a href="#/user/phones" class="link">Phonebook</a></li>
+		<li><a href="#/user/add-phone" class="link">Add Phone</a></li>
+		<li><a href="#/user/edit-profile" class="link">Edit Profile</a></li>
+		<li><a href="#/logout" class="link">Logout</a></li>
+	</ul>
+	
+	<main id="wrapper"></main>
+	
+	<footer id="footer">&copy; 2014 by Software University Foundation, No Rights Reserved</footer>
+
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="node_modules/shimney-sammy/main.js"></script>
+	<script type="text/javascript" src="node_modules/mustache/mustache.js"></script>
+	<script type="text/javascript" src="node_modules/noty/js/noty/packaged/jquery.noty.packaged.js"></script>
+
+	<script type="text/javascript" src="scripts/ajaxRequester.js"></script>
+	<script type="text/javascript" src="scripts/userSession.js"></script>
+	<script type="text/javascript" src="scripts/services.js"></script>
+	<script type="text/javascript" src="scripts/app.js"></script>
+</body>
+
+</html>

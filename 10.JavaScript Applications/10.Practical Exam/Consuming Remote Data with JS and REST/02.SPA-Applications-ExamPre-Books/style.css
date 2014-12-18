@@ -1,0 +1,56 @@
+﻿#wrapper {
+    width: 600px;
+    margin: 40px auto;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    color: #1e62d0;
+}
+
+h2, p {
+    text-align: center;
+    color: #1e62d0;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    padding: 0;
+}
+
+table, td, th {
+    border: 1px solid #1e62d0;
+}
+
+thead {
+    background: #1e62d0;
+    color: white;
+}
+
+tfoot > tr {
+    background: #1e62d0;
+}
+
+input {
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+
+
+button {
+    padding: 0px 10px;
+    color: #1e62d0;
+}
+
+    button:hover {
+        background-color: #E2E9F5;
+    }
+
+    button:active {
+        position: relative;
+        top: 1px;
+    }
