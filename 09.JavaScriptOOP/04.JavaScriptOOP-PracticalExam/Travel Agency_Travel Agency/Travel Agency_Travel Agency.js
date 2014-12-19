@@ -466,7 +466,7 @@
                     return travel.getPrice() <= maxPrice && travel.getPrice() >= minPrice;
                 });
                 sorted = sorted.sort(function (a, b) {
-                    // sort work withh 0, 1, -1
+                    // sort work with 0, 1, -1
                     var result = dates.compare(a.getStartDate(), b.getStartDate());
                     if (result === 0) {
                         result = a.getName().localeCompare(b.getName());
