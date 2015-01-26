@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NightlifeEntertainment.Venue" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEAAAABAAAAgIAAAQCAAAEAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Venue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NightlifeEntertainment.Cinema" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cinema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.CinemaEngine" Collapsed="true">
+    <Position X="7" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAIAAIAQAAAAACBIAAAACAAAAxAAQQAAAABABAA=</HashCode>
+      <FileName>CinemaEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.Movie" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.NightlifeEntertainmentProgram" Collapsed="true">
+    <Position X="7" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAA=</HashCode>
+      <FileName>NightlifeEntertainmentProgram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.Performance" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAABQEAIAgAACAAAAAAAQAIAAEAAAAAQAAAAAAAAE=</HashCode>
+      <FileName>Performance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NightlifeEntertainment.RegularTicket" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegularTicket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NightlifeEntertainment.Ticket" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAEAQAAAABEQAAAQABAAAAAABIAAQAQAAAAAAA=</HashCode>
+      <FileName>Ticket.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="NightlifeEntertainment.IPerformance" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAABAAAIAAAAAAAAAAAAQAIAAAAAAAAQAAAAAAAAE=</HashCode>
+      <FileName>IPerformance.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NightlifeEntertainment.ITicket" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAQAAAAAAQAAAQABAAAAAABAAAQAAAAAAAAA=</HashCode>
+      <FileName>ITicket.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NightlifeEntertainment.IVenue" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAgIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVenue.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="NightlifeEntertainment.PerformanceType" Collapsed="true">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAACAEAAABAA=</HashCode>
+      <FileName>PerformanceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NightlifeEntertainment.TicketStatus" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TicketStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NightlifeEntertainment.TicketType" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>TicketType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

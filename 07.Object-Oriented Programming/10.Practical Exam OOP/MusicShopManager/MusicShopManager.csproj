@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3EB693A7-A776-4D52-9041-9C4A9D1BCBE2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MusicShop</RootNamespace>
+    <AssemblyName>MusicShop</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Engine\Command.cs" />
+    <Compile Include="Engine\ConsoleInterface.cs" />
+    <Compile Include="Engine\EngineConstants.cs" />
+    <Compile Include="Engine\Factories\ArticleFactory.cs" />
+    <Compile Include="Engine\Factories\MusicShopFactory.cs" />
+    <Compile Include="Interfaces\Engine\ICommand.cs" />
+    <Compile Include="Interfaces\Engine\IMusicShopEngine.cs" />
+    <Compile Include="Interfaces\Engine\IArticleFactory.cs" />
+    <Compile Include="Interfaces\Engine\IMusicShopFactory.cs" />
+    <Compile Include="Interfaces\Engine\IUserInterface.cs" />
+    <Compile Include="Engine\MusicShopEngine.cs" />
+    <Compile Include="Interfaces\IAcousticGuitar.cs" />
+    <Compile Include="Interfaces\IArticle.cs" />
+    <Compile Include="Interfaces\IBassGuitar.cs" />
+    <Compile Include="Interfaces\IDrums.cs" />
+    <Compile Include="Interfaces\IElectricGuitar.cs" />
+    <Compile Include="Interfaces\IGuitar.cs" />
+    <Compile Include="Interfaces\IInstrument.cs" />
+    <Compile Include="Interfaces\IMicrophone.cs" />
+    <Compile Include="Interfaces\IMusicShop.cs" />
+    <Compile Include="Models\AcousticGuitar.cs" />
+    <Compile Include="Models\Article.cs" />
+    <Compile Include="Models\BassGuitar.cs" />
+    <Compile Include="Models\Drums.cs" />
+    <Compile Include="Models\ElectricGuitar.cs" />
+    <Compile Include="Models\Guitar.cs" />
+    <Compile Include="Models\Instrument.cs" />
+    <Compile Include="Models\Microphone.cs" />
+    <Compile Include="Models\MusicShop.cs" />
+    <Compile Include="Models\StringMaterial.cs" />
+    <Compile Include="MusicShopManagerProgram.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="InterfaceDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
