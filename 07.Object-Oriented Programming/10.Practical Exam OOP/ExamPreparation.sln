@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareAcademy", "SoftwareAkademy\SoftwareAcademy.csproj", "{353445C0-D206-4C03-AC09-86D82EFF9C3C}"
 EndProject
@@ -20,6 +20,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estates", "Estates\Estates.csproj", "{81D5B6F0-CCFE-429F-B4E2-966F8927C2FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager", "Restaurant\RestaurantManager.csproj", "{5DC18CD8-FF65-43DD-8CBD-A6DABB32BF01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NightlifeEntertainment", "NightlifeEntertainment\NightlifeEntertainment.csproj", "{F490BDCE-7100-487E-B95D-7E999ED4F880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmers-Creed", "Farmers-Creed\Farmers-Creed.csproj", "{29F6263B-C463-48CF-9327-973932A635A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicShopManager", "MusicShopManager\MusicShopManager.csproj", "{3EB693A7-A776-4D52-9041-9C4A9D1BCBE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{5DC18CD8-FF65-43DD-8CBD-A6DABB32BF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DC18CD8-FF65-43DD-8CBD-A6DABB32BF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DC18CD8-FF65-43DD-8CBD-A6DABB32BF01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F490BDCE-7100-487E-B95D-7E999ED4F880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F490BDCE-7100-487E-B95D-7E999ED4F880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F490BDCE-7100-487E-B95D-7E999ED4F880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F490BDCE-7100-487E-B95D-7E999ED4F880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F6263B-C463-48CF-9327-973932A635A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F6263B-C463-48CF-9327-973932A635A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F6263B-C463-48CF-9327-973932A635A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F6263B-C463-48CF-9327-973932A635A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB693A7-A776-4D52-9041-9C4A9D1BCBE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB693A7-A776-4D52-9041-9C4A9D1BCBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB693A7-A776-4D52-9041-9C4A9D1BCBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB693A7-A776-4D52-9041-9C4A9D1BCBE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

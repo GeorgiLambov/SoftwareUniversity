@@ -1,9 +1,8 @@
 ﻿namespace FarmersCreed.Units
 {
-    using System;
-
     public enum FoodType
     {
-        Organic
+        Meat = 1,
+        Organic = 2
     }
 }

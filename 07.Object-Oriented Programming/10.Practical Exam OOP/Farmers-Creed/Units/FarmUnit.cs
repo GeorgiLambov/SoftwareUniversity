@@ -1,37 +1,57 @@
-﻿using FarmersCreed.Interfaces;
-
-namespace FarmersCreed.Units
+﻿namespace FarmersCreed.Units
 {
     using System;
+    using System.Text;
+    using FarmersCreed.Interfaces;
 
     public abstract class FarmUnit : GameObject, IProductProduceable 
     {
-        public FarmUnit(string id, int health, int productionQuantity)
+        protected const string ProductIdSuffix = "Product";
+
+        private int producedQuantity;
+
+        protected FarmUnit(string id, int health, int producedQuantity)
             : base(id)
         {
-            throw new NotImplementedException();
+            this.Id = id;
+            this.Health = health;
+            this.ProductionQuantity = producedQuantity;
         }
 
-        public int Health
-        {
-            get { throw new NotImplementedException(); }
-            set { throw new NotImplementedException(); }
-        }
+        public int Health { get; set; }
 
         public bool IsAlive
         {
-            get { throw new NotImplementedException(); }
+            get { return this.Health > 0; }
         }
 
         public int ProductionQuantity
         {
-            get { throw new NotImplementedException(); }
-            set { throw new NotImplementedException(); }
+            get
+            {
+                return this.producedQuantity;
+            }
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentOutOfRangeException("Product quantity cannot be negarive!");
+                }
+                this.producedQuantity = value;
+            }
         }
 
-        public Product GetProduct()
+        public abstract Product GetProduct();
+
+        public override string ToString()
         {
-            throw new NotImplementedException();
+            return base.ToString() +
+                (this.IsAlive ? String.Format(", Health: {0}", this.Health) : ", DEAD");
+        }
+
+        protected virtual void Die()
+        {
+            this.Health = 0;
         }
     }
 }

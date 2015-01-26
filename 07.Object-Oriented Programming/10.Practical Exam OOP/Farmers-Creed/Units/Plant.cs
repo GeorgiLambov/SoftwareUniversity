@@ -1,39 +1,62 @@
 ﻿namespace FarmersCreed.Units
 {
     using System;
+    using System.Collections.Generic;
+    using System.Text;
 
-    public class Plant : FarmUnit
+    public abstract class Plant : FarmUnit
     {
-        public Plant(string id, int health, int productionQuantity, int growTime)
-            : base(id, health, productionQuantity)
+        private const int PlantBaseGrowRate = 1;
+        private const int PlantBaseWitherRate = 1;
+        private const int PlantBaseWaterEffect = 2;
+
+        private int growTime;
+
+        protected Plant(string id, int health, int producedQuantity, int growTime)
+            : base(id, health, producedQuantity)
         {
-            throw new NotImplementedException();
+            //this.ProductionQuantity = producedQuantity;
+            this.GrowTime = growTime;
         }
 
         public bool HasGrown
         {
-            get { throw new NotImplementedException(); }
+            get { return this.GrowTime <= 0; }
         }
 
-        public int GrowTime
+        public int GrowTime 
         {
-            get { throw new NotImplementedException(); }
-            set { throw new NotImplementedException(); }
+            get { return this.growTime; }
+            set { this.growTime = value; }
         }
 
-        public void Water()
+        public virtual void Water()
         {
-            throw new NotImplementedException();
+            this.Health += PlantBaseWaterEffect;
         }
 
-        public void Wither()
+        public virtual void Wither()
         {
-            throw new NotImplementedException();
+            this.Health -= PlantBaseWitherRate;
         }
 
-        public void Grow()
+        public virtual void Grow()
         {
-            throw new NotImplementedException();
+            this.GrowTime -= PlantBaseGrowRate;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder plantInformation = new StringBuilder();
+            
+            if (this.IsAlive)
+            {
+                plantInformation.AppendFormat(", Grown: {0}",
+                    this.HasGrown ? "Yes" : "No");
+
+            }
+
+            return base.ToString() + plantInformation.ToString();
         }
     }
 }

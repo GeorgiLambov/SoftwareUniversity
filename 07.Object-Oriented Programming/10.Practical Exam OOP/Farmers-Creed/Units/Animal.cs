@@ -3,16 +3,20 @@
     using System;
     using FarmersCreed.Interfaces;
 
-    public class Animal : FarmUnit
+    public abstract class Animal : FarmUnit
     {
-        public Animal(string id, int health, int productionQuantity)
-            : base(id, health, productionQuantity)
+        private const int AnimalBaseStarveRate = 1;
+
+        protected Animal(string id, int health, int producedQuantity)
+            : base(id, health, producedQuantity)
         {
         }
 
-        public void Eat(IEdible food, int quantity)
+        public virtual void Starve()
         {
-            throw new NotImplementedException();
+            this.Health -= AnimalBaseStarveRate;
         }
+
+        public abstract void Eat(IEdible food, int Quantity);
     }
 }

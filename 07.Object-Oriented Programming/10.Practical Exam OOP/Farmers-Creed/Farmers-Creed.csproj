@@ -41,12 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExtendedFarmSimulator.cs" />
+    <Compile Include="Simulator\AdvancedFarmSimulator.cs" />
     <Compile Include="Units\Animal.cs" />
     <Compile Include="Simulator\FarmSimulator.cs" />
+    <Compile Include="Units\CherryTree.cs" />
+    <Compile Include="Units\Cow.cs" />
     <Compile Include="Units\Farm.cs" />
     <Compile Include="Units\FarmUnit.cs" />
     <Compile Include="Units\Food.cs" />
+    <Compile Include="Units\FoodPlant.cs" />
     <Compile Include="Units\FoodType.cs" />
     <Compile Include="Units\GameObject.cs" />
     <Compile Include="Interfaces\IEdible.cs" />
@@ -57,12 +60,14 @@
     <Compile Include="Units\ProductType.cs" />
     <Compile Include="Units\Product.cs" />
     <Compile Include="FarmersCreedMain.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="FarmDiagram.cd" />
+    <Compile Include="Units\Swine.cs" />
+    <Compile Include="Units\TobaccoPlant.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FarmDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
