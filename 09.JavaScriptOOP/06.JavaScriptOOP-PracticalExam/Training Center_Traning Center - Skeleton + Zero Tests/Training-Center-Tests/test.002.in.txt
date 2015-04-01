@@ -1,0 +1,2 @@
+create Course {"name":"Java Basics", "startDate":"1-Oct-2014", "duration": 5}
+list

@@ -1,0 +1,5 @@
+D:\DEVELOP\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\05.GridControl\bin\05.GridControl.dll.config
+D:\DEVELOP\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\05.GridControl\bin\05.GridControl.dll
+D:\DEVELOP\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\05.GridControl\bin\05.GridControl.pdb
+D:\DEVELOP\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\05.GridControl\obj\Debug\05.GridControl.dll
+D:\DEVELOP\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\05.GridControl\obj\Debug\05.GridControl.pdb

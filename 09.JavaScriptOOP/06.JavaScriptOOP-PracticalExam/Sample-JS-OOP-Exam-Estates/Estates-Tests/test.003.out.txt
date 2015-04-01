@@ -1,0 +1,10 @@
+Garage created.
+Office created.
+Apartment created.
+House created.
+Estates:
+  Garage: Name = testGarage, Area = 36, Location = Pleven, Furnitured = Yes, Width: 6, Height: 6
+  Office: Name = testOffice, Area = 70, Location = Sofia, Furnitured = Yes, Rooms: 1, Elevator: No
+  Apartment: Name = testApartment, Area = 260, Location = Plovdiv, Furnitured = Yes, Rooms: 5, Elevator: Yes
+  House: Name = testHouse, Area = 150, Location = Bankya, Furnitured = Yes, Floors: 4
+No offers

@@ -1,0 +1,48 @@
+Database normalization is the process of organizing the attributes and tables of a relational database to minimize data redundancy.
+
+Normalization involves refactoring a table into smaller (and less redundant) tables but without losing information; defining foreign keys in the old table referencing the primary keys of the new ones. The objective is to isolate data so that additions, deletions, and modifications of an attribute can be made in just one table and then propagated through the rest of the database using the defined foreign keys.
+
+Edgar F. Codd, the inventor of the relational model (RM), introduced the concept of normalization and what we now know as the First normal form (1NF) in 1970.[1] Codd went on to define the Second normal form (2NF) and Third normal form (3NF) in 1971,[2] and Codd and Raymond F. Boyce defined the Boyce-Codd Normal Form (BCNF) in 1974.[3] Informally, a relational database table is often described as "normalized" if it is in the Third Normal Form.[4] Most 3NF tables are free of insertion, update, and deletion anomalies.
+
+The relational model separates the logical design from the physical design: DBMS performance is a matter of physical designer using indexes, view materialization, big buffers, etc. It is not a matter of changing the logical design.
+
+A typical example of normalization is that an entity's unique ID is stored everywhere in the system but its name is held in only one table. The name can be updated more easily in one row of one table. A typical update in such an example would be the RIM company changing its name to BlackBerry.[5] That update would be done in one place and immediately the correct "BlackBerry" name would be displayed throughout the system.
+
+What are the advantages of normalized databases?
+
+Benefits of normalization
+Normalization produces smaller tables with smaller rows:
+
+More rows per page (less logical I/O)
+
+More rows per I/O (more efficient)
+
+More rows fit in cache (less physical I/O)
+
+The benefits of normalization include:
+
+Searching, sorting, and creating indexes is faster, since tables are narrower, and more rows fit on a data page.
+
+You usually have more tables.
+
+You can have more clustered indexes (one per table), so you get more flexibility in tuning queries.
+
+Index searching is often faster, since indexes tend to be narrower and shorter.
+
+More tables allow better use of segments to control physical placement of data.
+
+You usually have fewer indexes per table, so data modification commands are faster.
+
+Fewer null values and less redundant data, making your database more compact.
+
+Triggers execute more quickly if you are not maintaining redundant data.
+
+Data modification anomalies are reduced.
+
+Normalization is conceptually cleaner and easier to maintain and change as your needs change.
+
+While fully normalized databases require more joins, joins are generally very fast if indexes are available on the join columns.
+
+Adaptive Server is optimized to keep higher levels of the index in cache, so each join performs only one or two physical I/Os for each matching row.
+
+The cost of finding rows already in the data cache is extremely low.

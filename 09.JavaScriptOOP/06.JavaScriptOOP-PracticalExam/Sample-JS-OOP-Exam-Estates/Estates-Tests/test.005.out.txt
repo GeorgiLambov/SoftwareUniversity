@@ -1,0 +1,8 @@
+Office created.
+SaleOffer created.
+RentOffer created.
+Estates:
+  Office: Name = testOffice, Area = 70, Location = Sofia, Furnitured = No, Rooms: 3, Elevator: Yes
+Offers:
+  Sale: Estate = testOffice, Location = Sofia, Price = 35000
+  Rent: Estate = testOffice, Location = Sofia, Price = 350

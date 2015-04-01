@@ -1,0 +1,20 @@
+Trainer created.
+Trainer created.
+Course created.
+Course created.
+Course created.
+Seminar created.
+Seminar created.
+RemoteCourse created.
+RemoteCourse created.
+Trainers:
+ * Trainer[username=nakov;last-name=Nakov]
+ * Trainer[username=maria;first-name=Maria;last-name=Green;email=maria@mail.ru]
+Trainings:
+ * Course[name=C# Basics;start-date=15-Nov-2014]
+ * Course[name=JavaScript Apps;trainer=Trainer[username=nakov;last-name=Nakov];start-date=30-Nov-2014;duration=8]
+ * Course[name=JavaScript Basics;description=JS course for beginners;trainer=Trainer[username=maria;first-name=Maria;last-name=Green;email=maria@mail.ru];start-date=20-Jan-2015;duration=5]
+ * Seminar[name=Python for Newbies;date=10-Jan-2015]
+ * Seminar[name=MySQL for Dummies;description=MySQL overview for beginners;trainer=Trainer[username=nakov;last-name=Nakov];date=20-Jan-2015]
+ * RemoteCourse[name=C# Basics;start-date=31-Jan-2015;location=Varna]
+ * RemoteCourse[name=C# Basics;description=Programming course for absolute beginners;trainer=Trainer[username=maria;first-name=Maria;last-name=Green;email=maria@mail.ru];start-date=31-Jan-2015;duration=9;location=Bourgas]

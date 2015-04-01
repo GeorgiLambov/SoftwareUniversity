@@ -1,0 +1,3 @@
+create Office testOffice 70 Sofia false 3 true
+create RentOffer testOffice 350
+create SaleOffer testOffice 35000

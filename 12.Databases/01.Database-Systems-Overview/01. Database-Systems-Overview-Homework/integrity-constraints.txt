@@ -1,0 +1,22 @@
+Integrity constraints ensure data integrity in the database tables
+Enforce data rules which cannot be violated
+
+Primary key constraint
+Ensures that the primary key of a table has unique value for each table row
+
+Unique key constraint
+Ensures that all values in a certain column (or a group of columns) are unique
+
+Foreign key constraint
+Ensures that the value in given column is a key from another table
+
+Check constraint
+Ensures that values in a certain column meet some predefined condition
+
+
+Constraints make it possible to further restrict the domain of an attribute. For instance, a constraint can restrict a given integer attribute to values
+ between 1 and 10. Constraints provide one method of implementing business rules in the database. SQL implements constraint functionality in the form of
+ check constraints. Constraints restrict the data that can be stored in relations. These are usually defined using expressions that result in a boolean
+ value, indicating whether or not the data satisfies the constraint. Constraints can apply to single attributes, to a tuple (restricting combinations 
+ of attributes) or to an entire relation. Since every attribute has an associated domain, there are constraints (domain constraints). The two principal
+ rules for the relational model are known as entity integrity and referential integrity.

@@ -1,0 +1,8 @@
+create Trainer {"lastName":"Missing username"}
+create Trainer {"username":"nakov", "firstName":"", "lastName":"Empty firstName"}
+create Course {"name":"Invalid startDate", "startDate":"31-Nov-2014"}
+create Seminar {"name":"Missing date"}
+create Seminar {"name":"", "date":"12-Nov-2014", "description":"Empty name"}
+create Course {"name":"C# Basics", "startDate":"15-Nov-2014", "trainer":"invalid_username"}
+create RemoteCourse {"name":"C# Basics", "startDate":"12-Mar-2015", "description":"Missing location"}
+invalid command

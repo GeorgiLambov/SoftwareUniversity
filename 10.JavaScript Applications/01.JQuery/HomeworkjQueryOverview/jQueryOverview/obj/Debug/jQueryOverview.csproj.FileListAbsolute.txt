@@ -1,0 +1,12 @@
+C:\Users\Joro\Desktop\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\jQueryOverview\bin\_01.Element_Insertion.dll.config
+C:\Users\Joro\Desktop\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\jQueryOverview\bin\_01.Element_Insertion.dll
+C:\Users\Joro\Desktop\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\jQueryOverview\bin\_01.Element_Insertion.pdb
+C:\Users\Joro\Desktop\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\jQueryOverview\obj\Debug\jQueryOverview.csprojResolveAssemblyReference.cache
+C:\Users\Joro\Desktop\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\jQueryOverview\obj\Debug\_01.Element_Insertion.dll
+C:\Users\Joro\Desktop\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\jQueryOverview\obj\Debug\_01.Element_Insertion.pdb
+D:\DEVELOP\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\jQueryOverview\bin\_01.Element_Insertion.dll.config
+D:\DEVELOP\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\jQueryOverview\bin\_01.Element_Insertion.dll
+D:\DEVELOP\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\jQueryOverview\bin\_01.Element_Insertion.pdb
+D:\DEVELOP\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\jQueryOverview\obj\Debug\jQueryOverview.csprojResolveAssemblyReference.cache
+D:\DEVELOP\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\jQueryOverview\obj\Debug\_01.Element_Insertion.dll
+D:\DEVELOP\SoftUni\10.JavaScript Applications\01.JQuery\HomeworkjQueryOverview\jQueryOverview\obj\Debug\_01.Element_Insertion.pdb

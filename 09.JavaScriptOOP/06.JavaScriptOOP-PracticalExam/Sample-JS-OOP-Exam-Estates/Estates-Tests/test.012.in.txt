@@ -1,0 +1,15 @@
+-- Invalid integer values
+create Office myOffice -20 Sofia true 1 false
+create Apartment myApartment 260.55 Sofia true 55555555 true
+create House myHouse 150 Bankya true -50
+
+-- Invalid / missing boolean values
+create Office myOfficeNo 100 Sofia true 1 no
+create Apartment myApartmentYes 200 Sofia yes 5 true
+create House myHouseMissingBoolean 300 Bankya 4
+
+create Office myOffice 70 Sofia true 1 false
+
+-- Invalid offers
+create RentOffer myOffice -500
+create SaleOffer nonExistingOffice 185000

@@ -1,0 +1,6 @@
+Trainer created.
+Course created.
+Trainers:
+ * Trainer[username=pesho;first-name=Pesho;last-name=Ivanov;email=pesho@abv.bg]
+Trainings:
+ * Course[name=Java Basics;trainer=Trainer[username=pesho;first-name=Pesho;last-name=Ivanov;email=pesho@abv.bg];start-date=1-Oct-2014;duration=5]

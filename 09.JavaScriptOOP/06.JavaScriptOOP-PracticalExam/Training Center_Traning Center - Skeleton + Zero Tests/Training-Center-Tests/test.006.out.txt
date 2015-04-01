@@ -1,0 +1,53 @@
+Trainer created.
+Trainers:
+ * Trainer[username=pesho;first-name=Pesho;last-name=Ivanov;email=pesho@abv.bg]
+No trainings
+Course created.
+Trainers:
+ * Trainer[username=pesho;first-name=Pesho;last-name=Ivanov;email=pesho@abv.bg]
+Trainings:
+ * Course[name=Java Programming;start-date=1-Oct-2014;duration=5]
+Trainer created.
+Course created.
+Seminar created.
+RemoteCourse created.
+Trainer created.
+Course created.
+Seminar created.
+RemoteCourse created.
+Course created.
+Seminar created.
+RemoteCourse created.
+Trainer created.
+Course created.
+Seminar created.
+RemoteCourse created.
+Trainer created.
+RemoteCourse created.
+Course created.
+Seminar created.
+Trainer created.
+Trainers:
+ * Trainer[username=pesho;first-name=Pesho;last-name=Ivanov;email=pesho@abv.bg]
+ * Trainer[username=gosho;last-name=Ivanov]
+ * Trainer[username=kiro;first-name=Kiril;last-name=Kirilov]
+ * Trainer[username=mimi;last-name=Ivanova]
+ * Trainer[username=didi;first-name=Diana;last-name=Petrova;email=didi@mail.bg]
+ * Trainer[username=bat pesho;first-name=Pesho Peshov-Metrov;last-name=Ivanov-Kirov;email=pesho123@mail.abv.bg]
+Trainings:
+ * Course[name=Java Programming;start-date=1-Oct-2014;duration=5]
+ * Course[name=Python Basics;start-date=15-Mar-2015]
+ * Seminar[name=Ruby on Rails;date=28-Aug-2014]
+ * RemoteCourse[name=Java Basics Varna;start-date=29-Dec-2014;location=Plovdiv]
+ * Course[name=Java Basics;trainer=Trainer[username=pesho;first-name=Pesho;last-name=Ivanov;email=pesho@abv.bg];start-date=1-Oct-2014;duration=5]
+ * Seminar[name=Java EE Overview;trainer=Trainer[username=pesho;first-name=Pesho;last-name=Ivanov;email=pesho@abv.bg];date=20-Nov-2014]
+ * RemoteCourse[name=Java Basics Plovdiv;trainer=Trainer[username=pesho;first-name=Pesho;last-name=Ivanov;email=pesho@abv.bg];start-date=29-Dec-2014;location=Plovdiv]
+ * Course[name=PHP Basics;start-date=15-Sep-2014]
+ * Seminar[name=Web Apps with Java EE;description=Using Java EE, EJB and JSF - First Steps;date=20-Nov-2014]
+ * RemoteCourse[name=PHP Basics - Plovdiv;description=PHP Basics course in Plovdiv (February 2015);start-date=20-Feb-2015;location=Plovdiv]
+ * Course[name=Python Basics;start-date=15-Mar-2015]
+ * Seminar[name=Ruby on Rails;date=28-Aug-2014]
+ * RemoteCourse[name=Java Basics Varna;start-date=29-Dec-2014;location=Plovdiv]
+ * RemoteCourse[name=Java Basics Plovdiv;description=Java Basics course description;trainer=Trainer[username=pesho;first-name=Pesho;last-name=Ivanov;email=pesho@abv.bg];start-date=29-Dec-2014;duration=6;location=Plovdiv]
+ * Course[name=PHP Basics;description=PHP course for beginners;trainer=Trainer[username=gosho;last-name=Ivanov];start-date=15-Sep-2014;duration=5]
+ * Seminar[name=Web Apps with Java EE;description=Using Java EE, EJB and JSF - First Steps;trainer=Trainer[username=gosho;last-name=Ivanov];date=20-Nov-2014]

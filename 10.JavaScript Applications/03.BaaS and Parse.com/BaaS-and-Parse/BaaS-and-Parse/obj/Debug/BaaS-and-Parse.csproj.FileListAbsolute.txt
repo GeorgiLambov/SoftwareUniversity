@@ -1,0 +1,6 @@
+D:\DEVELOP\SoftUni\10.JavaScript Applications\03.BaaS and Parse.com\BaaS-and-Parse\BaaS-and-Parse\bin\BaaS-and-Parse.dll.config
+D:\DEVELOP\SoftUni\10.JavaScript Applications\03.BaaS and Parse.com\BaaS-and-Parse\BaaS-and-Parse\bin\BaaS-and-Parse.dll
+D:\DEVELOP\SoftUni\10.JavaScript Applications\03.BaaS and Parse.com\BaaS-and-Parse\BaaS-and-Parse\bin\BaaS-and-Parse.pdb
+D:\DEVELOP\SoftUni\10.JavaScript Applications\03.BaaS and Parse.com\BaaS-and-Parse\BaaS-and-Parse\obj\Debug\BaaS-and-Parse.csprojResolveAssemblyReference.cache
+D:\DEVELOP\SoftUni\10.JavaScript Applications\03.BaaS and Parse.com\BaaS-and-Parse\BaaS-and-Parse\obj\Debug\BaaS-and-Parse.dll
+D:\DEVELOP\SoftUni\10.JavaScript Applications\03.BaaS and Parse.com\BaaS-and-Parse\BaaS-and-Parse\obj\Debug\BaaS-and-Parse.pdb

@@ -1,0 +1,6 @@
+create Trainer {"username":"nakov", "lastName":"Nakov"}
+create Course {"name":"C# Basics", "startDate":"15-Nov-2014", "trainer":"nakov"}
+list
+
+delete Trainer nakov
+list

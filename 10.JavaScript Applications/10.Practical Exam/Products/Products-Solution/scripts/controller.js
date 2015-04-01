@@ -191,8 +191,7 @@ app.controller = (function () {
                     {
                         $(this).show();
                     // } else {
-                    // } else {
-                        $(this).hide();
+                      $(this).hide();
                     }
                 });
         });

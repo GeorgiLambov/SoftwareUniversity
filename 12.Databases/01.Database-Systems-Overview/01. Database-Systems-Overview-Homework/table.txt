@@ -1,0 +1,17 @@
+What is table? 
+
+A table is a collection of related data held in a structured format within a database. It consists of fields (columns), and rows.
+
+How information is stored in tables? 
+
+In relational databases and flat file databases, a table is a set of data elements (values) using a model of vertical columns (which are identified by their name) 
+and horizontal rows, the cell being the unit where a row and column intersect.[1] A table has a specified number of columns, but can have any number of rows.
+ Each row is identified by one or more values appearing in a particular column subset. The columns subset which uniquely identifies a row is called the primary key.
+ 
+ What is the difference between tables and relations? 
+ 
+ Table is another term for relation; although there is the difference in that a table is usually a multiset (bag) of rows where a relation is a set and does not allow duplicates. Besides the actual data rows, tables generally have associated with them some metadata, such as constraints on the table or on the values within particular columns.[dubious – discuss]
+
+The data in a table does not have to be physically stored in the database. Views are also relational tables, but their data are calculated at query time.
+
+From Wikipedia, the free encyclopedia

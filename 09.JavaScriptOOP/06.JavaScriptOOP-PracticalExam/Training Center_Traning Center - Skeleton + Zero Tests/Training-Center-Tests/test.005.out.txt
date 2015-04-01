@@ -1,0 +1,23 @@
+No trainers
+No trainings
+Trainer created.
+Course created.
+Seminar created.
+RemoteCourse created.
+Trainer created.
+RemoteCourse created.
+Course created.
+Seminar created.
+Trainer created.
+Trainers:
+ * Trainer[username=gosho;last-name=Ivanov]
+ * Trainer[username=pesho;first-name=Pesho;last-name=Ivanov;email=pesho@abv.bg]
+ * Trainer[username=bat pesho;first-name=Pesho Peshov 123;last-name=Ivanov 123;email=pesho123@mail.abv.bg]
+Trainings:
+ * Course[name=Python Basics;start-date=15-Mar-2015]
+ * Seminar[name=Ruby on Rails;date=28-Aug-2014]
+ * RemoteCourse[name=Java Basics Varna;start-date=29-Dec-2014;location=Plovdiv]
+ * RemoteCourse[name=Java Basics Plovdiv;description=Java Basics course description;trainer=Trainer[username=pesho;first-name=Pesho;last-name=Ivanov;email=pesho@abv.bg];start-date=29-Dec-2014;duration=6;location=Plovdiv]
+ * Course[name=PHP Basics;description=PHP course for beginners;trainer=Trainer[username=gosho;last-name=Ivanov];start-date=15-Sep-2014;duration=5]
+ * Seminar[name=Web Apps with Java EE;description=Using Java EE, EJB and JSF - First Steps;trainer=Trainer[username=gosho;last-name=Ivanov];date=20-Nov-2014]
+Invalid command.

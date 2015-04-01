@@ -1,0 +1,15 @@
+create Course {"name":"PHP Web Apps", "startDate":"3-May-2015", "trainer":"nakov"}
+
+create Trainer {"username":"nakov", "firstName":"Svetlin", "lastName":"Nakov"}
+create Seminar {"name":"JS for C# devs", "date":"15-Nov-2014", "trainer":"nakov", "description":"JS vs. C#"}
+list
+
+delete Trainer nakov
+delete Trainer nakov
+list
+
+create RemoteCourse {"name":"Java Basics", "startDate":"22-Nov-2014", "trainer":"nakov", "location":"Varna"}
+
+create Trainer {"username":"nakov", "lastName":"NAKOV"}
+create RemoteCourse {"name":"Java Basics", "startDate":"22-Nov-2014", "trainer":"nakov", "location":"Varna"}
+list

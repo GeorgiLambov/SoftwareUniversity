@@ -1,0 +1,16 @@
+Transactions are a sequence of database operations which are executed as a single unit:
+Either all of them execute successfully
+To provide reliable units of work that allow correct recovery from failures and keep a database consistent even in cases of system failure, 
+when execution stops (completely or partially) and many operations upon a database remain uncompleted, with unclear status.
+
+Or none of them is executed at all
+To provide isolation between programs accessing a database concurrently. 
+If this isolation is not provided, the program's outcome are possibly erroneous.
+
+Example:
+A bank transfer from one account into another (withdrawal + deposit)
+If either the withdrawal or the deposit fails the entire operation should be cancelled
+
+
+A database transaction, by definition, must be atomic, consistent, isolated and durable.
+ Database practitioners often refer to these properties of database transactions using the acronym ACID.

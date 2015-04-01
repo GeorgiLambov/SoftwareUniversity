@@ -1,0 +1,5 @@
+D:\DEVELOP\SoftUni\11.JavaScript Angular\01. Introduction-to-AngularJS\IntroductionAngularJS\02.BindImageSourceTextBox\bin\02.BindImageSourceTextBox.dll.config
+D:\DEVELOP\SoftUni\11.JavaScript Angular\01. Introduction-to-AngularJS\IntroductionAngularJS\02.BindImageSourceTextBox\bin\02.BindImageSourceTextBox.dll
+D:\DEVELOP\SoftUni\11.JavaScript Angular\01. Introduction-to-AngularJS\IntroductionAngularJS\02.BindImageSourceTextBox\bin\02.BindImageSourceTextBox.pdb
+D:\DEVELOP\SoftUni\11.JavaScript Angular\01. Introduction-to-AngularJS\IntroductionAngularJS\02.BindImageSourceTextBox\obj\Debug\02.BindImageSourceTextBox.dll
+D:\DEVELOP\SoftUni\11.JavaScript Angular\01. Introduction-to-AngularJS\IntroductionAngularJS\02.BindImageSourceTextBox\obj\Debug\02.BindImageSourceTextBox.pdb

@@ -1,0 +1,6 @@
+D:\DEVELOP\SoftUni\11.JavaScript Angular\01. Introduction-to-AngularJS\IntroductionAngularJS\01.StudentPage\bin\01.StudentPage.dll.config
+D:\DEVELOP\SoftUni\11.JavaScript Angular\01. Introduction-to-AngularJS\IntroductionAngularJS\01.StudentPage\bin\01.StudentPage.dll
+D:\DEVELOP\SoftUni\11.JavaScript Angular\01. Introduction-to-AngularJS\IntroductionAngularJS\01.StudentPage\bin\01.StudentPage.pdb
+D:\DEVELOP\SoftUni\11.JavaScript Angular\01. Introduction-to-AngularJS\IntroductionAngularJS\01.StudentPage\obj\Debug\01.StudentPage.csprojResolveAssemblyReference.cache
+D:\DEVELOP\SoftUni\11.JavaScript Angular\01. Introduction-to-AngularJS\IntroductionAngularJS\01.StudentPage\obj\Debug\01.StudentPage.dll
+D:\DEVELOP\SoftUni\11.JavaScript Angular\01. Introduction-to-AngularJS\IntroductionAngularJS\01.StudentPage\obj\Debug\01.StudentPage.pdb

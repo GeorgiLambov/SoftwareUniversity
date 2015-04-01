@@ -1,0 +1,2 @@
+create Apartment aptKaspichan 20 Kaspichan true 2 false
+create Office officeSofia 86 Sofia false 5 false

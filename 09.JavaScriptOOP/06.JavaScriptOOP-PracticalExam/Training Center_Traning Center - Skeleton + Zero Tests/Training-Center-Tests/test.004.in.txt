@@ -1,0 +1,15 @@
+create Trainer {"username":"gosho", "lastName":"Ivanov"}
+create Course {"name":"Python Basics", "startDate":"15-Mar-2015"}
+create Seminar {"name":"Ruby on Rails", "date":"28-Aug-2014"}
+create RemoteCourse {"name":"Java Basics Varna", "startDate":"29-Dec-2014", "location":"Plovdiv"}
+
+create Trainer {"username":"pesho", "firstName":"Pesho", "lastName":"Ivanov", "email":"pesho@abv.bg"}
+create Course {"name":"Java Basics", "startDate":"1-Oct-2014", "duration": 5, "trainer":"pesho"}
+create Seminar {"name":"Java EE Overview", "date":"20-Nov-2014", "trainer":"pesho"}
+create RemoteCourse {"name":"Java Basics Plovdiv", "startDate":"29-Dec-2014", "trainer":"pesho", "location":"Plovdiv"}
+
+create Course {"name":"PHP Basics", "startDate":"15-Sep-2014" }
+create Seminar {"name":"Web Apps with Java EE", "description":"Using Java EE, EJB and JSF - First Steps", "date":"20-Nov-2014"}
+create RemoteCourse {"name":"PHP Basics - Plovdiv", "description": "PHP Basics course in Plovdiv (February 2015)", "startDate":"20-Feb-2015", "location":"Plovdiv"}
+
+list

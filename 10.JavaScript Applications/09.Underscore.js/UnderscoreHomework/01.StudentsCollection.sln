@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "02.BookStore", "02.BookStore\02.BookStore.njsproj", "{60A94D11-24CA-46EC-8FD9-C7449C086AC1}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "01.StudentsCollection", "01.StudentsCollection\01.StudentsCollection.njsproj", "{19EA4CAE-07DD-4C5E-9AC9-DBC2E2B3D167}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60A94D11-24CA-46EC-8FD9-C7449C086AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A94D11-24CA-46EC-8FD9-C7449C086AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A94D11-24CA-46EC-8FD9-C7449C086AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A94D11-24CA-46EC-8FD9-C7449C086AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19EA4CAE-07DD-4C5E-9AC9-DBC2E2B3D167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EA4CAE-07DD-4C5E-9AC9-DBC2E2B3D167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19EA4CAE-07DD-4C5E-9AC9-DBC2E2B3D167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19EA4CAE-07DD-4C5E-9AC9-DBC2E2B3D167}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

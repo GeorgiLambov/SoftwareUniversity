@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bind image source to text box</title>
+    <style>
+        .img {
+            width: 50%;
+        }
+
+        .error {
+            border: 2px solid red;
+            background-color: lightcoral;
+        }
+
+        .success {
+            border: 2px solid green;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body ng-app="app" ng-controller="ImageController">
+    <div class="container">
+        <div>
+            <form>
+                <strong>Image url: </strong>
+                <input ng-class="{error: imgForm.imageUrl.$dirty && imgForm.imageUrl.$invalid, success: imgForm.imageUrl.$dirty && imgForm.imageUrl.$valid}"
+                       validate-image-url
+                       ng-model="imageUrl"
+                       type="url"
+                       ng-pattern="/(https?:\/\/.*\.(?:png|jpg|gif|jpeg))/i"
+                       name="imageUrl" />
+            </form>
+        </div>
+    </div>
+    <div>
+        <h2 class="list-group-item list-group-item-danger text-center"
+            ng-show="imgForm.imageUrl.$invalid && imgForm.imageUrl.$dirty">
+            Image url is not valid!
+        </h2>
+        <img ng-src="{{imageUrl}}" ng-hide="imgForm.imageUrl.$invalid" class="img" src="" alt="">
+    </div>
+    <script src="http://localhost:3454/libs/angular-1.3.7/angular.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controller.js"></script>
+    <script src="scripts/validateImageUrl.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+D:\DEVELOP\SoftUni\10.JavaScript Applications\10.Practical Exam\Consuming Remote Data with JS and REST\03.PhoneBook\bin\03.PhoneBook.dll.config
+D:\DEVELOP\SoftUni\10.JavaScript Applications\10.Practical Exam\Consuming Remote Data with JS and REST\03.PhoneBook\bin\03.PhoneBook.dll
+D:\DEVELOP\SoftUni\10.JavaScript Applications\10.Practical Exam\Consuming Remote Data with JS and REST\03.PhoneBook\bin\03.PhoneBook.pdb
+D:\DEVELOP\SoftUni\10.JavaScript Applications\10.Practical Exam\Consuming Remote Data with JS and REST\03.PhoneBook\obj\Debug\03.PhoneBook.dll
+D:\DEVELOP\SoftUni\10.JavaScript Applications\10.Practical Exam\Consuming Remote Data with JS and REST\03.PhoneBook\obj\Debug\03.PhoneBook.pdb
+D:\DEVELOP\SoftUni\10.JavaScript Applications\10.Practical Exam\Consuming Remote Data with JS and REST\03.PhoneBook\obj\Debug\03.PhoneBook.csprojResolveAssemblyReference.cache

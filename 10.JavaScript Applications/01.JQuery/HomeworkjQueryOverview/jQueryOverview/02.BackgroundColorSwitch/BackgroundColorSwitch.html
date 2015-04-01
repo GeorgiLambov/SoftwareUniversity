@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Background Color Switch</title>
+    <style>
+        #wrapper {
+            width: 500px;
+            margin: 50px auto;
+        }
+
+        h2 {
+            text-align: center;
+            color: blue;
+        }
+
+        form {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #birds {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .field {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin: 0;
+        }
+
+        #paintButton {
+            width: 16em;
+            height: 2em;
+        }
+    </style>
+    <script src="../libs/jquery-2.1.1.min.js"></script>
+    <script src="swichCollorFunctionality.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <h2>Presenting functionality for changing the background color of the web page</h2>
+        <form>
+            <div class="field">
+                <label for="class"> Class: </label>
+                <input id="class" type="text">
+            </div>
+            <div class="field">
+                <label for="color-picker"> Pick a background color: </label>
+                <input type="color" id="color-picker">
+            </div>
+            <input type="button" id="paintButton" value="Paint" />
+        </form>
+        <div id="birds">
+            <ul>
+                <li class="bird"> Hummingbird</li>
+                <li class="bird"> Nightingale</li>
+                <li> Lizard</li>
+                <li class="bird"> Eagle</li>
+                <li class="bird"> Sparrow</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+product_name,num_orders,quantity,price,total_price
+apples,0,0.00,0.75,0.0000
+beer,3,13.00,1.20,15.6000
+cheese,2,5.00,9.50,47.5000
+cucumbers,1,2.00,1.35,2.7000
+rakiya,2,2.20,12.40,27.2800
+salami,1,2.00,6.33,12.6600
+tomatos,2,2.50,2.50,6.2500
+water,0,0.00,0.85,0.0000

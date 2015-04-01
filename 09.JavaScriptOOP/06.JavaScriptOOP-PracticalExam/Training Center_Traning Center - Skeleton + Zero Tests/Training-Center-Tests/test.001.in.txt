@@ -1,0 +1,2 @@
+create Trainer {"username":"pesho", "firstName":"Pesho", "lastName":"Ivanov", "email":"pesho@abv.bg"}
+list

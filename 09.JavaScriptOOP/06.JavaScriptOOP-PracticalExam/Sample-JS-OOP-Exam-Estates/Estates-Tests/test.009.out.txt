@@ -1,0 +1,18 @@
+Office created.
+Apartment created.
+House created.
+SaleOffer created.
+RentOffer created.
+SaleOffer created.
+RentOffer created.
+RentOffer created.
+RentOffer created.
+SaleOffer created.
+Garage created.
+RentOffer created.
+Query Results:
+  [Estate: myGarage, Location: Pleven, Price: 120]
+  [Estate: myApartment, Location: Sofia, Price: 800]
+  [Estate: myOffice, Location: Sofia, Price: 1150]
+  [Estate: myOffice, Location: Sofia, Price: 1200]
+  [Estate: myHouse, Location: Bankya, Price: 1400]

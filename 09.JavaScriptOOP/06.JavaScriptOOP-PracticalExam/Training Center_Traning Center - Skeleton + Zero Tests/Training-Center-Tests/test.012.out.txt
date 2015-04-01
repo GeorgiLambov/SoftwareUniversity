@@ -1,0 +1,19 @@
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Course created.
+Course created.
+No trainers
+Trainings:
+ * Course[name=Course 31-Dec-2020;start-date=31-Dec-2020]
+ * Course[name=Course 1-Jan-2000;start-date=1-Jan-2000]

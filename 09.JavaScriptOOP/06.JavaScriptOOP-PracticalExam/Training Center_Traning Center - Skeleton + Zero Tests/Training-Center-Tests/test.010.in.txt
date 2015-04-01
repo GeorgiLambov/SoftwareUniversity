@@ -1,0 +1,16 @@
+create Trainer {"username":"", "firstName":"Empty username", "lastName":"Ivanov", "email":"pesho@abv.bg"}
+create Trainer {"lastName":"missing username"}
+create Trainer {"username":5, "lastName":"username is not string"}
+
+create Trainer {"username":"gogov", "firstName":"", "lastName":"Empty firstName"}
+create Trainer {"username":"gogov", "firstName":["pesho","gosho","kiro"], "lastName":"firstName is not string"}
+
+create Trainer {"username":"Empty_lastName", "lastName":""}
+create Trainer {"username":"lastName is number", "lastName":42}
+
+create Trainer {"username":"pesho", "firstName":"Pesho", "lastName":"Ivanov", "email":"Invalid email"}
+create Trainer {"username":"pepi", "firstName":"Empty email", "lastName":"Ivanov", "email":""}
+
+create Trainer {"username":"validTrainer", "lastName":"Trainer"}
+
+list

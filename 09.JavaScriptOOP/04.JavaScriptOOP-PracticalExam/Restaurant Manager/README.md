@@ -1,3 +1,0 @@
-﻿# Restaurant Manager
-
-

@@ -1,0 +1,12 @@
+Relational database management system
+
+A relational database management system (RDBMS) is a database management system (DBMS) that is based on the relational model as invented by E. F. Codd,
+ of IBM's San Jose Research Laboratory. Many popular databases currently in use are based on the relational database model.
+
+RDBMSs are a common choice for the storage of information in new databases used for financial records, manufacturing and logistical information,
+ personnel data, and other applications since the 1980s. Relational databases have often replaced legacy hierarchical databases and network databases because 
+ they are easier to understand and use. However, relational databases have been challenged by object databases, which were introduced in an attempt to address 
+ the object-relational impedance mismatch in relational databases,
+ and XML databases.
+ 
+ From Wikipedia, the free encyclopedia

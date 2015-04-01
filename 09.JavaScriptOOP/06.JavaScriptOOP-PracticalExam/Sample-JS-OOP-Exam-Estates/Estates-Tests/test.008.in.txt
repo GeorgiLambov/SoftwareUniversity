@@ -1,0 +1,12 @@
+create Office myOffice 70 Sofia true 1 false
+create Apartment myApartment 260 Sofia true 5 true
+create House myHouse 150 Bankya true 4
+
+create SaleOffer myApartment 160000
+create RentOffer myOffice 1200
+create SaleOffer myOffice 38000
+create SaleOffer myHouse 185000
+create RentOffer myOffice 1150
+create RentOffer myHouse 1400
+
+find-rents-by-location Sofia

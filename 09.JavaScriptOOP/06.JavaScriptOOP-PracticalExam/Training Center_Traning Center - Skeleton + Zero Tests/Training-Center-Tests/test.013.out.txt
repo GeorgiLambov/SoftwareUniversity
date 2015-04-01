@@ -1,0 +1,10 @@
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Seminar created.
+No trainers
+Trainings:
+ * Seminar[name=valid seminar;date=11-Aug-2005]

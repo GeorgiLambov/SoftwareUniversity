@@ -1,0 +1,6 @@
+
+if (httpRequest.readyState === 4) {
+ statusType = Math.floor(httpRequest.status / 100);
+ if (statusType === 2) { … }
+ else { … }
+}

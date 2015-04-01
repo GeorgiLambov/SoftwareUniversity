@@ -1,0 +1,10 @@
+Trainer created.
+Course created.
+Trainers:
+ * Trainer[username=nakov;last-name=Nakov]
+Trainings:
+ * Course[name=C# Basics;trainer=Trainer[username=nakov;last-name=Nakov];start-date=15-Nov-2014]
+Trainer deleted.
+No trainers
+Trainings:
+ * Course[name=C# Basics;start-date=15-Nov-2014]

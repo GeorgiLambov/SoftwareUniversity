@@ -1,0 +1,18 @@
+create Course {"description":"Missing name and startDate"}
+create Course {"name":"C# course", "description":"Missing startDate"}
+create Course {"name":"Course", "startDate":{}, "description":"Invalid date: empty object"}
+create Course {"name":"Course", "startDate":"29-Feb-2014", "description":"Invalid date: February 2014 has 28 days"}
+create Course {"name":"Course", "startDate":"hello", "description":"Invalid date format"}
+create Course {"name":"Course", "startDate":"31-Dec-1999", "description":"Invalid date range [1-Jan-2000..31-Dec-2020]"}
+create Course {"name":"Course", "startDate":"1-Jan-2021", "description":"Invalid date range [1-Jan-2000..31-Dec-2020]"}
+create Course {"name":"Course", "startDate":"20-Apr-1980", "description":"Invalid date range [1-Jan-2000..31-Dec-2020]"}
+create Course {"name":"Course", "startDate":"32-Jan-2014", "description":"Invalid date: 32 January"}
+create Course {"name":"Course", "startDate":"-1-Mar-2014", "description":"Invalid date: -1 March"}
+create Course {"name":"Cacourse", "startDate":"12-XXX-2014", "description":"Invalid date: XXX is not a month name"}
+create Course {"name":"Course", "startDate":"", "description":"Invalid date: empty string"}
+create Course {"name":"Course", "startDate":"2014", "description":"Invalid date format: year only"}
+
+create Course {"name":"Course 31-Dec-2020", "startDate":"31-Dec-2020"}
+create Course {"name":"Course 1-Jan-2000", "startDate":"1-Jan-2000"}
+
+list

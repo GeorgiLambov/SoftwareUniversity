@@ -1,0 +1,24 @@
+list
+
+create Trainer {"username":"gosho", "lastName":"Ivanov"}
+create Course {"name":"Python Basics", "startDate":"15-Mar-2015"}
+create Seminar {"name":"Ruby on Rails", "date":"28-Aug-2014"}
+create RemoteCourse {"name":"Java Basics Varna", "startDate":"29-Dec-2014", "location":"Plovdiv"}
+
+create Trainer {"username":"pesho", "firstName":"Pesho", "lastName":"Ivanov", "email":"pesho@abv.bg"}
+create RemoteCourse {"name":"Java Basics Plovdiv", "description":"Java Basics course description", "startDate":"29-Dec-2014", "trainer":"pesho", "location":"Plovdiv", "duration": 6}
+create Course {"name":"PHP Basics", "startDate":"15-Sep-2014", "trainer":"gosho", "description": "PHP course for beginners", "duration": 5 }
+create Seminar {"name":"Web Apps with Java EE", "description":"Using Java EE, EJB and JSF - First Steps", "date":"20-Nov-2014", "trainer":"gosho"}
+
+create Trainer {"username":"bat pesho", "firstName":"Pesho Peshov 123", "lastName":"Ivanov 123", "email":"pesho123@mail.abv.bg"}
+create Seminar {"name":"Web Apps with ASP.NET MVC", "date":"20-Nov-2014", "trainer":"bat pesho"}
+
+list
+
+create Trainer {"username":"gosho", "lastName":"Georgiev"}
+
+delete Trainer gosho
+delete Trainer bat pesho
+delete Trainer pesho
+
+list

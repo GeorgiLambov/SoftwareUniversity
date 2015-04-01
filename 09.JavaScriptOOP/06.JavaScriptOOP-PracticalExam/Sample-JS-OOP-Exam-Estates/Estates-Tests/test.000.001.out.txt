@@ -1,0 +1,75 @@
+Apartment created.
+Apartment created.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Estates:
+  Apartment: Name = aptLozenec24, Area = 150, Location = Sofia, Furnitured = Yes, Rooms: 4, Elevator: Yes
+  Apartment: Name = aptBotev28, Area = 54, Location = Sofia, Furnitured = Yes, Rooms: 2, Elevator: No
+No offers
+Office created.
+Office created.
+House created.
+House created.
+Garage created.
+RentOffer created.
+SaleOffer created.
+RentOffer created.
+SaleOffer created.
+RentOffer created.
+RentOffer created.
+SaleOffer created.
+RentOffer created.
+RentOffer created.
+RentOffer created.
+SaleOffer created.
+SaleOffer created.
+RentOffer created.
+Invalid command.
+Invalid command.
+Estates:
+  Apartment: Name = aptLozenec24, Area = 150, Location = Sofia, Furnitured = Yes, Rooms: 4, Elevator: Yes
+  Apartment: Name = aptBotev28, Area = 54, Location = Sofia, Furnitured = Yes, Rooms: 2, Elevator: No
+  Office: Name = officeVitosha44, Area = 70, Location = Sofia, Furnitured = Yes, Rooms: 1, Elevator: No
+  Office: Name = officePlovdiv, Area = 44, Location = Plovdiv, Furnitured = No, Rooms: 1, Elevator: Yes
+  House: Name = houseBankya, Area = 206, Location = Bankya, Furnitured = Yes, Floors: 3
+  House: Name = houseSofia, Area = 120, Location = Sofia, Furnitured = Yes, Floors: 1
+  Garage: Name = garageLozenec, Area = 18, Location = Sofia, Furnitured = No, Width: 3, Height: 6
+Offers:
+  Rent: Estate = aptLozenec24, Location = Sofia, Price = 750
+  Sale: Estate = aptLozenec24, Location = Sofia, Price = 195000
+  Rent: Estate = aptLozenec24, Location = Sofia, Price = 720
+  Sale: Estate = officeVitosha44, Location = Sofia, Price = 96000
+  Rent: Estate = officeVitosha44, Location = Sofia, Price = 720
+  Rent: Estate = officePlovdiv, Location = Plovdiv, Price = 450
+  Sale: Estate = houseBankya, Location = Bankya, Price = 320000
+  Rent: Estate = houseBankya, Location = Bankya, Price = 950
+  Rent: Estate = garageLozenec, Location = Sofia, Price = 100
+  Rent: Estate = garageLozenec, Location = Sofia, Price = 120
+  Sale: Estate = garageLozenec, Location = Sofia, Price = 12000
+  Sale: Estate = garageLozenec, Location = Sofia, Price = 11000
+  Rent: Estate = garageLozenec, Location = Sofia, Price = 720
+Query Results:
+  [Estate: aptLozenec24, Location: Sofia, Price: 195000]
+  [Estate: garageLozenec, Location: Sofia, Price: 12000]
+  [Estate: garageLozenec, Location: Sofia, Price: 11000]
+  [Estate: officeVitosha44, Location: Sofia, Price: 96000]
+Query Results:
+  [Estate: aptLozenec24, Location: Sofia, Price: 750]
+  [Estate: aptLozenec24, Location: Sofia, Price: 720]
+  [Estate: garageLozenec, Location: Sofia, Price: 100]
+  [Estate: garageLozenec, Location: Sofia, Price: 120]
+  [Estate: garageLozenec, Location: Sofia, Price: 720]
+  [Estate: officeVitosha44, Location: Sofia, Price: 720]
+Query Results:
+  [Estate: aptLozenec24, Location: Sofia, Price: 720]
+  [Estate: garageLozenec, Location: Sofia, Price: 720]
+  [Estate: officeVitosha44, Location: Sofia, Price: 720]
+  [Estate: aptLozenec24, Location: Sofia, Price: 750]
+  [Estate: houseBankya, Location: Bankya, Price: 950]
+No Results
+Invalid command.
+Invalid command.
+Invalid command.

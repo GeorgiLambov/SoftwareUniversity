@@ -1,0 +1,12 @@
+Office created.
+Apartment created.
+House created.
+SaleOffer created.
+RentOffer created.
+SaleOffer created.
+SaleOffer created.
+RentOffer created.
+RentOffer created.
+Query Results:
+  [Estate: myOffice, Location: Sofia, Price: 1200]
+  [Estate: myOffice, Location: Sofia, Price: 1150]

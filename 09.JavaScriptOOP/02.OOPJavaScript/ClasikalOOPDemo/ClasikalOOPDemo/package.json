@@ -1,0 +1,10 @@
+{
+  "name": "ClasikalOOPDemo",
+  "version": "0.0.0",
+  "description": "ClasikalOOPDemo",
+  "main": "app.js",
+  "author": {
+    "name": "Joro",
+    "email": ""
+  }
+}

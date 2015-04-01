@@ -1,0 +1,11 @@
+create Garage testGarage 36 Pleven true 6 6
+create Office testOffice 70 Sofia true 1 false
+create Apartment testApartment 260 Plovdiv true 5 true
+create House testHouse 150 Bankya true 4
+create RentOffer testOffice 350
+create SaleOffer testApartment 160000
+create SaleOffer testApartment 160001
+create RentOffer testOffice 351
+create RentOffer testGarage 120
+create RentOffer testHouse 860
+status

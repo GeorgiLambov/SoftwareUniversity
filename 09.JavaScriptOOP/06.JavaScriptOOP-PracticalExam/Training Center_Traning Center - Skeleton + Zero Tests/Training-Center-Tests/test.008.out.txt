@@ -1,0 +1,20 @@
+Invalid command.
+Trainer created.
+Seminar created.
+Trainers:
+ * Trainer[username=nakov;first-name=Svetlin;last-name=Nakov]
+Trainings:
+ * Seminar[name=JS for C# devs;description=JS vs. C#;trainer=Trainer[username=nakov;first-name=Svetlin;last-name=Nakov];date=15-Nov-2014]
+Trainer deleted.
+Invalid command.
+No trainers
+Trainings:
+ * Seminar[name=JS for C# devs;description=JS vs. C#;date=15-Nov-2014]
+Invalid command.
+Trainer created.
+RemoteCourse created.
+Trainers:
+ * Trainer[username=nakov;last-name=NAKOV]
+Trainings:
+ * Seminar[name=JS for C# devs;description=JS vs. C#;date=15-Nov-2014]
+ * RemoteCourse[name=Java Basics;trainer=Trainer[username=nakov;last-name=NAKOV];start-date=22-Nov-2014;location=Varna]

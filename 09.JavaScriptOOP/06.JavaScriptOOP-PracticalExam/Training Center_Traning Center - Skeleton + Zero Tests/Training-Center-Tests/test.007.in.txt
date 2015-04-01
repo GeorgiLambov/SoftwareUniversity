@@ -1,0 +1,5 @@
+create Trainer {"username":"nakov", "firstName":"Svetlin", "lastName":"Nakov"}
+list
+
+delete Trainer nakov
+list

@@ -1,0 +1,22 @@
+Garage created.
+Office created.
+Apartment created.
+House created.
+RentOffer created.
+SaleOffer created.
+SaleOffer created.
+RentOffer created.
+RentOffer created.
+RentOffer created.
+Estates:
+  Garage: Name = testGarage, Area = 36, Location = Pleven, Furnitured = Yes, Width: 6, Height: 6
+  Office: Name = testOffice, Area = 70, Location = Sofia, Furnitured = Yes, Rooms: 1, Elevator: No
+  Apartment: Name = testApartment, Area = 260, Location = Plovdiv, Furnitured = Yes, Rooms: 5, Elevator: Yes
+  House: Name = testHouse, Area = 150, Location = Bankya, Furnitured = Yes, Floors: 4
+Offers:
+  Rent: Estate = testOffice, Location = Sofia, Price = 350
+  Sale: Estate = testApartment, Location = Plovdiv, Price = 160000
+  Sale: Estate = testApartment, Location = Plovdiv, Price = 160001
+  Rent: Estate = testOffice, Location = Sofia, Price = 351
+  Rent: Estate = testGarage, Location = Pleven, Price = 120
+  Rent: Estate = testHouse, Location = Bankya, Price = 860

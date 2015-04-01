@@ -1,0 +1,12 @@
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+RemoteCourse created.
+No trainers
+Trainings:
+ * RemoteCourse[name=valid remote course;start-date=11-Aug-2005;location=Kaspichan]

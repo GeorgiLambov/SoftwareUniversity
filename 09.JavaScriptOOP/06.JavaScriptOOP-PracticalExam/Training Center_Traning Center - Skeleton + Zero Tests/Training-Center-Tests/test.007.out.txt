@@ -1,0 +1,7 @@
+Trainer created.
+Trainers:
+ * Trainer[username=nakov;first-name=Svetlin;last-name=Nakov]
+No trainings
+Trainer deleted.
+No trainers
+No trainings

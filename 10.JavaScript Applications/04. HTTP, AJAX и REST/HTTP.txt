@@ -1,0 +1,19 @@
+HTTP response code classes
+
+1xx: informational (e.g., "100 Continue")
+2xx: successful (e.g., "200 OK")
+3xx: redirection (e.g., "304 Not Modified", "302 Found")
+4xx: client error (e.g., "404 Not Found")
+5xx: server error (e.g., "503 Service Unavailable")
+"302 Found" redirects the Web browser to another URL
+
+
+
+HTTP Request Methods
+
+GET       Retrieve a resource
+POST       Update a resource
+PUT       Store a resource
+DELETE       Remove a resource
+HEAD         Retrieve the resource's headers
+

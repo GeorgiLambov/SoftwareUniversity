@@ -1,0 +1,4 @@
+Course created.
+No trainers
+Trainings:
+ * Course[name=Java Basics;start-date=1-Oct-2014;duration=5]

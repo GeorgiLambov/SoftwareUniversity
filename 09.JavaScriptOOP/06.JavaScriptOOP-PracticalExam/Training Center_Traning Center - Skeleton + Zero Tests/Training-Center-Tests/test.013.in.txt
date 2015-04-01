@@ -1,0 +1,9 @@
+create Seminar {}
+create Seminar {"name":"", "date":"28-Aug-2014", "description":"Empty name"}
+create Seminar {"date":"28-Aug-2014", "description":"Missing name"}
+create Seminar {"name":"empty description", "date":"28-Aug-2014", "description":""}
+create Seminar {"name":"seminar", "date":"28-Aug-2014", "trainer":"non-existing trainer"}
+create Seminar {"name":"seminar", "date":"11-Aug-1985", "description":"invalid date range"}
+
+create Seminar {"name":"valid seminar", "date":"11-Aug-2005"}
+list

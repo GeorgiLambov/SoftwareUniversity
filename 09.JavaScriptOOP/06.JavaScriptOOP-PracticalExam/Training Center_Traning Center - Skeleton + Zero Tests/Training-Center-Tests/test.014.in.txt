@@ -1,0 +1,11 @@
+create RemoteCourse {}
+create RemoteCourse {"name":"", "startDate":"28-Aug-2014", "location":"Kaspichan", "description":"Empty name"}
+create RemoteCourse {"startDate":"28-Aug-2014", "location":"Kaspichan", "description":"Missing name"}
+create RemoteCourse {"name":"empty description", "startDate":"28-Aug-2014", "location":"Kaspichan", "description":""}
+create RemoteCourse {"name":"seminar", "startDate":"28-Aug-2014", "location":"Kaspichan", "trainer":"non-existing trainer"}
+create RemoteCourse {"name":"seminar", "startDate":"11-Aug-1985", "location":"Kaspichan", "description":"invalid date range"}
+create RemoteCourse {"name":"seminar", "startDate":"11-Aug-1985", "location":"", "description":"Empty location"}
+create RemoteCourse {"name":"seminar", "startDate":"11-Aug-1985", "description":"Missing location"}
+
+create RemoteCourse {"name":"valid remote course", "startDate":"11-Aug-2005", "location":"Kaspichan"}
+list

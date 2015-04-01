@@ -1,0 +1,21 @@
+Relationships between tables are based on interconnections: primary key / foreign key
+
+
+Relationships have multiplicity:
+One-to-many – e.g. country / towns
+Relationship one-to-many (or many-to-one) – used often
+A single record in the first table has many corresponding records in the second table
+
+
+Self-Relationships
+The primary / foreign key relationships can point to one and the same table
+
+Many-to-many – e.g. student / course
+Records in the first table have many corresponding records in the second one and vice versa
+Implemented through additional table
+
+
+One-to-one – e.g. example human / student
+A single record in a table corresponds to a single record in the other table
+Used to model inheritance between tables
+

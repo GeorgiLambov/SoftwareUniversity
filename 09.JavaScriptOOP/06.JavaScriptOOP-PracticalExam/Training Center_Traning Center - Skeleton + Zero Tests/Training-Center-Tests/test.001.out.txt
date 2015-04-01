@@ -1,0 +1,4 @@
+Trainer created.
+Trainers:
+ * Trainer[username=pesho;first-name=Pesho;last-name=Ivanov;email=pesho@abv.bg]
+No trainings

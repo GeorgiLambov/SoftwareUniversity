@@ -1,0 +1,53 @@
+status
+
+create Office myOffice 70 Sofia true 1 false
+create Apartment myApartment 260 Sofia true 5 true
+create House myHouse 150 Bankya true 4
+create Garage myGarage 40 Pleven true 8 5
+
+status
+
+create SaleOffer myApartment 160000
+create RentOffer myOffice 1200
+create RentOffer myHouse 1400
+create SaleOffer myHouse 185000
+create RentOffer myGarage 120
+create RentOffer myOffice 1199
+create SaleOffer myGarage 8500
+create RentOffer myOffice 1200
+create SaleOffer myOffice 38000
+create RentOffer myOffice 1150
+create RentOffer myApartment 800
+create RentOffer myApartment 1150
+create RentOffer myOffice 1401
+
+status
+
+create Office officePleven 75 Pleven true 2 true
+create Apartment apartmentRousse 112 Rousse false 3 false
+create House houseKnyazhevo 150 Knyazhevo false 2
+create Garage garageVitosha 12 Vitosha false 4 3
+create Garage unknownGarage 30 Unknown true 3 10
+
+create RentOffer houseKnyazhevo 1350
+create SaleOffer officePleven 135000
+create RentOffer apartmentRousse 450
+create SaleOffer houseKnyazhevo 435000
+create RentOffer officePleven 350
+create SaleOffer apartmentRousse 145000
+create RentOffer garageVitosha 80
+create SaleOffer garageVitosha 9700
+
+status
+
+find-rents-by-price 450 1350
+
+find-rents-by-price 1000 1000
+
+find-sales-by-location Sofia
+
+find-rents-by-location Sofia
+
+find-sales-by-location Pleven
+
+find-rents-by-location Rousse

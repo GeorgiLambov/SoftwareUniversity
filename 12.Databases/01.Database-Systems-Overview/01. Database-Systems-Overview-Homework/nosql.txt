@@ -1,0 +1,23 @@
+A NoSQL (often interpreted as Not only SQL[1][2]) database provides a mechanism for storage and retrieval of data that is modeled in means other than the 
+tabular relations used in relational databases. Motivations for this approach include simplicity of design, horizontal scaling, and finer control over 
+availability. The data structures used by NoSQL databases (e.g. key-value, graph, or document) differ from those used in relational databases, making some
+ operations faster in NoSQL and others faster in relational databases. The particular suitability of a given NoSQL database depends on the problem it must solve.
+
+NoSQL databases are increasingly used in big data and real-time web applications.[3] NoSQL systems are also called "Not only SQL" to emphasize that
+ they may also support SQL-like query languages. Many NoSQL stores compromise consistency (in the sense of the CAP theorem) in favor of availability
+ and partition tolerance. Barriers to the greater adoption of NoSQL stores include the use of low-level query languages, the lack of standardized interfaces,
+ and huge investments in existing SQL.[4] Most NoSQL stores lack true ACID transactions, although a few recent systems, such as FairCom c-treeACE, 
+ Google Spanner (though technically a NewSQL database), FoundationDB and OrientDB have made them central to their designs.
+ 
+ 
+Document model (e.g. MongoDB, CouchDB)
+Set of documents, e.g. JSON strings
+
+Key-value model (e.g. Redis)
+Set of key-value pairs
+
+Wide-column model (e.g. Cassandra)
+Key-value model with schema
+
+Object model (e.g. Caché)
+Set of OOP-style objects

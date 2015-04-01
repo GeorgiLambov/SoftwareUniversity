@@ -1,0 +1,18 @@
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Course created.
+Course created.
+No trainers
+Trainings:
+ * Course[name=Course;description=Valid duration;start-date=31-Dec-2014;duration=1]
+ * Course[name=Course;description=Valid duration;start-date=2-Jul-2016;duration=99]

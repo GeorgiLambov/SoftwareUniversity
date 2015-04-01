@@ -1,0 +1,6 @@
+D:\DEVELOP\SoftUni\10.JavaScript Applications\10.Practical Exam\Consuming Remote Data with JS and REST\04.Products\bin\04.Products.dll.config
+D:\DEVELOP\SoftUni\10.JavaScript Applications\10.Practical Exam\Consuming Remote Data with JS and REST\04.Products\bin\04.Products.dll
+D:\DEVELOP\SoftUni\10.JavaScript Applications\10.Practical Exam\Consuming Remote Data with JS and REST\04.Products\bin\04.Products.pdb
+D:\DEVELOP\SoftUni\10.JavaScript Applications\10.Practical Exam\Consuming Remote Data with JS and REST\04.Products\obj\Debug\04.Products.csprojResolveAssemblyReference.cache
+D:\DEVELOP\SoftUni\10.JavaScript Applications\10.Practical Exam\Consuming Remote Data with JS and REST\04.Products\obj\Debug\04.Products.dll
+D:\DEVELOP\SoftUni\10.JavaScript Applications\10.Practical Exam\Consuming Remote Data with JS and REST\04.Products\obj\Debug\04.Products.pdb

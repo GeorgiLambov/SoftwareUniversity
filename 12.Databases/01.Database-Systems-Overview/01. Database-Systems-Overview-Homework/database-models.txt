@@ -1,0 +1,43 @@
+A database model is a type of data model that determines the logical structure of a database and fundamentally determines in which manner data can be stored, 
+organized, and manipulated. The most popular example of a database model is the relational model, which uses a table-based format.
+
+Common logical data models for databases include:
+
+Hierarchical database model
+Network model
+Relational model
+Entity–relationship model
+Object model
+Document model
+Entity–attribute–value model
+Star schema
+
+
+Document-oriented database detailed information:
+
+A document-oriented database is a computer program designed for storing, retrieving, and managing document-oriented information, 
+also known as semi-structured data. Document-oriented databases are one of the main categories of NoSQL databases and the popularity of the term
+ "document-oriented database" (or "document store") has grown with the use of the term NoSQL itself. In contrast to relational databases and their notion of 
+ "Relation", i.e., a tuple (or row) of related strong-typed data items, these systems are designed around an abstract notion of a "Document".
+ The central concept of a document-oriented database is that Documents.Document-oriented database implementations differ widely in detail and functionality.
+ Most accept documents in a variety of forms, and encapsulate them in a standardized internal format, while extracting at least some specific data items that 
+ are then associated with the document.A trivial example would be scanning paper documents, extracting the title, author, and date from them either by OCR or having 
+ a human locate and enter them, and storing each document in a 4-column relational database, the columns being author, title, date, and a blob full of page images. 
+ Some documents-oriented databases do essentially the same things, but with PDF (which may or may not contain text rather than images of text).
+ 
+ Documents may be addressed in the database via a unique key that represents that document. This key is often a simple string, a URI, or a path. 
+ The key can be used to retrieve the document from the database. Typically, the database retains an index on the key to speed up document retrieval. 
+ The most primitive document databases may do little more than that. However, modern document-oriented databases provide far more, because they extract and index 
+ all kinds of metadata, and usually also the entire data content, of the documents. Such databases offer a query language that allows the user to retrieve
+ documents based on their content. For example, you may want to retrieve all the documents whose date falls within some range, that contains a citation to 
+ another document, etc.. The set of query APIs or query language features available, as well as the expected performance of the queries, varies significantly from one implementation to the next.
+
+Implementations offer a variety of ways of organizing documents, including notions of:
+
+Collections
+Tags
+Non-visible Metadata
+Directory hierarchies
+Buckets
+
+via wikipedia

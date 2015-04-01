@@ -1,0 +1,13 @@
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Trainer created.
+Trainers:
+ * Trainer[username=validTrainer;last-name=Trainer]
+No trainings

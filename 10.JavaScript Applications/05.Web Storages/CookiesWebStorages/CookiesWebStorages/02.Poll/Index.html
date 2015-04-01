@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Poll System</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" defer=""></script>
+    <script src="pollSystem.js" defer=""></script>
+    <style>
+        .result {
+            display: none;
+            background-color: darkgray;
+        }
+
+        .answer {
+            font-weight: bold;
+        }
+
+        #go-back {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h3 class="timer"></h3>
+        </div>
+        <h1 style="font-weight: bold;" class="text-center heading">Poll System</h1>
+        <div class="form-group">
+            <h2>What is your favorite color ?</h2>
+            <div class="radio">
+                <label>
+                    <input name="question1" type="radio" id="answer1" value="Red">
+                    Red
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input name="question1" type="radio" id="answer2" value="Green">
+                    Green
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input name="question1" type="radio" id="answer3" value="Blue">
+                    Blue
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input name="question1" type="radio" id="answer4" value="Yellow">
+                    Yellow
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <h2>What is your favorite car ?</h2>
+            <div class="radio">
+                <label>
+                    <input name="question2" type="radio" id="answer5" value="Mercedes-Benz">
+                    Mercedes-Benz
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input name="question2" type="radio" id="answer6" value="BMW">
+                    BMW
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input name="question2" type="radio" id="answer7" value="Audi">
+                    Audi
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input name="question2" id="answer8" type="radio" value="Opel">
+                    Opel
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <h2>What is your favorite book ?</h2>
+            <div class="radio">
+                <label>
+                    <input name="question3" type="radio" id="answer9" value="Harry Potter">
+                    Harry Potter
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input name="question3" type="radio" id="answer10" value="The Hunger Games">
+                    The Hunger Games
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input name="question3" type="radio" id="answer11" value="Divergent">
+                    Divergent
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input name="question3" type="radio" id="answer12" value="The Vampire Diaries">
+                    The Vampire Diaries
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <button id="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+    <div class="jumbotron result">
+        <div class="row">
+            <h2 class="col-md-5">Answers: </h2>
+            <button id="go-back" class="btn btn-default pull-right">
+                <span class="glyphicon glyphicon-arrow-left"></span>
+                Back
+            </button>
+        </div>
+        <div class="row">
+            <h3>What is your favorite color ?</h3>
+            <span>Your answer: </span>
+            <span class="answer" id="result-answer1"></span>
+        </div>
+        <div class="row">
+            <h3>What is your favorite car ?</h3>
+            <span>Your answer: </span>
+            <span class="answer" id="result-answer2"></span>
+        </div>
+        <div class="row">
+            <h3>What is your favorite book ?</h3>
+            <span>Your answer: </span>
+            <span class="answer" id="result-answer3"></span>
+        </div>
+    </div>
+</body>
+</html>

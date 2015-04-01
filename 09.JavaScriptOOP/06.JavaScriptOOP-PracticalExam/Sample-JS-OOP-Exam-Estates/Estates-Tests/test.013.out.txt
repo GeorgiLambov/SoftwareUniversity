@@ -1,0 +1,29 @@
+Office created.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Office created.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Invalid command.
+Estates:
+  Office: Name = officeDuplicated, Area = 160, Location = Sofia, Furnitured = Yes, Rooms: 1, Elevator: No
+  Office: Name = myOffice, Area = 70, Location = Sofia, Furnitured = Yes, Rooms: 1, Elevator: No
+No offers

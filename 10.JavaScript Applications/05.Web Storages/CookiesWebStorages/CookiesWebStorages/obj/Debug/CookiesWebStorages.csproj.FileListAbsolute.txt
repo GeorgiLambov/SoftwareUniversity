@@ -1,0 +1,6 @@
+D:\DEVELOP\SoftUni\10.JavaScript Applications\04.Web Storages\CookiesWebStorages\CookiesWebStorages\bin\CookiesWebStorages.dll.config
+D:\DEVELOP\SoftUni\10.JavaScript Applications\04.Web Storages\CookiesWebStorages\CookiesWebStorages\bin\CookiesWebStorages.dll
+D:\DEVELOP\SoftUni\10.JavaScript Applications\04.Web Storages\CookiesWebStorages\CookiesWebStorages\bin\CookiesWebStorages.pdb
+D:\DEVELOP\SoftUni\10.JavaScript Applications\04.Web Storages\CookiesWebStorages\CookiesWebStorages\obj\Debug\CookiesWebStorages.csprojResolveAssemblyReference.cache
+D:\DEVELOP\SoftUni\10.JavaScript Applications\04.Web Storages\CookiesWebStorages\CookiesWebStorages\obj\Debug\CookiesWebStorages.dll
+D:\DEVELOP\SoftUni\10.JavaScript Applications\04.Web Storages\CookiesWebStorages\CookiesWebStorages\obj\Debug\CookiesWebStorages.pdb

@@ -1,0 +1,3 @@
+create Trainer {"username":"pesho", "firstName":"Pesho", "lastName":"Ivanov", "email":"pesho@abv.bg"}
+create Course {"name":"Java Basics", "startDate":"1-Oct-2014", "duration": 5, "trainer":"pesho"}
+list
