@@ -1,0 +1,20 @@
+1. Java
+Java is a class-based, object-oriented programming language developed by Sun Microsystems in the 1990s. 
+It's one of the most in-demand programming languages, a standard for enterprise software, web-based content,
+games and mobile apps, as well as the Android operating system. 
+2. C #
+"C-sharp," C# is a multi-paradigm language developed by Microsoft as part of its .NET initiative. 
+Combining principles from C and C++, C# is a general-purpose language used to develop software for 
+Microsoft and Windows platforms.
+3. PHP 
+PHP(Hypertext Processor) is a free, server-side scripting language designed for dynamic websites and app
+ development. It can be directly embedded into an HTML source document rather than an external file,
+ which has made it a popular programming language for web developers
+4. JavaScript
+JavaScript is a client and server-side scripting language developed by Netscape that derives much of its
+ syntax from C. It can be used across multiple web browsers and is considered essential for developing 
+ interactive or animated web functions. It is also used in game development and writing desktop applications.
+5. Objective-C
+Objective-C is a general-purpose, object-oriented programming language used by the Apple operating system. 
+It powers Apple's OS X and iOS, as well as its APIs, and can be used to create iPhone apps, which has 
+generated a huge demand for this once-outmoded programming language.
