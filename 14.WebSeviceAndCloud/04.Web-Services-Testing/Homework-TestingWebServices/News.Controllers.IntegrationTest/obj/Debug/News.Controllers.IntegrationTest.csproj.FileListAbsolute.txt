@@ -1,0 +1,1 @@
+C:\Users\Joro\Desktop\Homework-TestingWebServices\News.Controllers.IntegrationTest\obj\Debug\News.Controllers.IntegrationTest.csprojResolveAssemblyReference.cache

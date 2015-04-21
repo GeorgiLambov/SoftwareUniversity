@@ -1,0 +1,11 @@
+C:\Users\Joro\Desktop\WebServicesOverview\DistanceCalculatorClient\bin\Debug\DistanceCalculatorClient.exe.config
+C:\Users\Joro\Desktop\WebServicesOverview\DistanceCalculatorClient\obj\Debug\DistanceCalculatorClient.exe
+C:\Users\Joro\Desktop\WebServicesOverview\DistanceCalculatorClient\obj\Debug\DistanceCalculatorClient.pdb
+C:\Users\Joro\Desktop\WebServicesOverview\DistanceCalculatorClient\bin\Debug\DistanceCalculatorClient.exe
+C:\Users\Joro\Desktop\WebServicesOverview\DistanceCalculatorClient\bin\Debug\DistanceCalculatorClient.pdb
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\DistanceCalculatorClient\bin\Debug\DistanceCalculatorClient.exe.config
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\DistanceCalculatorClient\bin\Debug\DistanceCalculatorClient.exe
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\DistanceCalculatorClient\bin\Debug\DistanceCalculatorClient.pdb
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\DistanceCalculatorClient\obj\Debug\02.DistanceCalculatorClientSOAP.csprojResolveAssemblyReference.cache
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\DistanceCalculatorClient\obj\Debug\DistanceCalculatorClient.exe
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\DistanceCalculatorClient\obj\Debug\DistanceCalculatorClient.pdb

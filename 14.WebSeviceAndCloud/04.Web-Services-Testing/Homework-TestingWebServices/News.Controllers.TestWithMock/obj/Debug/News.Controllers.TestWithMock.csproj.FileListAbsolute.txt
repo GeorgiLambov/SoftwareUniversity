@@ -1,0 +1,1 @@
+C:\Users\Joro\Desktop\Homework-TestingWebServices\News.Controllers.TestWithMock\obj\Debug\News.Controllers.TestWithMock.csprojResolveAssemblyReference.cache

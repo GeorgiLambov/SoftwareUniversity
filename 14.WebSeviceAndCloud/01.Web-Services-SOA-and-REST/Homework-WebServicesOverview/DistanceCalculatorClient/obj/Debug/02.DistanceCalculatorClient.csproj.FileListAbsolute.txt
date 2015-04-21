@@ -1,0 +1,8 @@
+C:\Users\Joro\Desktop\WebServicesOverview\DistanceCalculatorClient\bin\Debug\DistanceCalculatorClient.exe.config
+C:\Users\Joro\Desktop\WebServicesOverview\DistanceCalculatorClient\obj\Debug\02.DistanceCalculatorClient.csprojResolveAssemblyReference.cache
+C:\Users\Joro\Desktop\WebServicesOverview\DistanceCalculatorClient\bin\Debug\DistanceCalculatorClient.exe
+C:\Users\Joro\Desktop\WebServicesOverview\DistanceCalculatorClient\bin\Debug\DistanceCalculatorClient.pdb
+C:\Users\Joro\Desktop\WebServicesOverview\DistanceCalculatorClient\bin\Debug\CalcDistance.dll
+C:\Users\Joro\Desktop\WebServicesOverview\DistanceCalculatorClient\bin\Debug\CalcDistance.pdb
+C:\Users\Joro\Desktop\WebServicesOverview\DistanceCalculatorClient\obj\Debug\DistanceCalculatorClient.exe
+C:\Users\Joro\Desktop\WebServicesOverview\DistanceCalculatorClient\obj\Debug\DistanceCalculatorClient.pdb

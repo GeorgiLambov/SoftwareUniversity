@@ -1,0 +1,11 @@
+C:\Users\Joro\Desktop\WebServicesOverview\CalcDistance\bin\CalcDistance.dll.config
+C:\Users\Joro\Desktop\WebServicesOverview\CalcDistance\bin\CalcDistance.dll
+C:\Users\Joro\Desktop\WebServicesOverview\CalcDistance\bin\CalcDistance.pdb
+C:\Users\Joro\Desktop\WebServicesOverview\CalcDistance\obj\Debug\CalcDistance.dll
+C:\Users\Joro\Desktop\WebServicesOverview\CalcDistance\obj\Debug\CalcDistance.pdb
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\CalcDistance\bin\CalcDistance.dll.config
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\CalcDistance\bin\CalcDistance.dll
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\CalcDistance\bin\CalcDistance.pdb
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\CalcDistance\obj\Debug\01.DistanceCalculatorServiceSOAP.csprojResolveAssemblyReference.cache
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\CalcDistance\obj\Debug\CalcDistance.dll
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\CalcDistance\obj\Debug\CalcDistance.pdb

@@ -1,0 +1,6 @@
+C:\Users\Joro\Desktop\WebServicesOverview\CalcDistance\bin\CalcDistance.dll.config
+C:\Users\Joro\Desktop\WebServicesOverview\CalcDistance\bin\CalcDistance.dll
+C:\Users\Joro\Desktop\WebServicesOverview\CalcDistance\bin\CalcDistance.pdb
+C:\Users\Joro\Desktop\WebServicesOverview\CalcDistance\obj\Debug\01.CalcDistance.csprojResolveAssemblyReference.cache
+C:\Users\Joro\Desktop\WebServicesOverview\CalcDistance\obj\Debug\CalcDistance.dll
+C:\Users\Joro\Desktop\WebServicesOverview\CalcDistance\obj\Debug\CalcDistance.pdb

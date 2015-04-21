@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DistanceCalculatorServiceSOAP", "CalcDistance\01.DistanceCalculatorServiceSOAP.csproj", "{F4013C43-F7C3-42FB-A333-7AAB5AB76ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.DistanceCalculatorClientSOAP", "DistanceCalculatorClient\02.DistanceCalculatorClientSOAP.csproj", "{B7EE5A63-47BB-41B8-A970-266AEC113F23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.DistanceCalculatorRESTClient", "DistanceCalculatorRESTClient\04.DistanceCalculatorRESTClient.csproj", "{DFD5F68E-FEF6-4A24-B4B7-73879EBDEE44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.DistanceCalculatorServicesREST", "DistanceCalculatorServicesREST\03.DistanceCalculatorServicesREST.csproj", "{DDE5659D-16A2-4755-9331-FAC9B14A3BB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4013C43-F7C3-42FB-A333-7AAB5AB76ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4013C43-F7C3-42FB-A333-7AAB5AB76ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4013C43-F7C3-42FB-A333-7AAB5AB76ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4013C43-F7C3-42FB-A333-7AAB5AB76ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7EE5A63-47BB-41B8-A970-266AEC113F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7EE5A63-47BB-41B8-A970-266AEC113F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7EE5A63-47BB-41B8-A970-266AEC113F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7EE5A63-47BB-41B8-A970-266AEC113F23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD5F68E-FEF6-4A24-B4B7-73879EBDEE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD5F68E-FEF6-4A24-B4B7-73879EBDEE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD5F68E-FEF6-4A24-B4B7-73879EBDEE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD5F68E-FEF6-4A24-B4B7-73879EBDEE44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE5659D-16A2-4755-9331-FAC9B14A3BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE5659D-16A2-4755-9331-FAC9B14A3BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE5659D-16A2-4755-9331-FAC9B14A3BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE5659D-16A2-4755-9331-FAC9B14A3BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

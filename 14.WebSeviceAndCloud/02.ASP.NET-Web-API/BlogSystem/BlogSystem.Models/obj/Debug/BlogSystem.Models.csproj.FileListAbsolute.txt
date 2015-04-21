@@ -1,0 +1,13 @@
+C:\Users\Joro\Desktop\BlogSystem\BlogSystem.Models\bin\Debug\BlogSystem.Models.dll.config
+C:\Users\Joro\Desktop\BlogSystem\BlogSystem.Models\bin\Debug\BlogSystem.Models.dll
+C:\Users\Joro\Desktop\BlogSystem\BlogSystem.Models\bin\Debug\BlogSystem.Models.pdb
+C:\Users\Joro\Desktop\BlogSystem\BlogSystem.Models\bin\Debug\EntityFramework.dll
+C:\Users\Joro\Desktop\BlogSystem\BlogSystem.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joro\Desktop\BlogSystem\BlogSystem.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Joro\Desktop\BlogSystem\BlogSystem.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Joro\Desktop\BlogSystem\BlogSystem.Models\bin\Debug\EntityFramework.xml
+C:\Users\Joro\Desktop\BlogSystem\BlogSystem.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Joro\Desktop\BlogSystem\BlogSystem.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Joro\Desktop\BlogSystem\BlogSystem.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Joro\Desktop\BlogSystem\BlogSystem.Models\obj\Debug\BlogSystem.Models.dll
+C:\Users\Joro\Desktop\BlogSystem\BlogSystem.Models\obj\Debug\BlogSystem.Models.pdb

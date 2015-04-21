@@ -1,0 +1,10 @@
+C:\Users\Joro\Desktop\Downloads\StudentSystem.Models\bin\Debug\StudentSystem.Models.dll.config
+C:\Users\Joro\Desktop\Downloads\StudentSystem.Models\bin\Debug\StudentSystem.Models.dll
+C:\Users\Joro\Desktop\Downloads\StudentSystem.Models\bin\Debug\StudentSystem.Models.pdb
+C:\Users\Joro\Desktop\Downloads\StudentSystem.Models\bin\Debug\EntityFramework.dll
+C:\Users\Joro\Desktop\Downloads\StudentSystem.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joro\Desktop\Downloads\StudentSystem.Models\bin\Debug\EntityFramework.xml
+C:\Users\Joro\Desktop\Downloads\StudentSystem.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Joro\Desktop\Downloads\StudentSystem.Models\obj\Debug\StudentSystem.Models.csprojResolveAssemblyReference.cache
+C:\Users\Joro\Desktop\Downloads\StudentSystem.Models\obj\Debug\StudentSystem.Models.dll
+C:\Users\Joro\Desktop\Downloads\StudentSystem.Models\obj\Debug\StudentSystem.Models.pdb

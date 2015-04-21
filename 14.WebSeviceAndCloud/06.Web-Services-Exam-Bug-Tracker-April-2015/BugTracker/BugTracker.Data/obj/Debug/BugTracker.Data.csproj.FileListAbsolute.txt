@@ -1,0 +1,24 @@
+C:\Users\Joro\Desktop\Downloads\New folder\BugTracker.Data\bin\Debug\BugTracker.Data.dll
+C:\Users\Joro\Desktop\Downloads\New folder\BugTracker.Data\bin\Debug\BugTracker.Data.pdb
+C:\Users\Joro\Desktop\Downloads\New folder\BugTracker.Data\bin\Debug\EntityFramework.dll
+C:\Users\Joro\Desktop\Downloads\New folder\BugTracker.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joro\Desktop\Downloads\New folder\BugTracker.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Joro\Desktop\Downloads\New folder\BugTracker.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Joro\Desktop\Downloads\New folder\BugTracker.Data\bin\Debug\EntityFramework.xml
+C:\Users\Joro\Desktop\Downloads\New folder\BugTracker.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Joro\Desktop\Downloads\New folder\BugTracker.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Joro\Desktop\Downloads\New folder\BugTracker.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Joro\Desktop\Downloads\New folder\BugTracker.Data\obj\Debug\BugTracker.Data.dll
+C:\Users\Joro\Desktop\Downloads\New folder\BugTracker.Data\obj\Debug\BugTracker.Data.pdb
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\06.Web-Services-Exam-Bug-Tracker-April-2015\BugTracker\BugTracker.Data\bin\Debug\BugTracker.Data.dll
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\06.Web-Services-Exam-Bug-Tracker-April-2015\BugTracker\BugTracker.Data\bin\Debug\BugTracker.Data.pdb
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\06.Web-Services-Exam-Bug-Tracker-April-2015\BugTracker\BugTracker.Data\bin\Debug\EntityFramework.dll
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\06.Web-Services-Exam-Bug-Tracker-April-2015\BugTracker\BugTracker.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\06.Web-Services-Exam-Bug-Tracker-April-2015\BugTracker\BugTracker.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\06.Web-Services-Exam-Bug-Tracker-April-2015\BugTracker\BugTracker.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\06.Web-Services-Exam-Bug-Tracker-April-2015\BugTracker\BugTracker.Data\bin\Debug\EntityFramework.xml
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\06.Web-Services-Exam-Bug-Tracker-April-2015\BugTracker\BugTracker.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\06.Web-Services-Exam-Bug-Tracker-April-2015\BugTracker\BugTracker.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\06.Web-Services-Exam-Bug-Tracker-April-2015\BugTracker\BugTracker.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\06.Web-Services-Exam-Bug-Tracker-April-2015\BugTracker\BugTracker.Data\obj\Debug\BugTracker.Data.dll
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\06.Web-Services-Exam-Bug-Tracker-April-2015\BugTracker\BugTracker.Data\obj\Debug\BugTracker.Data.pdb

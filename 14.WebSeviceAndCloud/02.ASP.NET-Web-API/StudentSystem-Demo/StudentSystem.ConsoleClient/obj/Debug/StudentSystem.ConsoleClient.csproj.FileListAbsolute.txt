@@ -1,0 +1,17 @@
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.ConsoleClient.exe.config
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.ConsoleClient.exe
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.ConsoleClient.pdb
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Data.dll
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Models.dll
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Data.pdb
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Models.pdb
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.exe
+C:\Users\Joro\Desktop\Downloads\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.pdb
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\02.ASP.NET-Web-API\StudentSystem-Demo\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.ConsoleClient.exe.config
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\02.ASP.NET-Web-API\StudentSystem-Demo\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.exe
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\02.ASP.NET-Web-API\StudentSystem-Demo\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.pdb

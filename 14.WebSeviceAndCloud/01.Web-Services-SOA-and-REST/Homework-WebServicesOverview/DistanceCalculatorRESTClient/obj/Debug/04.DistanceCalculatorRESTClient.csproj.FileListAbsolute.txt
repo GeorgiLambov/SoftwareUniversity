@@ -1,0 +1,6 @@
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\DistanceCalculatorRESTClient\bin\Debug\DistanceCalculatorRESTClient.exe.config
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\DistanceCalculatorRESTClient\bin\Debug\DistanceCalculatorRESTClient.exe
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\DistanceCalculatorRESTClient\bin\Debug\DistanceCalculatorRESTClient.pdb
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\DistanceCalculatorRESTClient\obj\Debug\04.DistanceCalculatorRESTClient.csprojResolveAssemblyReference.cache
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\DistanceCalculatorRESTClient\obj\Debug\DistanceCalculatorRESTClient.exe
+D:\DEVELOP\SoftUni\14.WebSeviceAndCloud\01.Web-Services-SOA-and-REST\WebServicesOverview\DistanceCalculatorRESTClient\obj\Debug\DistanceCalculatorRESTClient.pdb
