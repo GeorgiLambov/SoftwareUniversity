@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<directory>
+	<dir name="07.GenerateFileSystemXml">
+		<file name="07.GenerateFileSystemXml.csproj" size-in-bytes="2607" />
+		<file name="App.config" size-in-bytes="187" />
+		<file name="directory.xml" size-in-bytes="0" />
+		<file name="GenerateFileSystemXmlUI.cs" size-in-bytes="2231" />
+		<dir name="bin">
+			<dir name="Debug">
+				<file name="07.GenerateFileSystemXml.exe" size-in-bytes="6656" />
+				<file name="07.GenerateFileSystemXml.exe.config" size-in-bytes="187" />
+				<file name="07.GenerateFileSystemXml.pdb" size-in-bytes="13824" />
+				<file name="07.GenerateFileSystemXml.vshost.exe" size-in-bytes="23168" />
+				<file name="07.GenerateFileSystemXml.vshost.exe.config" size-in-bytes="187" />
+			</dir>
+			<dir name="Release" />
+		</dir>
+		<dir name="obj">
+			<dir name="Debug">
+				<file name="07.GenerateFileSystemXml.csproj.FileListAbsolute.txt" size-in-bytes="532" />
+				<file name="07.GenerateFileSystemXml.exe" size-in-bytes="6656" />
+				<file name="07.GenerateFileSystemXml.pdb" size-in-bytes="13824" />
+				<file name="DesignTimeResolveAssemblyReferencesInput.cache" size-in-bytes="6634" />
+				<file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" size-in-bytes="0" />
+				<file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" size-in-bytes="0" />
+				<file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" size-in-bytes="0" />
+				<dir name="TempPE" />
+			</dir>
+		</dir>
+		<dir name="Properties">
+			<file name="AssemblyInfo.cs" size-in-bytes="1460" />
+		</dir>
+	</dir>
+</directory>

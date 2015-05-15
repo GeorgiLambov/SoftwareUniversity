@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bb68021e0ebe46d3abbac6e7be2f97b3" Name="Diagram1">
+        <EntityTypeShape EntityType="AdsModel.Ad" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsModel.AdStatus" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsModel.AspNetRole" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsModel.AspNetUser" Width="1.5" PointX="6" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsModel.Category" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdsModel.Town" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <AssociationConnector Association="AdsModel.FK_Ads_AdStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsModel.FK_dbo_Advertisements_dbo_AspNetUsers_OwnerId" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsModel.FK_dbo_Advertisements_dbo_Categories_CategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsModel.FK_dbo_Advertisements_dbo_Towns_TownId" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsModel.FK_dbo_AspNetUsers_dbo_Towns_TownId" ManuallyRouted="false" />
+        <AssociationConnector Association="AdsModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

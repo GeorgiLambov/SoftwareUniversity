@@ -1,0 +1,15 @@
+﻿[
+  { "name" : "Steve", "phones" : [ "088 1234 5678" ] },
+  { "name" : "Gabriela", "emails" : [ "gaby@yahoo.com", "gaby.d@gmail.com" ] },
+  { },
+  { "name" : "Milena Smilyanova",
+    "company" : "Mente Soft Ltd.",
+    "position" : "CEO",
+    "site" : "http://mentesoft.org",
+    "phones" : [ "088 77 22 77", "02 / 981 77 22" ],
+    "emails" : [ "gaby@yahoo.com", "gaby.d@gmail.com" ],
+    "site" : "http://mentesoft.org",
+    "notes" : "Friends from Plovdiv International Fair" },
+  { "firstName" : "Steve", "lastName" : "Balmer", "email" : "steve@ms.org" },
+  { "name" : "Unknown Contact" }
+]

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.EFMappings", "EFMappings\1.EFMappings.csproj", "{68C9D331-E22A-452C-93F1-B43307114F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ExportLeaguesAndTeamsAsJSON", "ExportLeaguesAndTeamsAsJSON\2.ExportLeaguesAndTeamsAsJSON.csproj", "{6B606AAB-F579-402F-A2A7-C98C6B9F74EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.ExportInternationalMatchesAsXML", "ExportInternationalMatchesAsXML\3.ExportInternationalMatchesAsXML.csproj", "{3F250645-BCAD-4A56-8E37-ED8A9FE50066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.ImportLeaguesAndTeamsFromXML", "ImportLeaguesAndTeamsFromXML\4.ImportLeaguesAndTeamsFromXML.csproj", "{3A09F86A-D832-4DB0-A57B-710408BC433E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.PhonebookCodeFirst", "PhonebookCodeFirst\6.PhonebookCodeFirst.csproj", "{180C06F7-423D-494F-A057-5919BA28BE94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Import-Contacts-from-JSON", "Import-Contacts-from-JSON\7. Import-Contacts-from-JSON.csproj", "{A6ACBC8D-90D9-45ED-8C9E-7C1D0A2D9CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Generate-Random-Matches", "Generate-Random-Matches\5. Generate-Random-Matches.csproj", "{C0CB3A0A-0876-4931-B866-5C1F136B87F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68C9D331-E22A-452C-93F1-B43307114F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C9D331-E22A-452C-93F1-B43307114F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C9D331-E22A-452C-93F1-B43307114F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C9D331-E22A-452C-93F1-B43307114F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B606AAB-F579-402F-A2A7-C98C6B9F74EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B606AAB-F579-402F-A2A7-C98C6B9F74EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B606AAB-F579-402F-A2A7-C98C6B9F74EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B606AAB-F579-402F-A2A7-C98C6B9F74EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F250645-BCAD-4A56-8E37-ED8A9FE50066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F250645-BCAD-4A56-8E37-ED8A9FE50066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F250645-BCAD-4A56-8E37-ED8A9FE50066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F250645-BCAD-4A56-8E37-ED8A9FE50066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A09F86A-D832-4DB0-A57B-710408BC433E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A09F86A-D832-4DB0-A57B-710408BC433E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A09F86A-D832-4DB0-A57B-710408BC433E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A09F86A-D832-4DB0-A57B-710408BC433E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180C06F7-423D-494F-A057-5919BA28BE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180C06F7-423D-494F-A057-5919BA28BE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180C06F7-423D-494F-A057-5919BA28BE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180C06F7-423D-494F-A057-5919BA28BE94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6ACBC8D-90D9-45ED-8C9E-7C1D0A2D9CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6ACBC8D-90D9-45ED-8C9E-7C1D0A2D9CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6ACBC8D-90D9-45ED-8C9E-7C1D0A2D9CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6ACBC8D-90D9-45ED-8C9E-7C1D0A2D9CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0CB3A0A-0876-4931-B866-5C1F136B87F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CB3A0A-0876-4931-B866-5C1F136B87F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CB3A0A-0876-4931-B866-5C1F136B87F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0CB3A0A-0876-4931-B866-5C1F136B87F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

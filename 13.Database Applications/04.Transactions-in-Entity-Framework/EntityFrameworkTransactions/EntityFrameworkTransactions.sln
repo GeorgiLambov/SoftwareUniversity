@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.Model", "NewsDB.Model\NewsDB.Model.csproj", "{D96C4C18-B004-467F-96D7-604087103FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.Data", "NewsDB.Data\NewsDB.Data.csproj", "{8023C98A-1267-443B-84E8-D9448A1DF555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ConcurrentUpdates(ConsoleApp)", "02.ConcurrentUpdates(ConsoleApp)\02.ConcurrentUpdates(ConsoleApp).csproj", "{F3311DE1-1C28-470F-BE74-39E313B3D9A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMMachine.Data", "ATMMachine.Data\ATMMachine.Data.csproj", "{C7AD3E81-7C22-4ED5-8324-3F8066F0C0AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.TransactionalATMWithdrawal", "05.TransactionalATMWithdrawal\05.TransactionalATMWithdrawal.csproj", "{774D88F0-F059-418D-8B1A-8B7F26D278BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D96C4C18-B004-467F-96D7-604087103FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96C4C18-B004-467F-96D7-604087103FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96C4C18-B004-467F-96D7-604087103FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96C4C18-B004-467F-96D7-604087103FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8023C98A-1267-443B-84E8-D9448A1DF555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8023C98A-1267-443B-84E8-D9448A1DF555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8023C98A-1267-443B-84E8-D9448A1DF555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8023C98A-1267-443B-84E8-D9448A1DF555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3311DE1-1C28-470F-BE74-39E313B3D9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3311DE1-1C28-470F-BE74-39E313B3D9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3311DE1-1C28-470F-BE74-39E313B3D9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3311DE1-1C28-470F-BE74-39E313B3D9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AD3E81-7C22-4ED5-8324-3F8066F0C0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AD3E81-7C22-4ED5-8324-3F8066F0C0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AD3E81-7C22-4ED5-8324-3F8066F0C0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AD3E81-7C22-4ED5-8324-3F8066F0C0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774D88F0-F059-418D-8B1A-8B7F26D278BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774D88F0-F059-418D-8B1A-8B7F26D278BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774D88F0-F059-418D-8B1A-8B7F26D278BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774D88F0-F059-418D-8B1A-8B7F26D278BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

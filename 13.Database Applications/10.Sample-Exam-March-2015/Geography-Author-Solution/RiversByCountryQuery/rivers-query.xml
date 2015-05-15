@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<queries>
+  <query max-results="2">
+    <country>Brazil</country>
+  </query>
+  <query max-results="20">
+    <country>Mexico</country>
+    <country>Afganistan</country>
+  </query>
+  <query>
+    <country>Bulgaria</country>
+    <country>Romania</country>
+    <country>Austria</country>
+  </query>
+</queries>

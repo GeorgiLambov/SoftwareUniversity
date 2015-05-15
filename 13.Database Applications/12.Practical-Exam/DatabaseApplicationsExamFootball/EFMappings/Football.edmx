@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FootballModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Countries">
+          <Key>
+            <PropertyRef Name="CountryCode" />
+          </Key>
+          <Property Name="CountryCode" Type="char" MaxLength="2" Nullable="false" />
+          <Property Name="CountryName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CurrencyCode" Type="varchar" MaxLength="50" />
+          <Property Name="Population" Type="int" />
+          <Property Name="AreaSqKm" Type="int" />
+          <Property Name="Capital" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="InternationalMatches">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="HomeCountryCode" Type="char" MaxLength="2" Nullable="false" />
+          <Property Name="AwayCountryCode" Type="char" MaxLength="2" Nullable="false" />
+          <Property Name="HomeGoals" Type="int" />
+          <Property Name="AwayGoals" Type="int" />
+          <Property Name="MatchDate" Type="datetime" />
+          <Property Name="LeagueId" Type="int" />
+        </EntityType>
+        <EntityType Name="Leagues">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="LeagueName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CountryCode" Type="char" MaxLength="2" />
+        </EntityType>
+        <EntityType Name="Leagues_Teams">
+          <Key>
+            <PropertyRef Name="LeagueId" />
+            <PropertyRef Name="TeamId" />
+          </Key>
+          <Property Name="LeagueId" Type="int" Nullable="false" />
+          <Property Name="TeamId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="TeamMatches">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="HomeTeamId" Type="int" Nullable="false" />
+          <Property Name="AwayTeamId" Type="int" Nullable="false" />
+          <Property Name="HomeGoals" Type="int" />
+          <Property Name="AwayGoals" Type="int" />
+          <Property Name="MatchDate" Type="datetime" />
+          <Property Name="LeagueId" Type="int" />
+        </EntityType>
+        <EntityType Name="Teams">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TeamName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CountryCode" Type="char" MaxLength="2" />
+        </EntityType>
+        <Association Name="FK_InternationalMatches_Countries_AwayCountryCode">
+          <End Role="Countries" Type="Self.Countries" Multiplicity="1" />
+          <End Role="InternationalMatches" Type="Self.InternationalMatches" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Countries">
+              <PropertyRef Name="CountryCode" />
+            </Principal>
+            <Dependent Role="InternationalMatches">
+              <PropertyRef Name="AwayCountryCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_InternationalMatches_Countries_HomeCountryCode">
+          <End Role="Countries" Type="Self.Countries" Multiplicity="1" />
+          <End Role="InternationalMatches" Type="Self.InternationalMatches" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Countries">
+              <PropertyRef Name="CountryCode" />
+            </Principal>
+            <Dependent Role="InternationalMatches">
+              <PropertyRef Name="HomeCountryCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_InternationalMatches_Leagues">
+          <End Role="Leagues" Type="Self.Leagues" Multiplicity="0..1" />
+          <End Role="InternationalMatches" Type="Self.InternationalMatches" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Leagues">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="InternationalMatches">
+              <PropertyRef Name="LeagueId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Leagues_Countries">
+          <End Role="Countries" Type="Self.Countries" Multiplicity="0..1" />
+          <End Role="Leagues" Type="Self.Leagues" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Countries">
+              <PropertyRef Name="CountryCode" />
+            </Principal>
+            <Dependent Role="Leagues">
+              <PropertyRef Name="CountryCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Leagues_Teams_Leagues">
+          <End Role="Leagues" Type="Self.Leagues" Multiplicity="1" />
+          <End Role="Leagues_Teams" Type="Self.Leagues_Teams" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Leagues">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Leagues_Teams">
+              <PropertyRef Name="LeagueId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Leagues_Teams_Teams">
+          <End Role="Teams" Type="Self.Teams" Multiplicity="1" />
+          <End Role="Leagues_Teams" Type="Self.Leagues_Teams" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Teams">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Leagues_Teams">
+              <PropertyRef Name="TeamId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TeamMatches_Leagues">
+          <End Role="Leagues" Type="Self.Leagues" Multiplicity="0..1" />
+          <End Role="TeamMatches" Type="Self.TeamMatches" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Leagues">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TeamMatches">
+              <PropertyRef Name="LeagueId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TeamMatches_Teams_AwayTeam">
+          <End Role="Teams" Type="Self.Teams" Multiplicity="1" />
+          <End Role="TeamMatches" Type="Self.TeamMatches" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Teams">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TeamMatches">
+              <PropertyRef Name="AwayTeamId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TeamMatches_Teams_HomeTeam">
+          <End Role="Teams" Type="Self.Teams" Multiplicity="1" />
+          <End Role="TeamMatches" Type="Self.TeamMatches" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Teams">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TeamMatches">
+              <PropertyRef Name="HomeTeamId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teams_Countries">
+          <End Role="Countries" Type="Self.Countries" Multiplicity="0..1" />
+          <End Role="Teams" Type="Self.Teams" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Countries">
+              <PropertyRef Name="CountryCode" />
+            </Principal>
+            <Dependent Role="Teams">
+              <PropertyRef Name="CountryCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="FootballModelStoreContainer">
+          <EntitySet Name="Countries" EntityType="Self.Countries" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="InternationalMatches" EntityType="Self.InternationalMatches" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Leagues" EntityType="Self.Leagues" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Leagues_Teams" EntityType="Self.Leagues_Teams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TeamMatches" EntityType="Self.TeamMatches" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Teams" EntityType="Self.Teams" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_InternationalMatches_Countries_AwayCountryCode" Association="Self.FK_InternationalMatches_Countries_AwayCountryCode">
+            <End Role="Countries" EntitySet="Countries" />
+            <End Role="InternationalMatches" EntitySet="InternationalMatches" />
+          </AssociationSet>
+          <AssociationSet Name="FK_InternationalMatches_Countries_HomeCountryCode" Association="Self.FK_InternationalMatches_Countries_HomeCountryCode">
+            <End Role="Countries" EntitySet="Countries" />
+            <End Role="InternationalMatches" EntitySet="InternationalMatches" />
+          </AssociationSet>
+          <AssociationSet Name="FK_InternationalMatches_Leagues" Association="Self.FK_InternationalMatches_Leagues">
+            <End Role="Leagues" EntitySet="Leagues" />
+            <End Role="InternationalMatches" EntitySet="InternationalMatches" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Leagues_Countries" Association="Self.FK_Leagues_Countries">
+            <End Role="Countries" EntitySet="Countries" />
+            <End Role="Leagues" EntitySet="Leagues" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Leagues_Teams_Leagues" Association="Self.FK_Leagues_Teams_Leagues">
+            <End Role="Leagues" EntitySet="Leagues" />
+            <End Role="Leagues_Teams" EntitySet="Leagues_Teams" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Leagues_Teams_Teams" Association="Self.FK_Leagues_Teams_Teams">
+            <End Role="Teams" EntitySet="Teams" />
+            <End Role="Leagues_Teams" EntitySet="Leagues_Teams" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TeamMatches_Leagues" Association="Self.FK_TeamMatches_Leagues">
+            <End Role="Leagues" EntitySet="Leagues" />
+            <End Role="TeamMatches" EntitySet="TeamMatches" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TeamMatches_Teams_AwayTeam" Association="Self.FK_TeamMatches_Teams_AwayTeam">
+            <End Role="Teams" EntitySet="Teams" />
+            <End Role="TeamMatches" EntitySet="TeamMatches" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TeamMatches_Teams_HomeTeam" Association="Self.FK_TeamMatches_Teams_HomeTeam">
+            <End Role="Teams" EntitySet="Teams" />
+            <End Role="TeamMatches" EntitySet="TeamMatches" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teams_Countries" Association="Self.FK_Teams_Countries">
+            <End Role="Countries" EntitySet="Countries" />
+            <End Role="Teams" EntitySet="Teams" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FootballModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Country">
+          <Key>
+            <PropertyRef Name="CountryCode" />
+          </Key>
+          <Property Name="CountryCode" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="CountryName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CurrencyCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Population" Type="Int32" />
+          <Property Name="AreaSqKm" Type="Int32" />
+          <Property Name="Capital" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="InternationalMatches" Relationship="Self.FK_InternationalMatches_Countries_AwayCountryCode" FromRole="Countries" ToRole="InternationalMatches" />
+          <NavigationProperty Name="InternationalMatches1" Relationship="Self.FK_InternationalMatches_Countries_HomeCountryCode" FromRole="Countries" ToRole="InternationalMatches" />
+          <NavigationProperty Name="Leagues" Relationship="Self.FK_Leagues_Countries" FromRole="Countries" ToRole="Leagues" />
+          <NavigationProperty Name="Teams" Relationship="Self.FK_Teams_Countries" FromRole="Countries" ToRole="Teams" />
+        </EntityType>
+        <EntityType Name="InternationalMatch">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="HomeCountryCode" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="AwayCountryCode" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="HomeGoals" Type="Int32" />
+          <Property Name="AwayGoals" Type="Int32" />
+          <Property Name="MatchDate" Type="DateTime" Precision="3" />
+          <Property Name="LeagueId" Type="Int32" />
+          <NavigationProperty Name="AwayCountry" Relationship="Self.FK_InternationalMatches_Countries_AwayCountryCode" FromRole="InternationalMatches" ToRole="Countries" />
+          <NavigationProperty Name="HomeCountry" Relationship="Self.FK_InternationalMatches_Countries_HomeCountryCode" FromRole="InternationalMatches" ToRole="Countries" />
+          <NavigationProperty Name="League" Relationship="Self.FK_InternationalMatches_Leagues" FromRole="InternationalMatches" ToRole="Leagues" />
+        </EntityType>
+        <EntityType Name="League">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="LeagueName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CountryCode" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <NavigationProperty Name="Country" Relationship="Self.FK_Leagues_Countries" FromRole="Leagues" ToRole="Countries" />
+          <NavigationProperty Name="InternationalMatches" Relationship="Self.FK_InternationalMatches_Leagues" FromRole="Leagues" ToRole="InternationalMatches" />
+          <NavigationProperty Name="TeamMatches" Relationship="Self.FK_TeamMatches_Leagues" FromRole="Leagues" ToRole="TeamMatches" />
+          <NavigationProperty Name="Teams" Relationship="Self.Leagues_Teams" FromRole="Leagues" ToRole="Teams" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="TeamMatch">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="HomeTeamId" Type="Int32" Nullable="false" />
+          <Property Name="AwayTeamId" Type="Int32" Nullable="false" />
+          <Property Name="HomeGoals" Type="Int32" />
+          <Property Name="AwayGoals" Type="Int32" />
+          <Property Name="MatchDate" Type="DateTime" Precision="3" />
+          <Property Name="LeagueId" Type="Int32" />
+          <NavigationProperty Name="League" Relationship="Self.FK_TeamMatches_Leagues" FromRole="TeamMatches" ToRole="Leagues" />
+          <NavigationProperty Name="AwayTeam" Relationship="Self.FK_TeamMatches_Teams_AwayTeam" FromRole="TeamMatches" ToRole="Teams" />
+          <NavigationProperty Name="HomeTeam" Relationship="Self.FK_TeamMatches_Teams_HomeTeam" FromRole="TeamMatches" ToRole="Teams" />
+        </EntityType>
+        <EntityType Name="Team">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TeamName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CountryCode" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <NavigationProperty Name="Country" Relationship="Self.FK_Teams_Countries" FromRole="Teams" ToRole="Countries" />
+          <NavigationProperty Name="AwayTeamMatches" Relationship="Self.FK_TeamMatches_Teams_AwayTeam" FromRole="Teams" ToRole="TeamMatches" />
+          <NavigationProperty Name="HomeTeamMatches" Relationship="Self.FK_TeamMatches_Teams_HomeTeam" FromRole="Teams" ToRole="TeamMatches" />
+          <NavigationProperty Name="Leagues" Relationship="Self.Leagues_Teams" FromRole="Teams" ToRole="Leagues" />
+        </EntityType>
+        <Association Name="FK_InternationalMatches_Countries_AwayCountryCode">
+          <End Role="Countries" Type="Self.Country" Multiplicity="1" />
+          <End Role="InternationalMatches" Type="Self.InternationalMatch" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Countries">
+              <PropertyRef Name="CountryCode" />
+            </Principal>
+            <Dependent Role="InternationalMatches">
+              <PropertyRef Name="AwayCountryCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_InternationalMatches_Countries_HomeCountryCode">
+          <End Role="Countries" Type="Self.Country" Multiplicity="1" />
+          <End Role="InternationalMatches" Type="Self.InternationalMatch" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Countries">
+              <PropertyRef Name="CountryCode" />
+            </Principal>
+            <Dependent Role="InternationalMatches">
+              <PropertyRef Name="HomeCountryCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Leagues_Countries">
+          <End Role="Countries" Type="Self.Country" Multiplicity="0..1" />
+          <End Role="Leagues" Type="Self.League" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Countries">
+              <PropertyRef Name="CountryCode" />
+            </Principal>
+            <Dependent Role="Leagues">
+              <PropertyRef Name="CountryCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teams_Countries">
+          <End Role="Countries" Type="Self.Country" Multiplicity="0..1" />
+          <End Role="Teams" Type="Self.Team" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Countries">
+              <PropertyRef Name="CountryCode" />
+            </Principal>
+            <Dependent Role="Teams">
+              <PropertyRef Name="CountryCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_InternationalMatches_Leagues">
+          <End Role="Leagues" Type="Self.League" Multiplicity="0..1" />
+          <End Role="InternationalMatches" Type="Self.InternationalMatch" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Leagues">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="InternationalMatches">
+              <PropertyRef Name="LeagueId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TeamMatches_Leagues">
+          <End Role="Leagues" Type="Self.League" Multiplicity="0..1" />
+          <End Role="TeamMatches" Type="Self.TeamMatch" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Leagues">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TeamMatches">
+              <PropertyRef Name="LeagueId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TeamMatches_Teams_AwayTeam">
+          <End Role="Teams" Type="Self.Team" Multiplicity="1" />
+          <End Role="TeamMatches" Type="Self.TeamMatch" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Teams">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TeamMatches">
+              <PropertyRef Name="AwayTeamId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TeamMatches_Teams_HomeTeam">
+          <End Role="Teams" Type="Self.Team" Multiplicity="1" />
+          <End Role="TeamMatches" Type="Self.TeamMatch" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Teams">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TeamMatches">
+              <PropertyRef Name="HomeTeamId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Leagues_Teams">
+          <End Role="Leagues" Type="Self.League" Multiplicity="*" />
+          <End Role="Teams" Type="Self.Team" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="FootballEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Countries" EntityType="Self.Country" />
+          <EntitySet Name="InternationalMatches" EntityType="Self.InternationalMatch" />
+          <EntitySet Name="Leagues" EntityType="Self.League" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <EntitySet Name="TeamMatches" EntityType="Self.TeamMatch" />
+          <EntitySet Name="Teams" EntityType="Self.Team" />
+          <AssociationSet Name="FK_InternationalMatches_Countries_AwayCountryCode" Association="Self.FK_InternationalMatches_Countries_AwayCountryCode">
+            <End Role="Countries" EntitySet="Countries" />
+            <End Role="InternationalMatches" EntitySet="InternationalMatches" />
+          </AssociationSet>
+          <AssociationSet Name="FK_InternationalMatches_Countries_HomeCountryCode" Association="Self.FK_InternationalMatches_Countries_HomeCountryCode">
+            <End Role="Countries" EntitySet="Countries" />
+            <End Role="InternationalMatches" EntitySet="InternationalMatches" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Leagues_Countries" Association="Self.FK_Leagues_Countries">
+            <End Role="Countries" EntitySet="Countries" />
+            <End Role="Leagues" EntitySet="Leagues" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teams_Countries" Association="Self.FK_Teams_Countries">
+            <End Role="Countries" EntitySet="Countries" />
+            <End Role="Teams" EntitySet="Teams" />
+          </AssociationSet>
+          <AssociationSet Name="FK_InternationalMatches_Leagues" Association="Self.FK_InternationalMatches_Leagues">
+            <End Role="Leagues" EntitySet="Leagues" />
+            <End Role="InternationalMatches" EntitySet="InternationalMatches" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TeamMatches_Leagues" Association="Self.FK_TeamMatches_Leagues">
+            <End Role="Leagues" EntitySet="Leagues" />
+            <End Role="TeamMatches" EntitySet="TeamMatches" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TeamMatches_Teams_AwayTeam" Association="Self.FK_TeamMatches_Teams_AwayTeam">
+            <End Role="Teams" EntitySet="Teams" />
+            <End Role="TeamMatches" EntitySet="TeamMatches" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TeamMatches_Teams_HomeTeam" Association="Self.FK_TeamMatches_Teams_HomeTeam">
+            <End Role="Teams" EntitySet="Teams" />
+            <End Role="TeamMatches" EntitySet="TeamMatches" />
+          </AssociationSet>
+          <AssociationSet Name="Leagues_Teams" Association="Self.Leagues_Teams">
+            <End Role="Leagues" EntitySet="Leagues" />
+            <End Role="Teams" EntitySet="Teams" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FootballModelStoreContainer" CdmEntityContainer="FootballEntities">
+          <EntitySetMapping Name="Countries">
+            <EntityTypeMapping TypeName="FootballModel.Country">
+              <MappingFragment StoreEntitySet="Countries">
+                <ScalarProperty Name="CountryCode" ColumnName="CountryCode" />
+                <ScalarProperty Name="CountryName" ColumnName="CountryName" />
+                <ScalarProperty Name="CurrencyCode" ColumnName="CurrencyCode" />
+                <ScalarProperty Name="Population" ColumnName="Population" />
+                <ScalarProperty Name="AreaSqKm" ColumnName="AreaSqKm" />
+                <ScalarProperty Name="Capital" ColumnName="Capital" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="InternationalMatches">
+            <EntityTypeMapping TypeName="FootballModel.InternationalMatch">
+              <MappingFragment StoreEntitySet="InternationalMatches">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="HomeCountryCode" ColumnName="HomeCountryCode" />
+                <ScalarProperty Name="AwayCountryCode" ColumnName="AwayCountryCode" />
+                <ScalarProperty Name="HomeGoals" ColumnName="HomeGoals" />
+                <ScalarProperty Name="AwayGoals" ColumnName="AwayGoals" />
+                <ScalarProperty Name="MatchDate" ColumnName="MatchDate" />
+                <ScalarProperty Name="LeagueId" ColumnName="LeagueId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Leagues">
+            <EntityTypeMapping TypeName="FootballModel.League">
+              <MappingFragment StoreEntitySet="Leagues">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="LeagueName" ColumnName="LeagueName" />
+                <ScalarProperty Name="CountryCode" ColumnName="CountryCode" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="FootballModel.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TeamMatches">
+            <EntityTypeMapping TypeName="FootballModel.TeamMatch">
+              <MappingFragment StoreEntitySet="TeamMatches">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="HomeTeamId" ColumnName="HomeTeamId" />
+                <ScalarProperty Name="AwayTeamId" ColumnName="AwayTeamId" />
+                <ScalarProperty Name="HomeGoals" ColumnName="HomeGoals" />
+                <ScalarProperty Name="AwayGoals" ColumnName="AwayGoals" />
+                <ScalarProperty Name="MatchDate" ColumnName="MatchDate" />
+                <ScalarProperty Name="LeagueId" ColumnName="LeagueId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Teams">
+            <EntityTypeMapping TypeName="FootballModel.Team">
+              <MappingFragment StoreEntitySet="Teams">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="TeamName" ColumnName="TeamName" />
+                <ScalarProperty Name="CountryCode" ColumnName="CountryCode" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="Leagues_Teams" TypeName="FootballModel.Leagues_Teams" StoreEntitySet="Leagues_Teams">
+            <EndProperty Name="Leagues">
+              <ScalarProperty Name="Id" ColumnName="LeagueId" />
+            </EndProperty>
+            <EndProperty Name="Teams">
+              <ScalarProperty Name="Id" ColumnName="TeamId" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

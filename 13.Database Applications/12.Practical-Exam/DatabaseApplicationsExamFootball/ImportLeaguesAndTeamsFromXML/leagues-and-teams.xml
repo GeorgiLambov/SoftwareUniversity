@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<leagues-and-teams>
+  <league>
+    <league-name>Unofficial Friendly Games</league-name>
+    <teams>
+      <team name="Krivokracite" country="Bulgaria" />
+      <team name="Hayduk" country="Serbia" />
+      <team name="Amatyor" country="Bulgaria" />
+      <team name="Unknown Team" />
+      <team name="Piyani Kashkavali" country="Bulgaria" />
+      <team name="Dai Hui Tu Chou" country="China" />
+      <team name="Chelsea" country="United Kingdom" />
+      <team name="Manchester United" country="United Kingdom" />
+      <team name="Chelsea" country="Bulgaria" />
+    </teams>
+  </league>
+  <league>
+    <league-name>UK Premier League</league-name>
+    <teams>
+      <team name="Manchester United" country="United Kingdom" />
+      <team name="Arsenal" country="United Kingdom" />
+    </teams>
+  </league>
+  <league>
+    <league-name>German Bundesliga</league-name>
+  </league>
+  <league>
+    <league-name>New League</league-name>
+  </league>
+  <league>
+    <teams>
+      <team name="New Team 1" country="Bulgaria" />
+      <team name="New Team 2" country="France" />
+      <team name="New Team 3" />
+    </teams>
+  </league>
+  <league />
+</leagues-and-teams>
+

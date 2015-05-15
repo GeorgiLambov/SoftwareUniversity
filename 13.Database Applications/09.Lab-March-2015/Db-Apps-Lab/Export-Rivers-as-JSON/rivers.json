@@ -1,0 +1,365 @@
+[
+    {
+        "riverName": "Nile",
+        "riverLength": 6650,
+        "countries": [
+            "Burundi",
+            "Democratic Republic of the Congo",
+            "Egypt",
+            "Eritrea",
+            "Ethiopia",
+            "Kenya",
+            "Rwanda",
+            "South Sudan",
+            "Sudan",
+            "Tanzania",
+            "Uganda"
+        ]
+    },
+    {
+        "riverName": "Amazon",
+        "riverLength": 6400,
+        "countries": [
+            "Bolivia",
+            "Brazil",
+            "Colombia",
+            "Ecuador",
+            "Guyana",
+            "Peru",
+            "Venezuela"
+        ]
+    },
+    {
+        "riverName": "Yangtze",
+        "riverLength": 6300,
+        "countries": [
+            "China"
+        ]
+    },
+    {
+        "riverName": "Mississippi",
+        "riverLength": 6275,
+        "countries": [
+            "Canada",
+            "United States"
+        ]
+    },
+    {
+        "riverName": "Yenisei",
+        "riverLength": 5539,
+        "countries": [
+            "Mongolia",
+            "Russia"
+        ]
+    },
+    {
+        "riverName": "Yellow River",
+        "riverLength": 5464,
+        "countries": [
+            "China"
+        ]
+    },
+    {
+        "riverName": "Ob",
+        "riverLength": 5410,
+        "countries": [
+            "China",
+            "Kazakhstan",
+            "Mongolia",
+            "Russia"
+        ]
+    },
+    {
+        "riverName": "Paraná",
+        "riverLength": 4880,
+        "countries": [
+            "Argentina",
+            "Bolivia",
+            "Brazil",
+            "Paraguay",
+            "Uruguay"
+        ]
+    },
+    {
+        "riverName": "Congo",
+        "riverLength": 4700,
+        "countries": [
+            "Angola",
+            "Burundi",
+            "Cameroon",
+            "Central African Republic",
+            "Democratic Republic of the Congo",
+            "Republic of the Congo",
+            "Rwanda",
+            "Tanzania",
+            "Zambia"
+        ]
+    },
+    {
+        "riverName": "Amur",
+        "riverLength": 4444,
+        "countries": [
+            "China",
+            "Mongolia",
+            "Russia"
+        ]
+    },
+    {
+        "riverName": "Lena",
+        "riverLength": 4400,
+        "countries": [
+            "Russia"
+        ]
+    },
+    {
+        "riverName": "Mekong",
+        "riverLength": 4350,
+        "countries": [
+            "Cambodia",
+            "China",
+            "Laos",
+            "Myanmar",
+            "Thailand",
+            "Vietnam"
+        ]
+    },
+    {
+        "riverName": "Mackenzie",
+        "riverLength": 4241,
+        "countries": [
+            "Canada"
+        ]
+    },
+    {
+        "riverName": "Niger",
+        "riverLength": 4200,
+        "countries": [
+            "Algeria",
+            "Benin",
+            "Burkina Faso",
+            "Cameroon",
+            "Chad",
+            "Guinea",
+            "Mali",
+            "Niger",
+            "Nigeria"
+        ]
+    },
+    {
+        "riverName": "Murray",
+        "riverLength": 3672,
+        "countries": [
+            "Australia"
+        ]
+    },
+    {
+        "riverName": "Tocantins",
+        "riverLength": 3650,
+        "countries": [
+            "Brazil"
+        ]
+    },
+    {
+        "riverName": "Volga",
+        "riverLength": 3645,
+        "countries": [
+            "Russia"
+        ]
+    },
+    {
+        "riverName": "Shatt al-Arab",
+        "riverLength": 3596,
+        "countries": [
+            "Iraq",
+            "Syria",
+            "Turkey"
+        ]
+    },
+    {
+        "riverName": "Madeira",
+        "riverLength": 3380,
+        "countries": [
+            "Bolivia",
+            "Brazil",
+            "Peru"
+        ]
+    },
+    {
+        "riverName": "Purús",
+        "riverLength": 3211,
+        "countries": [
+            "Brazil",
+            "Peru"
+        ]
+    },
+    {
+        "riverName": "Yukon",
+        "riverLength": 3185,
+        "countries": [
+            "Canada",
+            "United States"
+        ]
+    },
+    {
+        "riverName": "Indus",
+        "riverLength": 3180,
+        "countries": [
+            "China",
+            "India",
+            "Pakistan"
+        ]
+    },
+    {
+        "riverName": "São Francisco",
+        "riverLength": 3180,
+        "countries": [
+            "Brazil"
+        ]
+    },
+    {
+        "riverName": "Syr Darya",
+        "riverLength": 3078,
+        "countries": [
+            "Kazakhstan",
+            "Kyrgyzstan",
+            "Tajikistan",
+            "Uzbekistan"
+        ]
+    },
+    {
+        "riverName": "Salween",
+        "riverLength": 3060,
+        "countries": [
+            "China",
+            "Myanmar",
+            "Thailand"
+        ]
+    },
+    {
+        "riverName": "Saint Lawrence",
+        "riverLength": 3058,
+        "countries": [
+            "Canada",
+            "United States"
+        ]
+    },
+    {
+        "riverName": "Rio Grande",
+        "riverLength": 3057,
+        "countries": [
+            "Mexico",
+            "United States"
+        ]
+    },
+    {
+        "riverName": "Lower Tunguska",
+        "riverLength": 2989,
+        "countries": [
+            "Russia"
+        ]
+    },
+    {
+        "riverName": "Brahmaputra",
+        "riverLength": 2948,
+        "countries": [
+            "Bangladesh",
+            "Bhutan",
+            "China",
+            "India",
+            "Nepal"
+        ]
+    },
+    {
+        "riverName": "Danube",
+        "riverLength": 2888,
+        "countries": [
+            "Austria",
+            "Bulgaria",
+            "Croatia",
+            "Germany",
+            "Hungary",
+            "Romania",
+            "Serbia",
+            "Slovakia"
+        ]
+    },
+    {
+        "riverName": "Madre de Dios",
+        "riverLength": 1130,
+        "countries": [
+        ]
+    },
+    {
+        "riverName": "Madre de Dios",
+        "riverLength": 1130,
+        "countries": [
+            "Bolivia",
+            "Peru"
+        ]
+    },
+    {
+        "riverName": "Madre de Dios",
+        "riverLength": 1130,
+        "countries": [
+            "Bolivia",
+            "Peru"
+        ]
+    },
+    {
+        "riverName": "Madre de Dios",
+        "riverLength": 1130,
+        "countries": [
+            "Bolivia",
+            "Peru"
+        ]
+    },
+    {
+        "riverName": "Madre de Dios",
+        "riverLength": 1130,
+        "countries": [
+            "Bolivia",
+            "Peru"
+        ]
+    },
+    {
+        "riverName": "Maritsa",
+        "riverLength": 480,
+        "countries": [
+        ]
+    },
+    {
+        "riverName": "Maritsa",
+        "riverLength": 480,
+        "countries": [
+            "Bulgaria"
+        ]
+    },
+    {
+        "riverName": "Maritsa",
+        "riverLength": 480,
+        "countries": [
+            "Bulgaria"
+        ]
+    },
+    {
+        "riverName": "Maritsa",
+        "riverLength": 480,
+        "countries": [
+            "Bulgaria"
+        ]
+    },
+    {
+        "riverName": "Maritsa",
+        "riverLength": 480,
+        "countries": [
+            "Bulgaria"
+        ]
+    },
+    {
+        "riverName": "Maritsa",
+        "riverLength": 480,
+        "countries": [
+            "Bulgaria"
+        ]
+    }
+]

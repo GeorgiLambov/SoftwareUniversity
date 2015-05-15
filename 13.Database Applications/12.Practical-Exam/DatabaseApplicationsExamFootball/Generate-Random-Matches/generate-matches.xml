@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generate-random-matches>
+  
+  <generate generate-count="2" max-goals="4">
+    <league>UK Premier League</league>
+    <start-date>1-Jan-2015</start-date>
+    <end-date>20-Jun-2015</end-date>
+  </generate>
+  
+  <generate />
+  
+  <generate generate-count="3" max-goals="10">
+    <start-date>10-Oct-2000</start-date>
+    <end-date>20-Mar-2002</end-date>
+  </generate>
+  
+  <generate generate-count="5">
+    <league>German Bundesliga</league>
+  </generate>
+  
+</generate-random-matches>

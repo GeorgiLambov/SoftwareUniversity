@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monasteries>
+  <country name="Bhutan">
+    <monastery>Taktsang Palphug Monastery</monastery>
+  </country>
+  <country name="Bulgaria">
+    <monastery>Bachkovo Monastery “Virgin Mary”</monastery>
+    <monastery>Rila Monastery “St. Ivan of Rila”</monastery>
+    <monastery>Troyan Monastery “Holy Mother's Assumption”</monastery>
+  </country>
+  <country name="China">
+    <monastery>Dabei Monastery</monastery>
+    <monastery>Lhunshigyia Monastery</monastery>
+    <monastery>Rakya Monastery</monastery>
+    <monastery>Southern Shaolin Monastery</monastery>
+    <monastery>Wa Sau Toi</monastery>
+  </country>
+  <country name="Greece">
+    <monastery>Monasteries of Meteora</monastery>
+    <monastery>The Holy Monastery of Stavronikita</monastery>
+  </country>
+  <country name="Myanmar">
+    <monastery>Pa-Auk Forest Monastery</monastery>
+    <monastery>Taung Kalat Monastery</monastery>
+  </country>
+  <country name="Nepal">
+    <monastery>Benchen Monastery</monastery>
+    <monastery>Kopan Monastery</monastery>
+    <monastery>Shechen Tennyi Dargyeling Monastery</monastery>
+    <monastery>Thrangu Tashi Yangtse Monastery</monastery>
+  </country>
+  <country name="Turkey">
+    <monastery>Sümela Monastery</monastery>
+  </country>
+</monasteries>

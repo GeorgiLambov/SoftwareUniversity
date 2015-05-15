@@ -1,0 +1,22 @@
+Use SoftUni
+IF OBJECT_ID('usp_ProjectsOfEmployee') IS NOT NULL
+DROP PROC usp_ProjectsOfEmployee
+GO
+CREATE procedure usp_ProjectsOfEmployee(@firstName NVARCHAR (MAX), @lastName NVARCHAR(MAX))
+as
+declare @result int
+SET NOCOUNT ON;
+set @result = (
+SELECT
+	COUNT(p.ProjectID)
+FROM Employees e
+LEFT JOIN EmployeesProjects ep
+	ON e.EmployeeID = ep.EmployeeID
+LEFT JOIN Projects p
+	ON ep.ProjectID = p.ProjectID
+WHERE e.FirstName = @firstName AND e.LastName = @lastName
+GROUP BY e.FirstName, e.LastName)
+SELECT @result
+GO
+
+EXEC usp_ProjectsOfEmployee 'Gay', 'Gilbert'
